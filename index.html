@@ -1,0 +1,32 @@
+---
+---
+
+{% include header.html %}
+
+
+<div class="posts">
+
+  <div class="content" id="the-posts">
+  
+  {% for post in site.posts limit:25 %}
+  <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
+    
+    <div class="title">{{ post.title }}</div>
+    {% if post.photo_url %}
+      <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+    {% else %}
+      <div>no image</div>
+    {% endif %}
+
+  </a>
+  {% endfor %}
+
+  </div>
+
+</div>
+  
+<script type="text/javascript">
+
+  console.log("now.");
+
+</script>
