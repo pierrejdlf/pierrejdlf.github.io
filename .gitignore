@@ -1,2 +1,4 @@
-_site
+dist
+app/vendor
+node_modules
 .DS_Store
