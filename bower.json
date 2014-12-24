@@ -1,0 +1,17 @@
+{
+  "name": "pierrejdlf",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.3.5",
+    "angular-route": "latest",
+    "angular-animate": "latest",
+    "angular-sanitize": "~1.3.6",
+    "underscore": "1.5.2",
+    "less": "latest",
+    "normalize.css": "latest",
+    "animate.css": "~3.2.0",
+    "showdown": "~0.3.1",
+    "angular-markdown-directive": "~0.3.1",
+    "angular-markdown": "~0.0.1"
+  }
+}

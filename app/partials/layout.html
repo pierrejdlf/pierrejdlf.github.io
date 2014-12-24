@@ -1,0 +1,56 @@
+
+<div class="container">
+  
+  <div class="nothing" ng-repeat-start="a in root.children"></div>
+
+  <!-- ———————————————— THE ARTICLE COVER -->
+  <div
+    class="card a"
+    ng-class="{cover:a.cover}"
+    back-img="{{basemedia}}{{a.slug}}/{{a.cover}}"
+    ng-click="a.opened=true;">
+    <div class="title">{{a.title}}</div>
+    <div class="subtitle">{{a.subtitle}}</div>
+    <markdown class="text" ng-model="a.text"></markdown>
+    <div  class="text">{{a}}</div>
+  </div>
+  
+  <!-- ———————————————— ITS CHILDREN -->
+  <div ng-show="a.opened || 1" class="card b" ng-repeat="b in a.children">
+
+    <!-- IMAGE -->
+    <div ng-if="b.type=='img'" class="single">
+      <div class="im">
+        <img src="{{basemedia}}{{a.slug}}/{{i.url}}">
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div ng-if="b.type=='gallery'" class="gallery">
+      <div class="im" ng-repeat="i in b.content | arrimgfy">
+        <img src="{{basemedia}}{{a.slug}}/{{i}}">
+      </div>
+    </div>
+
+    <!-- VIMEO -->
+    <div ng-if="b.type=='vimeo'" class="vimeo">
+      <iframe
+        src="{{b.url | vimeoembed}}" 
+        width="500"
+        height="264"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- TEXT CONTENT -->
+    <markdown ng-if="!b.type" class="content" ng-model="b.text"></markdown>
+
+  </div>
+
+  <div class="nothing" ng-repeat-end></div>
+
+
+</div>

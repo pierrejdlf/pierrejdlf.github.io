@@ -1,0 +1,79 @@
+
+/* ---------------------------------------- */
+/* CONSTANTS & USEFUL */
+[ng-cloak] {
+  display: none !important;
+}
+
+/* ---------------------------------------- */
+/* PREFIXES */
+.animation(@args) {
+  -webkit-animation: @args;
+  -moz-animation: @args;
+  -ms-animation: @args;
+  -o-animation: @args;
+  animation: @args;
+}
+.animation-duration(@duration) {
+  -webkit-animation-duration: @duration;
+  -moz-animation-duration: @duration;
+  -ms-animation-duration: @duration;
+  -o-animation-duration: @duration;
+  animation-duration: @duration;
+}
+.animation-delay(@delay) {
+  -webkit-animation-delay: @delay;
+  -moz-animation-delay: @delay;
+  -ms-animation-delay: @delay;
+  -o-animation-delay: @delay;
+  animation-delay: @delay;
+}
+.transition(@args) {
+  -webkit-transition: @args;
+  -moz-transition: @args;
+  -o-transition: @args;
+  -ms-transition: @args;
+  transition: @args;
+}
+.transition-duration(@duration) {
+  -webkit-transition-duration: @duration;
+  -moz-transition-duration: @duration;
+  -ms-transition-duration: @duration;
+  -o-transition-duration: @duration;
+  transition-duration: @duration;
+}
+.transition-delay(@delay) {
+  -webkit-transition-delay: @delay;
+  -moz-transition-delay: @delay;
+  -ms-transition-delay: @delay;
+  -o-transition-delay: @delay;
+  transition-delay: @delay;
+}
+.transform(@args) {
+  -webkit-transform: @args;
+  -moz-transform: @args;
+  -ms-transform: @args; 
+  -o-transform: @args;
+  transform: @args;
+}
+
+.nohighlight {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.animdur-200 {
+  .animation-duration(200ms);
+}
+.animdur-400 {
+  .animation-duration(400ms);
+}
+.animdur-600 {
+  .animation-duration(600ms);
+}
+
+
