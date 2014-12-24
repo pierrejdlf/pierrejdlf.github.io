@@ -1,4 +1,5 @@
 dist
+app/media
 app/vendor
 node_modules
 .DS_Store
