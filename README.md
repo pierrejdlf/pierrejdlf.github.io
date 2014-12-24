@@ -1,4 +1,4 @@
 pierrejdlf.github.io
 ====================
 
-web
+jekyll based tryout for a simple website
