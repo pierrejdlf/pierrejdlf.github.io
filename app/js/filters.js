@@ -10,10 +10,16 @@ angular.module('jdlf.filters', [])
     }
   })
 
-  .filter('vimeoembed', function($sce) {
+  .filter('allowvimeo', function($sce) {
     return function(url) {
       var vid = url.match(/[0-9]+/)[0];
       return $sce.trustAsResourceUrl("//player.vimeo.com/video/"+vid);
+    }
+  })
+
+  .filter('allowurl', function($sce) {
+    return function(url) {
+      return $sce.trustAsResourceUrl(url);
     }
   })
 

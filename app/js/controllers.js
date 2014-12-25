@@ -21,22 +21,24 @@ angular.module('jdlf.controllers', ['underscore'])
     $scope.title = "Hello";
     $scope.basemedia = "http://jdlf.info/p/media/";
 
-    var url = "http://localhost/pierrejdlf.simple/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
+    var url = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
     //var url = 'data/data.json';
 
     var extractRegexp = function(d,key,r,split) {
       var regexp = new RegExp(r);
       if(regexp.test(d.content)) {
         
-        if(split) { // either we split all the matches into an array
-          globregexp = new RegExp(r,'g');
-          var mat = d.content.match(globregexp);
-          d[key] = [];
-          d.type = key;
-          _.each(mat, function(k) {
-            d[key].push(k);
-          });
-        } else { // either we just extract the regexp
+        // if(split) { // either we split all the matches into an array
+        //   var globregexp = new RegExp(r,'g');
+        //   var mat = d.content.match(globregexp);
+        //   d[key] = [];
+        //   d.type = key;
+        //   _.each(mat, function(k) {
+        //     if(d.type=='gallery')
+        //       k = k.replace(/^!\[]\(/,"").replace(/\)$/,"");
+        //     d[key].push(k);
+        //   });
+        // } else { // either we just extract the regexp
           var mat = d.content.match(regexp);
           if(mat.length>1) {
             d[key] = mat[1];
@@ -44,7 +46,7 @@ angular.module('jdlf.controllers', ['underscore'])
             console.log("extracted!",d);
           }
           d.content = d.content.replace(regexp,"");
-        }
+        //}
       }
       return d;
     };
@@ -57,14 +59,15 @@ angular.module('jdlf.controllers', ['underscore'])
         }
         // parse content
         if(d.content) {
+          // warning: double escape needed as we will treat strings as regexp
           extractRegexp(d,'title','^#([^\\n]*)\\n');
           extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
-          extractRegexp(d,'cover','^!\[\w*]\(([^\\n\)]*)\)\\n');
-          extractRegexp(d,'redirect','^(https*:\/\/[^\\n]+)\\n');
-          extractRegexp(d,'vimeo','^(https*:\/\/vimeo.com[^\\n]+)\\n');
-          extractRegexp(d,'iframe','^(https*:\/\/pierrejdlf.github.io[^\\n]+)\\n');
-          extractRegexp(d,'gallery','!\[\w*]\([^\\n\)]*\)',true);
-          extractRegexp(d,'text','^---\\n([.\\n]*)');
+          extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
+          extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
+          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(static|gifstory)[^\\n]+)\\n*');
+          extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
+          //extractRegexp(d,'gallery','!\\[\\w*]\\(([^\\n\\)]*)\\)',true);
+          extractRegexp(d,'text','^---\\n((.|\\n)+)');
         }
       });
     };
@@ -82,7 +85,7 @@ angular.module('jdlf.controllers', ['underscore'])
  
         // remove empty ones
         var root = res.slice(1)[0]; //omit first element (info)
-
+        console.log("Will parse.");
         $scope.recursiveYam([root]);
         console.log("yamled data:",root);
         $scope.root = root;
@@ -90,6 +93,10 @@ angular.module('jdlf.controllers', ['underscore'])
       .error(function (data, status, headers, config) {
         console.log("error loading json!");
       });
+
+      $scope.log = function(e) {
+        console.log(e);
+      };
 
   }]);
   

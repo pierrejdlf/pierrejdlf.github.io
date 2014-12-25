@@ -6,47 +6,70 @@
   <!-- ———————————————— THE ARTICLE COVER -->
   <div
     class="card a"
-    ng-class="{cover:a.cover}"
-    back-img="{{basemedia}}{{a.slug}}/{{a.cover}}"
-    ng-click="a.opened=true;">
-    <div class="title">{{a.title}}</div>
-    <div class="subtitle">{{a.subtitle}}</div>
-    <markdown class="text" ng-model="a.text"></markdown>
-    <div  class="text">{{a}}</div>
+    ng-class="{cover:a.img, opened:a.opened}"
+    back-img="{{a.img}}"
+    ng-click="a.opened=!a.opened; log(a);"
+    ng-init="a.opened=false;">
+    <div ng-if="a.title" class="title">{{a.title}}</div>
+    <div ng-if="a.subtitle" class="subtitle">{{a.subtitle}}</div>
+    <markdown
+      ng-if="a.text"
+      class="text"
+      ng-class="{important:$index==0}"
+      ng-model="a.text">
+    </markdown>
   </div>
   
   <!-- ———————————————— ITS CHILDREN -->
-  <div ng-show="a.opened || 1" class="card b" ng-repeat="b in a.children">
+  <div
+    ng-if="a.opened"
+    class="card b"
+    ng-repeat="b in a.children"
+    ng-click="log(b);">
+
+    <!-- REDIRECT -->
+    <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
+      <div class="info">click to open<br>{{b.redirect}}<br>in a new tab</div>
+    </a>
 
     <!-- IMAGE -->
-    <div ng-if="b.type=='img'" class="single">
-      <div class="im">
-        <img src="{{basemedia}}{{a.slug}}/{{i.url}}">
-      </div>
+    <div
+      ng-if="b.type=='img'"
+      class="img cover"
+      back-img="{{b.img}}">
     </div>
-
-    <!-- GALLERY -->
-    <div ng-if="b.type=='gallery'" class="gallery">
-      <div class="im" ng-repeat="i in b.content | arrimgfy">
-        <img src="{{basemedia}}{{a.slug}}/{{i}}">
-      </div>
-    </div>
+    
+    <!-- IFRAME -->
+    <iframe
+      ng-if="b.type=='iframe'"
+      class="iframe"
+      src="{{b.iframe | allowurl}}" 
+      width="100%"
+      height="100%"
+      frameborder="0"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+    </iframe>
 
     <!-- VIMEO -->
-    <div ng-if="b.type=='vimeo'" class="vimeo">
-      <iframe
-        src="{{b.url | vimeoembed}}" 
-        width="500"
-        height="264"
-        frameborder="0"
-        webkitallowfullscreen
-        mozallowfullscreen
-        allowfullscreen>
-      </iframe>
-    </div>
+    <iframe
+      ng-if="b.type=='vimeo'" class="vimeo"
+      src="{{b.vimeo | allowvimeo}}" 
+      width="100%"
+      height="100%"
+      frameborder="0"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+    </iframe>
 
     <!-- TEXT CONTENT -->
-    <markdown ng-if="!b.type" class="content" ng-model="b.text"></markdown>
+    <markdown
+      ng-if="b.type=='text'"
+      class="text"
+      ng-model="b.text">
+    </markdown>
 
   </div>
 
