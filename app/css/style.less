@@ -20,48 +20,81 @@ blockquote {
 }
 
 @cardW: 200px;
-@cardH: 280px;
+@cardH: 160px;
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  align-content: flex-start;
-  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  // display: flex;
+  // flex-wrap: wrap;
+  // align-items: flex-start;
+  // align-content: flex-start;
+  // justify-content: center;
+  text-align: left;
   margin: 50px;
 }
-
+.nothing {
+  // display: inline-block;
+  display: none;
+}
 .cover {
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  .background-size(cover);
+  background-color: black;
 }
 
 .card {
   box-sizing: border-box;
   display: inline-block;
+  vertical-align: top;
 
   width: @cardW;
   height: @cardH;
   
-  &.a {
-    margin: 2px;
-    padding: 5px;
-  }
-  &.b {
-    margin: 2px;
-    padding: 0;
-  }
-
   font-size: 1.3em;
-  box-shadow: rgba(100, 100, 100, 0.3) 0 2px 6px 0;
   cursor: pointer;
 
-  background: #FCFCFC;
+  margin-bottom: 7px;
+  &.a {
+    margin-left: 7px;
+    padding: 0;
+    border-left: 8px solid #941919;
+  }
+  &.b {
+    padding: 0;
+    &.last {
+      margin-right: 7px;
+    }
+  }
 
+
+  &.a {
+    //.box-shadow(rgba(100, 100, 100, 0.3) 0 2px 6px 0);
+    .box-shadow(inset 0px 0px 7px 1px rgba(0, 0, 0, 0.62));
+  }
+  
+  .closer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.69);
+    div {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      margin: auto;
+      height: 1em;
+      line-height: 1em;
+      font-size: 1em;
+      text-align: center;
+      color: white;
+    }
+  }
   .title {
     font-weight: 700;
     background: black;
@@ -102,7 +135,7 @@ blockquote {
     height: 100%;
     width: 100%;
     padding: 20px;
-    overflow-y: auto;
+    overflow: hidden;
     font-size: 0.8rem;
     background: black;
     color: white;
@@ -112,27 +145,52 @@ blockquote {
   }
 }
 
+/* PREVIEW */
+.card.preview {
+  width: 100%;
+  height: 80%;
+  .cover {
+    .background-size(contain);
+  }
+}
+
+/* ANIMATIONS */
+
 .card.a {
   .transition(transform 0.2s ease);
   opacity:0.2;
-  .transform(scale(0.98));
+  .transform(scale(1));
 
-  &:hover, &.opened {
+  &:hover {
+    opacity:1;
+    .transform(scale(0.95));
+  }
+  &.opened, &.opened:hover {
     opacity:1;
     .transform(scale(1));
+  }
+  &.opened:hover {
+    .closer {
+      opacity:1;
+    }
   }
 }
 
 .card.b {
-  .transition(transform 0.3s ease);
-  .transition-delay(0.1);
+  .transition(width 0.3s ease);
+  // .transition-delay(0.1);
 }
 .card.ng-enter {
-  .transform(perspective(3000px) rotateY(-90deg) scale(0.5));
+  //.transform(perspective(3000px) rotateY(-90deg) scale(0.5));
+  overflow: hidden;
+  width: 0;
 }
 .card.ng-enter-active, .card.ng-leave {
-  .transform(perspective(3000px) rotateY(0) scale(1));
+  //.transform(perspective(3000px) rotateY(0) scale(1));
+  width: @cardW;
 }
 .card.ng-leave-active {
-  .transform(perspective(3000px) rotateY(-90deg) scale(0.5));
+  //.transform(perspective(3000px) rotateY(-90deg) scale(0.5));
+  overflow: hidden;
+  width: 0;
 }

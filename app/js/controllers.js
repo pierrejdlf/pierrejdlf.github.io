@@ -43,7 +43,7 @@ angular.module('jdlf.controllers', ['underscore'])
           if(mat.length>1) {
             d[key] = mat[1];
             d.type = key;
-            console.log("extracted!",d);
+            //console.log("extracted!",d);
           }
           d.content = d.content.replace(regexp,"");
         //}
@@ -64,7 +64,7 @@ angular.module('jdlf.controllers', ['underscore'])
           extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
           extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
           extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
-          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(static|gifstory)[^\\n]+)\\n*');
+          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static)[^\\n]*)\\n*');
           extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
           //extractRegexp(d,'gallery','!\\[\\w*]\\(([^\\n\\)]*)\\)',true);
           extractRegexp(d,'text','^---\\n((.|\\n)+)');

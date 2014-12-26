@@ -1,44 +1,39 @@
 
 <div class="container">
   
-  <div class="nothing" ng-repeat-start="a in root.children"></div>
-
+  
   <!-- ———————————————— THE ARTICLE COVER -->
-  <div
+  <div class="nothing" ng-repeat-start="a in root.children"></div><div
     class="card a"
     ng-class="{cover:a.img, opened:a.opened}"
     back-img="{{a.img}}"
     ng-click="a.opened=!a.opened; log(a);"
     ng-init="a.opened=false;">
+    <div class="closer"><div>X</div></div>
     <div ng-if="a.title" class="title">{{a.title}}</div>
     <div ng-if="a.subtitle" class="subtitle">{{a.subtitle}}</div>
     <markdown
       ng-if="a.text"
       class="text"
-      ng-class="{important:$index==0}"
+      ng-class="{important:$first}"
       ng-model="a.text">
     </markdown>
-  </div>
-  
-  <!-- ———————————————— ITS CHILDREN -->
-  <div
+  </div><!-- ———————————————— THE CHILDREN --><div
     ng-if="a.opened"
     class="card b"
+    ng-class="{last:$last, preview:b.preview}"
     ng-repeat="b in a.children"
-    ng-click="log(b);">
-
+    ng-click="log(b);b.preview=!b.preview;">
     <!-- REDIRECT -->
     <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
       <div class="info">click to open<br>{{b.redirect}}<br>in a new tab</div>
     </a>
-
     <!-- IMAGE -->
     <div
       ng-if="b.type=='img'"
       class="img cover"
       back-img="{{b.img}}">
     </div>
-    
     <!-- IFRAME -->
     <iframe
       ng-if="b.type=='iframe'"
@@ -51,7 +46,6 @@
       mozallowfullscreen
       allowfullscreen>
     </iframe>
-
     <!-- VIMEO -->
     <iframe
       ng-if="b.type=='vimeo'" class="vimeo"
@@ -63,17 +57,11 @@
       mozallowfullscreen
       allowfullscreen>
     </iframe>
-
     <!-- TEXT CONTENT -->
     <markdown
       ng-if="b.type=='text'"
       class="text"
       ng-model="b.text">
     </markdown>
-
-  </div>
-
-  <div class="nothing" ng-repeat-end></div>
-
-
+  </div><div class="nothing" ng-repeat-end></div>
 </div>
