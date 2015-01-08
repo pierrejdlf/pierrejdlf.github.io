@@ -5,25 +5,33 @@
   <!-- ———————————————— THE ARTICLE COVER -->
   <div class="nothing" ng-repeat-start="a in root.children"></div><div
     class="card a"
-    ng-class="{cover:a.img, opened:a.opened}"
-    back-img="{{a.img}}"
-    ng-click="a.opened=!a.opened; log(a);"
-    ng-init="a.opened=false;">
+    ng-class="{
+      opened:a.opened,
+      nowed:now.a==$index,
+      fadesoft:now.a==$index && now.b!=-1,
+      fadeaway:now.a!=$index && now.a!=-1,
+      fadedead:now.a!=$index && now.b!=-1}"
+    ng-click="clickA(a,$index);">
     <div class="closer"><div>X</div></div>
-    <div ng-if="a.title" class="title">{{a.title}}</div>
-    <div ng-if="a.subtitle" class="subtitle">{{a.subtitle}}</div>
+    <div ng-if="a.title" class="title meta">{{a.title}}</div>
+    <div ng-if="a.subtitle" class="subtitle meta">{{a.subtitle}}</div>
     <markdown
       ng-if="a.text"
       class="text"
       ng-class="{important:$first}"
       ng-model="a.text">
     </markdown>
+    <div ng-class="{cover:a.img}" back-img="{{a.img}}"></div>
   </div><!-- ———————————————— THE CHILDREN --><div
+    ng-repeat="b in a.children"
     ng-if="a.opened"
     class="card b"
-    ng-class="{last:$last, preview:b.preview}"
-    ng-repeat="b in a.children"
-    ng-click="log(b);b.preview=!b.preview;">
+    ng-class="{
+      last:$last,
+      preview:now.b==$index,
+      fadesoft:now.b!=$index && now.b!=-1,
+      fadedead:now.a!=$parent.$parent.$index}"
+    ng-click="clickB(b,$index);">
     <!-- REDIRECT -->
     <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
       <div class="info">click to open<br>{{b.redirect}}<br>in a new tab</div>
@@ -31,8 +39,11 @@
     <!-- IMAGE -->
     <div
       ng-if="b.type=='img'"
-      class="img cover"
-      back-img="{{b.img}}">
+      class="img">
+      <div
+        class="cover"
+        back-img="{{b.img}}">
+      </div>
     </div>
     <!-- IFRAME -->
     <iframe

@@ -24,6 +24,36 @@ angular.module('jdlf.controllers', ['underscore'])
     var url = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
     //var url = 'data/data.json';
 
+    /////////////////////////////////// FOLLOWING STATE
+    $scope.now = {
+      a:-1,
+      b:-1,
+    };
+    $scope.clickA = function(a,index) {
+      $scope.now.element = a;
+      a.opened = !a.opened;
+      if($scope.now.a != index) {
+        $scope.now.a = index;
+        $scope.now.b = -1;
+      } else {
+        $scope.now.a = -1;
+        $scope.now.b = -1;
+      }
+      $scope.log($scope.now);
+    };
+    $scope.clickB = function(b,index) {
+      $scope.now.element = b;
+      //b.preview =! b.preview;
+      if($scope.now.b != index) {
+        $scope.now.b = index;
+      } else {
+        $scope.now.b = -1;
+      }
+      $scope.log($scope.now);
+    };
+    ///////////////////////////////////
+
+
     var extractRegexp = function(d,key,r,split) {
       var regexp = new RegExp(r);
       if(regexp.test(d.content)) {
