@@ -94,7 +94,7 @@ angular.module('jdlf.controllers', ['underscore'])
           extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
           extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
           extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
-          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static)[^\\n]*)\\n*');
+          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static|gifcomics)[^\\n]*)\\n*');
           extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
           //extractRegexp(d,'gallery','!\\[\\w*]\\(([^\\n\\)]*)\\)',true);
           extractRegexp(d,'text','^---\\n((.|\\n)+)');

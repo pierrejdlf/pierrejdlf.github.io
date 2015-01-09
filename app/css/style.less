@@ -37,8 +37,7 @@ blockquote {
   margin: 17px;
   background: black;
 }
-.nothing {
-  // display: inline-block;
+.hidden {
   display: none;
 }
 .cover {
@@ -47,6 +46,11 @@ blockquote {
   .background-size(cover);
   background-color: black;
 }
+.nopointer {
+  pointer-events: none;
+}
+
+
 
 .card {
   box-sizing: border-box;
@@ -158,14 +162,24 @@ blockquote {
     padding: 7px;
     font-size: 0.7rem;
   }
-  .redirect {
+  .text {
+    @textpad: 17px;
+    box-sizing: border-box;
     display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: rgb(109, 117, 160);
+    position: absolute;
+    left: @textpad;
+    right: -2*@textpad;
+    bottom: @textpad;
+    top: @textpad;
+    padding-right: 2*@textpad;
     font-size: 0.8rem;
-    text-align: center;
+    background: black;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &.important {
+      font-size: 1rem;
+    }
   }
   .img {
     width: 100%;
@@ -181,24 +195,35 @@ blockquote {
       }
     }
   }
+  img.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    .transform(translateX(-50%) translateY(-50%));
+  }
   .iframe {
 
   }
   .vimeo {
 
   }
-  .text {
-    box-sizing: border-box;
+  .redirect {
     display: block;
-    height: 100%;
     width: 100%;
-    padding: 20px;
-    overflow: hidden;
+    height: 100%;
+    text-decoration: none;
     font-size: 0.8rem;
-    background: black;
-    color: white;
-    &.important {
-      font-size: 1rem;
+    text-align: center;
+    color:grey;
+    .info {
+      box-sizing: border-box;
+      position: absolute;
+      bottom:0;
+      width: 100%;
+      padding: 12px;
+    }
+    &:hover {
+      color:white;
     }
   }
 }
@@ -215,7 +240,7 @@ blockquote {
   // left:0;
   // top:0;
   width: 100%;
-  height: 400px;
+  height: 500px;
   border-top: 7px solid @backcolor;
   border-bottom: 7px solid @backcolor;
   // border: 17px solid @backcolor;

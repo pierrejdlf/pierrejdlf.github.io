@@ -3,7 +3,7 @@
   
   
   <!-- ———————————————— THE ARTICLE COVER -->
-  <div class="nothing" ng-repeat-start="a in root.children"></div><div
+  <div class="hidden" ng-repeat-start="a in root.children"></div><div
     class="card a"
     ng-class="{
       opened:a.opened,
@@ -12,7 +12,9 @@
       fadeaway:now.a!=$index && now.a!=-1,
       fadedead:now.a!=$index && now.b!=-1}"
     ng-click="clickA(a,$index);">
-    <div class="closer"><div>X</div></div>
+    <div class="closer">
+      <img class="centered" src="images/ic_close.svg">
+    </div>
     <div ng-if="a.title" class="title meta">{{a.title}}</div>
     <div ng-if="a.subtitle" class="subtitle meta">{{a.subtitle}}</div>
     <markdown
@@ -25,17 +27,19 @@
   </div><!-- ———————————————— THE CHILDREN --><div
     ng-repeat="b in a.children"
     ng-if="a.opened"
-    class="card b"
+    class="card b {{b.type}}"
     ng-class="{
       last:$last,
       preview:now.b==$index,
       fadesoft:now.b!=$index && now.b!=-1,
       fadedead:now.a!=$parent.$parent.$index}"
-    ng-click="clickB(b,$index);">
-    <!-- REDIRECT -->
-    <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
-      <div class="info">click to open<br>{{b.redirect}}<br>in a new tab</div>
-    </a>
+    ng-click="b.type!='redirect' && clickB(b,$index);">
+    <!-- TEXT CONTENT -->
+    <markdown
+      ng-if="b.type=='text'"
+      class="text"
+      ng-model="b.text">
+    </markdown>
     <!-- IMAGE -->
     <div
       ng-if="b.type=='img'"
@@ -46,9 +50,13 @@
       </div>
     </div>
     <!-- IFRAME -->
+    <img
+      ng-if="b.type=='iframe' && now.b!=$index"
+      class="centered" src="images/ic_down.svg">
     <iframe
-      ng-if="b.type=='iframe'"
+      ng-if="b.type=='iframe' && now.b==$index"
       class="iframe"
+      ng-class="{nopointer:now.b!=$index, hidden:now.b!=$index}"
       src="{{b.iframe | allowurl}}" 
       width="100%"
       height="100%"
@@ -60,6 +68,7 @@
     <!-- VIMEO -->
     <iframe
       ng-if="b.type=='vimeo'" class="vimeo"
+      ng-class="{nopointer:now.b!=$index}"
       src="{{b.vimeo | allowvimeo}}" 
       width="100%"
       height="100%"
@@ -68,11 +77,10 @@
       mozallowfullscreen
       allowfullscreen>
     </iframe>
-    <!-- TEXT CONTENT -->
-    <markdown
-      ng-if="b.type=='text'"
-      class="text"
-      ng-model="b.text">
-    </markdown>
-  </div><div class="nothing" ng-repeat-end></div>
+    <!-- REDIRECT -->
+    <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
+      <img class="centered" src="images/ic_redirect.svg">
+      <div class="info">{{b.redirect}}</div>
+    </a>
+  </div><div class="hidden" ng-repeat-end></div>
 </div>

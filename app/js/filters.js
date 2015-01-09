@@ -13,7 +13,8 @@ angular.module('jdlf.filters', [])
   .filter('allowvimeo', function($sce) {
     return function(url) {
       var vid = url.match(/[0-9]+/)[0];
-      return $sce.trustAsResourceUrl("//player.vimeo.com/video/"+vid);
+      var options = "?title=0&portrait=0&badge=0&byline=0&color=ffffff";
+      return $sce.trustAsResourceUrl("//player.vimeo.com/video/"+vid+options);
     }
   })
 
