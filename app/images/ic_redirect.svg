@@ -3,7 +3,19 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="0" y1="100" x2="99.685" y2="0"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="50" y1="0" x2="99.685" y2="0"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="99.685" y1="0" x2="99.685" y2="49.686"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="6,6" x1="29.5" y1="70.407" x2="70.186" y2="29.593"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="49.907" y1="29.593" x2="52.906" y2="29.593"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.7596,4.7596" x1="57.666" y1="29.593" x2="64.806" y2="29.593"/>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="67.186,29.593 
+			70.186,29.593 70.186,32.593 		"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.8022,4.8022" x1="70.186" y1="37.396" x2="70.186" y2="44.599"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="70.186" y1="47" x2="70.186" y2="50"/>
+	</g>
+</g>
 </svg>

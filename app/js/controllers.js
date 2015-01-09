@@ -16,8 +16,16 @@ angular.module('jdlf.controllers', ['underscore'])
     "$routeParams",
     "$http",
     "_",
-    function ($scope, $routeParams, $http, _) {
-    
+    "$location",
+    "$anchorScroll",
+    "$timeout",
+    "anchorSmoothScroll",
+    function ($scope, $routeParams, $http, _, $location, $anchorScroll, $timeout, anchorSmoothScroll) {
+  
+    $scope.$on('$locationChangeStart', function(ev) {
+      ev.preventDefault();
+    });
+
     $scope.title = "Hello";
     $scope.basemedia = "http://jdlf.info/p/media/";
 
@@ -46,6 +54,11 @@ angular.module('jdlf.controllers', ['underscore'])
       //b.preview =! b.preview;
       if($scope.now.b != index) {
         $scope.now.b = index;
+        //$location.hash('b_'+index);
+        // $timeout(function() {
+        //   anchorSmoothScroll.scrollTo('b_'+index,30,160);
+        //   //$anchorScroll();
+        // },500);
       } else {
         $scope.now.b = -1;
       }
@@ -85,6 +98,7 @@ angular.module('jdlf.controllers', ['underscore'])
       _.each(list, function(d,k) {
         // do it for all children
         if(d.children) {
+          d.children = removeEmpties(d.children);
           $scope.recursiveYam(d.children);
         }
         // parse content

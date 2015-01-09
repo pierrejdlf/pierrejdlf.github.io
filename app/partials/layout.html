@@ -6,33 +6,36 @@
   <div class="hidden" ng-repeat-start="a in root.children"></div><div
     class="card a"
     ng-class="{
+      me:$first,
       opened:a.opened,
+      closed:!a.opened,
       nowed:now.a==$index,
       fadesoft:now.a==$index && now.b!=-1,
       fadeaway:now.a!=$index && now.a!=-1,
       fadedead:now.a!=$index && now.b!=-1}"
     ng-click="clickA(a,$index);">
-    <div class="closer">
-      <img class="centered" src="images/ic_close.svg">
-    </div>
+    <img class="closer centered backed" src="images/ic_close.svg">
+    <img class="opener centered" src="images/ic_expand.svg">
     <div ng-if="a.title" class="title meta">{{a.title}}</div>
     <div ng-if="a.subtitle" class="subtitle meta">{{a.subtitle}}</div>
     <markdown
       ng-if="a.text"
       class="text"
-      ng-class="{important:$first}"
       ng-model="a.text">
     </markdown>
     <div ng-class="{cover:a.img}" back-img="{{a.img}}"></div>
   </div><!-- ———————————————— THE CHILDREN --><div
     ng-repeat="b in a.children"
     ng-if="a.opened"
+    id="b_{{$index}}"
     class="card b {{b.type}}"
     ng-class="{
       last:$last,
-      preview:now.b==$index,
+      opened:now.b==$index,
+      closed:now.b!=$index,
       fadesoft:now.b!=$index && now.b!=-1,
-      fadedead:now.a!=$parent.$parent.$index}"
+      fadeaway:now.a!=$parent.$parent.$index,
+      fadedead:now.a!=$parent.$parent.$index && now.b!=-1}"
     ng-click="b.type!='redirect' && clickB(b,$index);">
     <!-- TEXT CONTENT -->
     <markdown
@@ -44,6 +47,7 @@
     <div
       ng-if="b.type=='img'"
       class="img">
+      <img class="opener centered" src="images/ic_loupe.svg">
       <div
         class="cover"
         back-img="{{b.img}}">
@@ -52,7 +56,7 @@
     <!-- IFRAME -->
     <img
       ng-if="b.type=='iframe' && now.b!=$index"
-      class="centered" src="images/ic_down.svg">
+      class="centered" src="images/ic_doubledown.svg">
     <iframe
       ng-if="b.type=='iframe' && now.b==$index"
       class="iframe"
