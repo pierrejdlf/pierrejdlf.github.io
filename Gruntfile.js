@@ -49,7 +49,7 @@ module.exports = function(grunt) {
           paths: ["assets"]
         },
         files: {
-          "app/css/styles.css": "app/css/*.less"
+          "app/css/styles.css": "app/css/style.less"
         }
       }
     },
@@ -68,30 +68,29 @@ module.exports = function(grunt) {
       },
       css: {
         src: [
-          //'app/lib/font-awesome/css/font-awesome.min.css',
-          //'app/lib/intro.js/introjs.css', // introjs.css has its own minified version
           'app/vendor/normalize.css/normalize.css',
           'app/vendor/animate.css/animate.min.css',
           // 'app/vendor/icomoon/dist/css/style.css',
           'app/css/font.css',
           'app/css/styles.css'
         ],
-        dest: 'dist/css/<%= pkg.name %>.css'
+        dest: 'p/css/<%= pkg.name %>.css'
       },
       js: {
         src: [
           'app/vendor/underscore/underscore-min.js',
-          
+
           'app/vendor/angular/angular.min.js',
+          'app/vendor/angular-sanitize/angular-sanitize.min.js',
           'app/vendor/angular-route/angular-route.min.js',
-          'app/vendor/angular-messages/angular-messages.min.js',
-          'app/vendor/angular-gettext/dist/angular-gettext.min.js',
           'app/vendor/angular-animate/angular-animate.min.js',
-          'app/vendor/angular-progress-arc/angular-progress-arc.min.js',
+
+          'app/vendor/showdown/compressed/showdown.js',
+          'app/vendor/angular-markdown/angular.markdown.js',
 
           'app/js/*.js'
         ],
-        dest: 'dist/js/<%= pkg.name %>.js'
+        dest: 'p/js/<%= pkg.name %>.js'
       }
     },
 
@@ -103,15 +102,15 @@ module.exports = function(grunt) {
                 //     dest: 'dist/css/introjs.min.css',
                 //     filter: 'isFile'
                 // },
-                {
-                    expand: true,
-                    flatten: true,
-                    src: [ 
-                        'app/fonts/**'
-                    ],
-                    dest: 'dist/fonts/',
-                    filter: 'isFile'
-                },
+                // {
+                //     expand: true,
+                //     flatten: true,
+                //     src: [ 
+                //         'app/fonts/**'
+                //     ],
+                //     dest: 'dist/fonts/',
+                //     filter: 'isFile'
+                // },
                 // {
                 //     expand: true,
                 //     flatten: true,
@@ -144,13 +143,13 @@ module.exports = function(grunt) {
                     flatten: false,
                     cwd: 'app/images/',
                     src: ['**'],
-                    dest: 'dist/images/'
+                    dest: 'p/images/'
                 },
                 {
                     expand: true,
                     flatten: true,
                     src: ['app/partials/**'],
-                    dest: 'dist/partials/',
+                    dest: 'p/partials/',
                     filter: 'isFile'
                 }
             ]
@@ -160,14 +159,14 @@ module.exports = function(grunt) {
     preprocess : {
       prod : {
         src : 'app/index.html',
-        dest : 'dist/index.html'
+        dest : 'p/index.html'
       }
     },
 
     strip : {
       main : {
-        src : 'dist/js/<%= pkg.name %>.js',
-        dest : 'dist/js/<%= pkg.name %>.nolog.js',
+        src : 'p/js/<%= pkg.name %>.js',
+        dest : 'p/js/<%= pkg.name %>.nolog.js',
         options : {
           nodes : ['console.log']
         }
@@ -191,7 +190,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'dist/js/<%= pkg.name %>.min.js': ['dist/js/<%= pkg.name %>.nolog.js']
+          'p/js/<%= pkg.name %>.min.js': ['p/js/<%= pkg.name %>.nolog.js']
         }
       }
     },
@@ -246,10 +245,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-strip');
 
   // for i18n translations using angular-gettext
-  grunt.loadNpmTasks('grunt-angular-gettext');
 
   //grunt.registerTask('dev', ['ngconstant:development']);  
   //grunt.registerTask('prod', ['ngconstant:production']);
-  grunt.registerTask('default',['nggettext_extract','nggettext_compile','jshint','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
+  grunt.registerTask('default',['jshint','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
 
 };
