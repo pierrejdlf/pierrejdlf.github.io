@@ -22,6 +22,15 @@
       class="text"
       ng-model="a.text">
     </markdown>
+    <div ng-if="$first">
+      <a href="http://plus.google.com/118091992416644570539"><img src="images/social/google.png"/></a>
+      <a href="http://facebook.com/pierre.jdlf"><img src="images/social/facebook.png"/></a>
+      <a href="http://twitter.com/pierrejdlf"><img src="images/social/twitter.png"/></a>
+      <a href="http://vimeo.com/pierrejdlf"><img src="images/social/vimeo.png"/></a>
+      <a href="http://github.com/pierrejdlf"><img src="images/social/github.png"/></a>
+      <a href="http://linkedin.com/in/pierrejdlf"><img src="images/social/linkedin.png"/></a>
+      <a href="skype:pierre.jdlf?call"><img src="images/social/skype.png"/></a>
+    </div>
     <div ng-class="{cover:a.img}" back-img="{{a.img}}"></div>
   </div><!-- ———————————————— THE CHILDREN --><div
     ng-repeat="b in a.children"

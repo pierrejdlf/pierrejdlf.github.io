@@ -52,6 +52,32 @@ blockquote {
 }
 
 
+.me {
+  vertical-align: top;
+  padding-top: 35px;
+  text-align: center;
+
+  font-style: italic;
+  font-weight: 100;
+  color: #474747;
+
+  .author {
+    margin-bottom: 9px;
+  }
+  .description {
+    margin-top: 9px;
+  }
+  img {
+    width: 22px;
+    opacity: 0.6;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+
+
 
 .card {
   box-sizing: border-box;
@@ -225,19 +251,6 @@ blockquote {
     }
     &:hover {
       color:white;
-    }
-  }
-
-  &.me {
-    background: none;
-    .box-shadow(none);
-    img {
-      display: none;
-    }
-    .text {
-      font-size: 1.3rem;
-      color: black;
-      background: none;
     }
   }
 }
