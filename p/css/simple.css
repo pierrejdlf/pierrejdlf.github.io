@@ -521,8 +521,8 @@ blockquote {
   display: inline-block;
   position: relative;
   vertical-align: top;
-  width: 270px;
-  height: 190px;
+  width: 290px;
+  height: 200px;
   padding: 0;
   font-size: 1.3em;
   cursor: pointer;
@@ -533,13 +533,6 @@ blockquote {
   -o-transition: opacity 0.7s;
   -ms-transition: opacity 0.7s;
   transition: opacity 0.7s;
-}
-.card.b {
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease;
 }
 .card.fadesoft {
   opacity: 0.4;
@@ -605,22 +598,23 @@ blockquote {
   background: black;
   opacity: 0;
 }
-.card:hover .meta {
+.card:hover .meta,
+.card.opened .meta {
   opacity: 1;
 }
 .card .title {
   top: 0;
-  padding: 13px;
+  padding: 8px 12px;
   font-weight: normal;
   color: white;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .card .subtitle {
   bottom: 0px;
   font-style: italic;
   background: rgba(0, 0, 0, 0.6);
   color: #DADADA;
-  padding: 7px;
+  padding: 8px 12px;
   font-size: 0.7rem;
 }
 .card .text {
@@ -632,6 +626,7 @@ blockquote {
   bottom: 17px;
   top: 17px;
   padding-right: 34px;
+  text-align: left;
   font-size: 0.8rem;
   background: black;
   color: white;
@@ -702,11 +697,13 @@ blockquote {
 }
 /* B PREVIEW */
 .card.b.opened {
-  float: left;
+  z-index: 99999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
-  height: 500px;
-  border-top: 15px solid #fdc253;
-  border-bottom: 15px solid #fdc253;
+  border: 15px solid #fdc253;
 }
 .card.b.opened .img .cover {
   -webkit-transform: scale(1);
@@ -727,7 +724,7 @@ blockquote {
 }
 .card.ng-enter-active,
 .card.ng-leave {
-  width: 270px;
+  width: 290px;
 }
 .card.ng-leave-active {
   overflow: hidden;

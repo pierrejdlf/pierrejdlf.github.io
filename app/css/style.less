@@ -24,8 +24,8 @@ blockquote {
   border-left: 1px solid #A37979;
 }
 
-@cardW: 270px;
-@cardH: 190px;
+@cardW: 290px;
+@cardH: 200px;
 @border: 15px;
 
 .container {
@@ -72,7 +72,7 @@ blockquote {
   &.a {
   }
   &.b {
-    .transition(all 0.2s ease);
+    //.transition(all 0.2s ease);
   }
   
   &.fadesoft {
@@ -142,17 +142,17 @@ blockquote {
     background: black;
     opacity: 0;
   }
-  &:hover .meta {
+  &:hover .meta, &.opened .meta {
     opacity: 1; 
   }
 
   .title {
     top:0;
-    padding: 13px;
+    padding: 8px 12px;
 
     font-weight: normal;
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .subtitle {
@@ -161,7 +161,7 @@ blockquote {
     font-style: italic;
     background: rgba(0, 0, 0, 0.6);
     color: #DADADA;
-    padding: 7px;
+    padding: 8px 12px;
     font-size: 0.7rem;
   }
   .text {
@@ -174,6 +174,8 @@ blockquote {
     bottom: @textpad;
     top: @textpad;
     padding-right: 2*@textpad;
+
+    text-align: left;
     font-size: 0.8rem;
     background: black;
     color: white;
@@ -246,15 +248,16 @@ blockquote {
   .img .cover {
     .transform(scale(1));
   }
-  float: left;
-  // z-index: 999999;
-  // position: fixed;
-  // left:0;
-  // top:0;
+  // float: left;
+  z-index: 99999;
+  position: fixed;
+  left:0;
+  top:0;
+  height: 100%;
   width: 100%;
-  height: 500px;
-  border-top: @border solid @backcolor;
-  border-bottom: @border solid @backcolor;
+  // height: 500px;
+  border: @border solid @backcolor;
+  //border-bottom: @border solid @backcolor;
   // border: 17px solid @backcolor;
   .cover {
     .background-size(contain);

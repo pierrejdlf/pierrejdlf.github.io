@@ -637,8 +637,6 @@ angular.module('jdlf.controllers', ['underscore'])
       b:-1,
     };
     $scope.clickA = function(a,index) {
-      $scope.now.element = a;
-      a.opened = !a.opened;
       if($scope.now.a != index) {
         $scope.now.a = index;
         $scope.now.b = -1;
@@ -648,11 +646,10 @@ angular.module('jdlf.controllers', ['underscore'])
       }
       $scope.log($scope.now);
     };
-    $scope.clickB = function(b,index) {
-      $scope.now.element = b;
-      //b.preview =! b.preview;
-      if($scope.now.b != index) {
-        $scope.now.b = index;
+    $scope.clickB = function(a,aindex,b,bindex) {
+      if($scope.now.b != bindex) {
+        $scope.now.a = aindex;
+        $scope.now.b = bindex;
         //$location.hash('b_'+index);
         // $timeout(function() {
         //   anchorSmoothScroll.scrollTo('b_'+index,30,160);
@@ -669,26 +666,12 @@ angular.module('jdlf.controllers', ['underscore'])
     var extractRegexp = function(d,key,r,split) {
       var regexp = new RegExp(r);
       if(regexp.test(d.content)) {
-        
-        // if(split) { // either we split all the matches into an array
-        //   var globregexp = new RegExp(r,'g');
-        //   var mat = d.content.match(globregexp);
-        //   d[key] = [];
-        //   d.type = key;
-        //   _.each(mat, function(k) {
-        //     if(d.type=='gallery')
-        //       k = k.replace(/^!\[]\(/,"").replace(/\)$/,"");
-        //     d[key].push(k);
-        //   });
-        // } else { // either we just extract the regexp
           var mat = d.content.match(regexp);
           if(mat.length>1) {
             d[key] = mat[1];
             d.type = key;
-            //console.log("extracted!",d);
           }
           d.content = d.content.replace(regexp,"");
-        //}
       }
       return d;
     };
@@ -707,7 +690,7 @@ angular.module('jdlf.controllers', ['underscore'])
           extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
           extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
           extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
-          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static|gifcomics)[^\\n]*)\\n*');
+          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static|gifcomics|streetmap)[^\\n]*)\\n*');
           extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
           //extractRegexp(d,'gallery','!\\[\\w*]\\(([^\\n\\)]*)\\)',true);
           extractRegexp(d,'text','^---\\n((.|\\n)+)');

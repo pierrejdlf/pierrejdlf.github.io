@@ -148,6 +148,13 @@ module.exports = function(grunt) {
                 {
                     expand: true,
                     flatten: true,
+                    src: ['app/data/**'],
+                    dest: 'p/data/',
+                    filter: 'isFile'
+                },
+                {
+                    expand: true,
+                    flatten: true,
                     src: ['app/partials/**'],
                     dest: 'p/partials/',
                     filter: 'isFile'
