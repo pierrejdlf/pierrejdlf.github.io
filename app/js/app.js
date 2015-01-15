@@ -9,7 +9,8 @@ angular.module('jdlf', [
   'angular-markdown',
   'jdlf.directives',
   'jdlf.filters',
-  'jdlf.controllers'
+  'jdlf.controllers',
+  'config'
 ])
   
   // .factory("settings", function(){

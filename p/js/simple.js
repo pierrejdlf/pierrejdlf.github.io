@@ -496,7 +496,8 @@ angular.module('jdlf', [
   'angular-markdown',
   'jdlf.directives',
   'jdlf.filters',
-  'jdlf.controllers'
+  'jdlf.controllers',
+  'config'
 ])
   
   // .factory("settings", function(){
@@ -597,6 +598,13 @@ angular.module('jdlf', [
 
 ;
 
+angular.module('config', [])
+
+.constant('settings', {fetchlocal:true})
+
+;
+;
+
 'use strict';
 
 /* Controllers */
@@ -608,7 +616,7 @@ angular.module('underscore', [])
   });
 
 
-angular.module('jdlf.controllers', ['underscore'])
+angular.module('jdlf.controllers', ['underscore','config'])
 
   .controller('jdlfCtrl', [
     "$scope",
@@ -619,17 +627,23 @@ angular.module('jdlf.controllers', ['underscore'])
     "$anchorScroll",
     "$timeout",
     "anchorSmoothScroll",
-    function ($scope, $routeParams, $http, _, $location, $anchorScroll, $timeout, anchorSmoothScroll) {
+    "settings",
+    function ($scope, $routeParams, $http, _, $location, $anchorScroll, $timeout, anchorSmoothScroll, settings) {
   
-    $scope.$on('$locationChangeStart', function(ev) {
-      ev.preventDefault();
-    });
+    // $scope.$on('$locationChangeStart', function(ev) {
+    //   ev.preventDefault();
+    // });
+    
 
-    $scope.title = "Hello";
-    $scope.basemedia = "http://jdlf.info/p/media/";
 
-    var url = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
-    //var url = 'data/data.json';
+
+    console.log("SETTINGS:",settings);
+    var LOCAL = settings.fetchlocal;
+    var proxyurl = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
+    var localurl = 'data/contents.json';
+
+
+
 
     /////////////////////////////////// FOLLOWING STATE
     $scope.now = {
@@ -660,61 +674,71 @@ angular.module('jdlf.controllers', ['underscore'])
       }
       $scope.log($scope.now);
     };
-    ///////////////////////////////////
+    
 
 
-    var extractRegexp = function(d,key,r,split) {
-      var regexp = new RegExp(r);
-      if(regexp.test(d.content)) {
-          var mat = d.content.match(regexp);
-          if(mat.length>1) {
-            d[key] = mat[1];
-            d.type = key;
+
+
+    var getPrepairedData = function(json) {
+      //////////////////////////////////////////////////////////////////////
+      var removeEmpties = function(list) {
+        return _.filter(list, function(d) {
+          return d.content;
+        });
+      };
+      var extractRegexp = function(d,key,r,split) {
+        var regexp = new RegExp(r);
+        if(regexp.test(d.content)) {
+            var mat = d.content.match(regexp);
+            if(mat.length>1) {
+              d[key] = mat[1];
+              d.type = key;
+            }
+            d.content = d.content.replace(regexp,"");
+        }
+        return d;
+      };
+      var recursiveYam = function(list) {
+        _.each(list, function(d,k) {
+          // do it for all children
+          if(d.children) {
+            d.children = removeEmpties(d.children);
+            recursiveYam(d.children);
           }
-          d.content = d.content.replace(regexp,"");
-      }
-      return d;
-    };
-    //////////////////////////////////////////
-    $scope.recursiveYam = function(list) {
-      _.each(list, function(d,k) {
-        // do it for all children
-        if(d.children) {
-          d.children = removeEmpties(d.children);
-          $scope.recursiveYam(d.children);
-        }
-        // parse content
-        if(d.content) {
-          // warning: double escape needed as we will treat strings as regexp
-          extractRegexp(d,'title','^#([^\\n]*)\\n');
-          extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
-          extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
-          extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
-          extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static|gifcomics|streetmap)[^\\n]*)\\n*');
-          extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
-          //extractRegexp(d,'gallery','!\\[\\w*]\\(([^\\n\\)]*)\\)',true);
-          extractRegexp(d,'text','^---\\n((.|\\n)+)');
-        }
-      });
-    };
+          // parse content
+          if(d.content) {
+            // warning: double escape needed as we will treat strings as regexp
+            extractRegexp(d,'title','^#([^\\n]*)\\n');
+            extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
+            extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
+            extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
+            extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static|gifcomics|streetmap)[^\\n]*)\\n*');
+            extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
+            extractRegexp(d,'text','^---\\n((.|\\n)+)');
+          }
+        });
+      };
+      //////////////////////////////////////////////////////////////////////
 
-    var removeEmpties = function(list) {
-      return _.filter(list, function(d) {
-        return d.content;
-      });
-    };
+      // remove empty ones
+      var root = json.slice(1)[0]; //omit first element (info)
+      recursiveYam([root]);
+      return root;
+    }
+
+
+
+
+
+
+    
     //////////////////////////////////////////
     $http
-      .get(url)
+      .get(LOCAL ? localurl : proxyurl)
       .success(function(res) {
-        console.log("json data:",res);
- 
-        // remove empty ones
-        var root = res.slice(1)[0]; //omit first element (info)
-        console.log("Will parse.");
-        $scope.recursiveYam([root]);
-        console.log("yamled data:",root);
-        $scope.root = root;
+        
+        $scope.root = LOCAL ? res : getPrepairedData(res);
+
       })
       .error(function (data, status, headers, config) {
         console.log("error loading json!");

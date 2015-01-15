@@ -7,28 +7,33 @@ module.exports = function(grunt) {
     // settings set in config.json will be available as constants within angular
     //conf: grunt.file.readJSON('config.json'),
 
-    // ngconstant: {
-    //   options: {
-    //     space: '  '
-    //   },
-    //   // Environment targets
-    //   development: [{
-    //     dest: 'app/js/config.js',
-    //     wrap: '"use strict";\n\n <%= __ngModule %>',
-    //     name: 'config',
-    //     constants: {
-    //       settings: '<%= conf.settings.dev %>'
-    //     }
-    //   }],
-    //   production: [{
-    //     dest: 'app/js/config.js',
-    //     wrap: '"use strict";\n\n <%= __ngModule %>',
-    //     name: 'config',
-    //     constants: {
-    //       settings: '<%= conf.settings.prod %>'
-    //     }
-    //   }]
-    // },
+    ngconstant: {
+      options: {
+        space: '  ',
+        name: 'config'
+      },
+      // Environment targets
+      development: {
+        options: {
+          dest: 'app/js/config.js' 
+        },
+        constants: {
+          settings: {
+            fetchlocal: false
+          }
+        }
+      },
+      production: {
+        options: {
+          dest: 'app/js/config.js'
+        },
+        constants: {
+          settings: {
+            fetchlocal: true
+          }
+        }
+      }
+    },
 
     env : {
       options : {
@@ -215,19 +220,10 @@ module.exports = function(grunt) {
       }
     },
 
-    nggettext_extract: {
-      pot: {
-        files: {
-          'po/template.pot': ['app/index.html','app/partials/*.html']
+    execute: {
+        target: {
+            src: ['grunt_fetch_data.js']
         }
-      }
-    },
-    nggettext_compile: {
-      all: {
-        files: {
-          'app/js/translations.js': ['po/*.po']
-        }
-      }
     }
 
     // watch: {
@@ -239,7 +235,7 @@ module.exports = function(grunt) {
   
 
 
-  // grunt.loadNpmTasks('grunt-ng-constant');
+  grunt.loadNpmTasks('grunt-ng-constant');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy' );
   // grunt.loadNpmTasks('grunt-ng-annotate');
@@ -251,10 +247,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-preprocess');
   grunt.loadNpmTasks('grunt-strip');
 
-  // for i18n translations using angular-gettext
+  grunt.loadNpmTasks('grunt-execute');
 
-  //grunt.registerTask('dev', ['ngconstant:development']);  
-  //grunt.registerTask('prod', ['ngconstant:production']);
-  grunt.registerTask('default',['jshint','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
+
+  grunt.registerTask('dev', ['ngconstant:development']);  
+  
+  grunt.registerTask('default',['execute','jshint','ngconstant:production','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
 
 };
