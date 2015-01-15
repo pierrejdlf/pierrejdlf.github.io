@@ -1057,9 +1057,117 @@
             "img": "http://jdlf.info/p/media/map_thumb.jpg"
         },
         {
-            "content": "##11 medialab 08inout 06iannix",
-            "title": "left",
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "the BEQuali project is conducted within the DIME-SHS equipment in Sciences-Po, allowing qualitative online surveys to be filed and consulted.\n\nthe website includes innovative tools for data visualization and manipulation.\n\nfor more informations, please refer to the following on-going project links :\n\n- [médialab](http://medialab.sciences-po.fr/) at Sciences-Po Paris\n- [Sciences-Po DIME-SHS](http://www.sciencespo.fr/dime-shs/content/dime-shs-quali)",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/content_overview.png",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/tools_overview-01.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Attributes.png",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Cloud_SolrSpeakerTagCloud.png",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Graph_SpeakersAttributes.png",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Graph_SpeakersWords.png",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/viz_ex_TexteStreamTimeline.png",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/medialab/viz_ex_view_dBrowse.png",
+                    "type": "img"
+                }
+            ],
+            "title": "'11 medialab",
             "type": "title"
+        },
+        {
+            "content": "## réseau de création connective",
+            "children": [
+                {
+                    "content": "",
+                    "text": "The Art Collider (In/Out) est un réseau p2p permettant à des artistes d'échanger des flux multimédia en temps réel.\n\nChaque participant utilise les productions (images, sons, textes) d'autres cellules du réseau. Le résultat de chaque intervention artistique est rendu disponible aux autres.\n\nLes projets artistiques sont visibles au public sur internet ou dans des lieux d'exposition.\n\n\n\nCollectionnisme (M.Okura &amp; D.Cunin)\nf8 (V.Goudard)\ninterface d'observation des projets et des flux\n\n[http://theartcollider.org/](http://theartcollider.org/)\n\nLe Projet In/Out est porté par le [CITU](http://www.citu.info/) (Création Interactive Transdisciplinaire Universitaire), Fédération de Laboratoires des Universités Paris I ([LAM](http://creca.univ-paris1.fr/)) et Paris VIII ([Paragraphe](http://paragraphe.univ-paris8.fr/fr/), [CIREN](http://www.ciren.org/ciren/leciren/index.html))\n\nIn/Out (édition 2008) : [Wiki](http://www.citu.fr/wiki)\n\nLieux partenaires et événements « In/Out » au cours de l'année 2008 :\n\n- [Maison Populaire](http://www.maisonpop.net/index.php), à Montreuil (installations, conférence)\n- [Studio Petaherz](http://www.petahertz.eu/), à Montreuil (installations)\n- [La Bellevilloise](http://www.labellevilloise.com/), à Paris (installations, rencontres et concerts)\n- [Ars Longa](http://www.arslonga.fr/), à Paris (exposition et performances)\n- [La Cantine](http://lacantine.org/), à Paris (conférence « [Dorkbot](http://dorkbot.org/dorkbotparis) » )\n- [Le Cube](http://www.lesiteducube.com/site/index.php?section=agenda), à Issy-les-Moulineaux (installation et conférence)\n- [École Nationale Supérieure d'Art](http://www.ensa-nancy.fr/), à Nancy ([Workshop](http://in-out.citu.fr/wiki/index.php?title=Compte_Rendu_du_Workshop_de_Nancy \"Compte_Rendu_du_Workshop_de_Nancy\") d'une semaine avec 10 artistes)\n- [L'Autre Canal](http://www.lautrecanal.fr/), à Nancy ( « Pecha Kucha Night » )\n- [École Européenne Supérieure de l'Image](http://www.eesi.eu/site/spip.php?rubrique124), à Poitier (conférence)",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inout/inout_BV_02.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inout/inout_BV_03.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inout/inout_interface_01.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inout/inout_interface_02.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inout/inout_interface_03.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "'08 in/out",
+            "type": "title"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "please go to [iannix.org](http://iannix.org) to have fun.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "vimeo": "http://vimeo.com/25045003",
+                    "type": "vimeo"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/iannix_old.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "'06 iannix",
+            "type": "img",
+            "subtitle": " séquenceur audio vidéo multitemporel",
+            "img": "http://jdlf.info/p/media/iannix_old.jpg"
         }
     ]
 }
