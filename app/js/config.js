@@ -1,5 +1,5 @@
 angular.module('config', [])
 
-.constant('settings', {fetchlocal:false})
+.constant('settings', {fetchlocal:true})
 
 ;

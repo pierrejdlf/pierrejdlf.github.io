@@ -516,6 +516,27 @@ blockquote {
 .nopointer {
   pointer-events: none;
 }
+.me {
+  vertical-align: top;
+  padding-top: 35px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  color: #474747;
+}
+.me .author {
+  margin-bottom: 9px;
+}
+.me .description {
+  margin-top: 9px;
+}
+.me img {
+  width: 22px;
+  opacity: 0.6;
+}
+.me img:hover {
+  opacity: 0.8;
+}
 .card {
   box-sizing: border-box;
   display: inline-block;
@@ -681,19 +702,6 @@ blockquote {
 }
 .card .redirect:hover {
   color: white;
-}
-.card.me {
-  background: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.card.me img {
-  display: none;
-}
-.card.me .text {
-  font-size: 1.3rem;
-  color: black;
-  background: none;
 }
 /* B PREVIEW */
 .card.b.opened {

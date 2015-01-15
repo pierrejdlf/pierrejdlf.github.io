@@ -1,12 +1,22 @@
 
+<div class="me">
+  <div class="author">pierre . jdlf @ gmail • com</div>
+  <a href="http://plus.google.com/118091992416644570539" target="_new"><img src="images/social/google.png"/></a>
+  <a href="http://facebook.com/pierre.jdlf" target="_new"><img src="images/social/facebook.png"/></a>
+  <a href="http://twitter.com/pierrejdlf" target="_new"><img src="images/social/twitter.png"/></a>
+  <a href="http://vimeo.com/pierrejdlf" target="_new"><img src="images/social/vimeo.png"/></a>
+  <a href="http://github.com/pierrejdlf" target="_new"><img src="images/social/github.png"/></a>
+  <a href="http://linkedin.com/in/pierrejdlf" target="_new"><img src="images/social/linkedin.png"/></a>
+  <a href="skype:pierre.jdlf?call" target="_new"><img src="images/social/skype.png"/></a>
+  <div class="description">web-friendly | digital-humanist | data-refiner | interface-designer | human-being</div>
+</div>
+
 <div class="container">
-  
   
   <!-- ———————————————— THE ARTICLE COVER -->
   <div class="hidden" ng-repeat-start="a in root.children"></div><div
     class="card a"
     ng-class="{ 
-      me:$first,
       opened:now.a==$index,
       closed:now.a!=$index,
       fadesoft:now.a==$index && now.b!=-1,
@@ -22,15 +32,6 @@
       class="text"
       ng-model="a.text">
     </markdown>
-    <div ng-if="$first">
-      <a href="http://plus.google.com/118091992416644570539"><img src="images/social/google.png"/></a>
-      <a href="http://facebook.com/pierre.jdlf"><img src="images/social/facebook.png"/></a>
-      <a href="http://twitter.com/pierrejdlf"><img src="images/social/twitter.png"/></a>
-      <a href="http://vimeo.com/pierrejdlf"><img src="images/social/vimeo.png"/></a>
-      <a href="http://github.com/pierrejdlf"><img src="images/social/github.png"/></a>
-      <a href="http://linkedin.com/in/pierrejdlf"><img src="images/social/linkedin.png"/></a>
-      <a href="skype:pierre.jdlf?call"><img src="images/social/skype.png"/></a>
-    </div>
     <div ng-class="{cover:a.img}" back-img="{{a.img}}"></div>
   </div><!-- ———————————————— THE CHILDREN --><div
     ng-repeat="b in a.children"
