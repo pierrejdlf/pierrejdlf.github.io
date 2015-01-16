@@ -12,6 +12,7 @@
     "animate.css": "~3.2.0",
     "showdown": "~0.3.1",
     "angular-markdown-directive": "~0.3.1",
-    "angular-markdown": "~0.0.1"
+    "angular-markdown": "~0.0.1",
+    "texttailor":"https://github.com/jpntex/TextTailor.js/archive/master.zip"
   }
 }

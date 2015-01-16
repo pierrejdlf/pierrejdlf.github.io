@@ -84,6 +84,8 @@ module.exports = function(grunt) {
       js: {
         src: [
           'app/vendor/underscore/underscore-min.js',
+          "app/vendor/jquery/dist/jquery.min.js",
+          "app/vendor/texttailor/dist/jquery.texttailor.min.js",
 
           'app/vendor/angular/angular.min.js',
           'app/vendor/angular-sanitize/angular-sanitize.min.js',

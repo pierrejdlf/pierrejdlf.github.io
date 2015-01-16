@@ -17,6 +17,14 @@ h1,h2,h3,h4,p {
   padding:0;
   margin:0;
 }
+ul,li {
+  margin: 0;
+  margin-left: 8px;
+  padding: 0;
+}
+ul {
+  margin-bottom: 15px;
+}
 blockquote {
   margin: 5px;
   padding-left: 10px;
@@ -196,19 +204,30 @@ blockquote {
     display: block;
     position: absolute;
     left: @textpad;
-    right: -2*@textpad;
+    right: -@textpad;
     bottom: @textpad;
     top: @textpad;
     padding-right: 2*@textpad;
 
     text-align: left;
     font-size: 0.8rem;
+    line-height: 140%;
     background: black;
     color: white;
     overflow-x: hidden;
     overflow-y: auto;
+    h1,h2,h3,h4 {
+      font-weight: normal;
+    }
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 6px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
     a {
-      color: #A8A8A8;
+      color: #B3C5FC;
       text-decoration: none;
       &:hover {
         text-decoration: underline;

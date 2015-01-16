@@ -36,8 +36,7 @@
   </div><!-- ———————————————— THE CHILDREN --><div
     ng-repeat="b in a.children"
     ng-if="now.a==$parent.$index"
-    id="b_{{$index}}"
-    class="card b {{b.type}}"
+    class="card b {{b.type}} a_{{$parent.$parent.$index}} b_{{$index}}"
     ng-class="{
       last:$last,
       opened:now.b==$index,
@@ -45,7 +44,7 @@
       fadesoft:now.b!=$index && now.b!=-1,
       fadeaway:now.a!=$parent.$parent.$index,
       fadedead:now.a!=$parent.$parent.$index && now.b!=-1}"
-    ng-click="b.type!='redirect' && clickB(a,$parent.$parent.$index,b,$index);">
+    ng-click="b.type!='redirect' && b.type!='text' && clickB(a,$parent.$parent.$index,b,$index);">
     <!-- TEXT CONTENT -->
     <markdown
       ng-if="b.type=='text'"

@@ -21,7 +21,7 @@ angular.module('jdlf.controllers', ['underscore','config'])
     "$timeout",
     "anchorSmoothScroll",
     "settings",
-    function ($scope, $routeParams, $http, _, $location, $anchorScroll, $timeout, anchorSmoothScroll, settings) {
+    function ($scope, $routeParams, $http, _, $window, $anchorScroll, $timeout, anchorSmoothScroll, settings) {
   
     // $scope.$on('$locationChangeStart', function(ev) {
     //   ev.preventDefault();
@@ -36,7 +36,10 @@ angular.module('jdlf.controllers', ['underscore','config'])
     var localurl = 'data/contents.json';
     var IFRAMEGITHUBPROJECTS = "tellme|treeword|static|gifcomics|streetmap|zoomap|bangalore";
 
-
+    var tailor = {
+      resizable: true,
+      //debounce: true,
+    };
 
     /////////////////////////////////// FOLLOWING STATE
     $scope.now = {
@@ -47,6 +50,11 @@ angular.module('jdlf.controllers', ['underscore','config'])
       if($scope.now.a != index) {
         $scope.now.a = index;
         $scope.now.b = -1;
+        // texttailor children text
+        $timeout(function() {
+          $(".card.b.a_"+index+" markdown").textTailor(tailor);
+        },100);
+
       } else {
         $scope.now.a = -1;
         $scope.now.b = -1;
