@@ -474,7 +474,7 @@
             "children": [
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/movimach.gif",
+                    "img": "http://jdlf.info/p/media/cligne/movimach.gif",
                     "type": "img"
                 },
                 {
@@ -484,19 +484,19 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/glacematinterrible.gif",
+                    "img": "http://jdlf.info/p/media/cligne/glacematinterrible.gif",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/map/lavabo.gif",
+                    "img": "http://jdlf.info/p/media/cligne/lavabo.gif",
                     "type": "img"
                 }
             ],
             "title": "seven eleven",
             "type": "img",
             "subtitle": " nuit silencieuse",
-            "img": "http://jdlf.info/p/media/seven_thumb.jpg"
+            "img": "http://jdlf.info/p/media/cligne/seven_thumb.jpg"
         },
         {
             "content": "",
@@ -542,19 +542,14 @@
                     "type": "img"
                 }
             ],
-            "title": "dirige moi",
+            "title": "œil minimal",
             "type": "img",
-            "subtitle": " au fond du jardin, la pomme, chaleur auditive.",
+            "subtitle": " derrière la couleur, la lumière, et puis au fond, la peau",
             "img": "http://jdlf.info/p/media/headache_thumb.jpg"
         },
         {
-            "content": "##j'aime la publicité",
+            "content": "",
             "children": [
-                {
-                    "content": "",
-                    "text": "merci aux [credits](http://www.flickr.com/photos/gpmarsh/)",
-                    "type": "text"
-                },
                 {
                     "content": "",
                     "iframe": "http://pierrejdlf.github.io/static/saopaulo",
@@ -562,7 +557,9 @@
                 }
             ],
             "title": "sao ~ paulo",
-            "type": "title"
+            "type": "img",
+            "subtitle": "j'aime la publicité",
+            "img": "http://jdlf.info/p/media/saopaulo_thumb.jpg"
         },
         {
             "content": "",
@@ -574,7 +571,7 @@
                 },
                 {
                     "content": "",
-                    "text": "dimensions 27” x 345” x 3”\naudio + video + taste\n3min.\n\nglass shelf, with a half frosted window glass to receive the fluids\nsurrounded with concrete red plastic made of human hair\ninto a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand\n\nFirst image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone.",
+                    "text": "- dimensions 27” x 345” x 3”\n- audio + video + taste\n- 3min\n\nglass shelf, with a half frosted window glass to receive the fluids\n\nsurrounded with concrete red plastic made of human hair\n\ninto a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand\n\nFirst image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone.",
                     "type": "text"
                 },
                 {
@@ -589,7 +586,7 @@
             "img": "http://jdlf.info/p/media/madeof.jpg"
         },
         {
-            "content": "##je t'écris pour te dire",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -598,34 +595,12 @@
                 }
             ],
             "title": "lettre",
-            "type": "title"
+            "type": "img",
+            "subtitle": "je t'écris pour te dire",
+            "img": "http://jdlf.info/p/media/lettre_thumb.jpg"
         },
         {
-            "content": "## courrir entre les grilles",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/hurry",
-                    "type": "iframe"
-                }
-            ],
-            "title": " in a hurry",
-            "type": "title"
-        },
-        {
-            "content": "##une journée, des fenêtres",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/glisse",
-                    "type": "iframe"
-                }
-            ],
-            "title": " glisse",
-            "type": "title"
-        },
-        {
-            "content": "##des possibles cheveux blonds",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -634,10 +609,12 @@
                 }
             ],
             "title": "hasards répétés",
-            "type": "title"
+            "type": "img",
+            "subtitle": "des possibles cheveux blonds",
+            "img": "http://jdlf.info/p/media/hasard_thumb.jpg"
         },
         {
-            "content": "##terrible crise à tranchants",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -646,10 +623,12 @@
                 }
             ],
             "title": "europe austérité",
-            "type": "title"
+            "type": "img",
+            "subtitle": "terrible crise à tranchants",
+            "img": "http://jdlf.info/p/media/crise_thumb.jpg"
         },
         {
-            "content": "##on ne se parle plus",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -658,10 +637,12 @@
                 }
             ],
             "title": "no conversation",
-            "type": "title"
+            "type": "img",
+            "subtitle": "on ne se parle plus",
+            "img": "http://jdlf.info/p/media/conversation_thumb"
         },
         {
-            "content": "---",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -675,7 +656,7 @@
             "img": "http://jdlf.info/p/media/napoli_thumb.jpg"
         },
         {
-            "content": "---",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -739,7 +720,7 @@
             "img": "http://jdlf.info/p/media/collages_thumb.jpg"
         },
         {
-            "content": "---",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -788,11 +769,6 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/china/h.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
                     "img": "http://jdlf.info/p/media/china/mal.gif",
                     "type": "img"
                 },
@@ -818,7 +794,7 @@
             "img": "http://jdlf.info/p/media/china_thumb.jpg"
         },
         {
-            "content": "---",
+            "content": "",
             "children": [
                 {
                     "content": "",
@@ -916,7 +892,7 @@
             ],
             "title": "brazzaville",
             "type": "img",
-            "subtitle": "on découpe le territoire avec les yeux",
+            "subtitle": "découpe du territoire avec le sable",
             "img": "http://jdlf.info/p/media/brazza_thumb.jpg"
         },
         {
@@ -924,46 +900,101 @@
             "children": [
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/symA.jpg",
+                    "img": "http://jdlf.info/p/media/bd/symA.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/symB.jpg",
+                    "img": "http://jdlf.info/p/media/bd/symB.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/initiatiqueX.jpg",
+                    "img": "http://jdlf.info/p/media/bd/initiatiqueX.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/initiatiqueA.jpg",
+                    "img": "http://jdlf.info/p/media/bd/initiatiqueA.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/initiatiqueB.jpg",
+                    "img": "http://jdlf.info/p/media/bd/initiatiqueB.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/georges.jpg",
+                    "img": "http://jdlf.info/p/media/bd/georges.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/3bandescartovie.v2.jpg",
                     "type": "img"
                 }
             ],
             "title": "symétrie narrative",
             "type": "img",
             "subtitle": " de droite à gauche",
-            "img": "http://jdlf.info/p/media/bd_thumb.jpg"
+            "img": "http://jdlf.info/p/media/bd/bd_thumb.jpg"
         },
         {
             "content": "---",
             "children": [
                 {
                     "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC02522.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC02028.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC03214.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC04037.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC05293.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
                     "img": "http://jdlf.info/p/media/inutiles/bricole_a_06-650x487.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/P2080323.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/P2080310.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/P2080296.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/P2080294.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC04040.jpg",
                     "type": "img"
                 },
                 {
@@ -1012,10 +1043,10 @@
                     "type": "img"
                 }
             ],
-            "title": "inutiles",
+            "title": "des objets inutiles",
             "type": "img",
             "subtitle": " récupérés",
-            "img": "http://jdlf.info/p/media/bricole_thumb.jpg"
+            "img": "http://jdlf.info/p/media/inutiles/inutiles_thumb.jpg"
         },
         {
             "content": "---",
@@ -1027,78 +1058,31 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/map/dessein_01-650x494.jpg",
+                    "img": "http://jdlf.info/p/media/map/dessein.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/map/aquarelleW-650x535",
+                    "img": "http://jdlf.info/p/media/map/aquarelleW.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/map/collistes_27.jpg",
                     "type": "img"
                 }
             ],
-            "title": " carte en couleur",
+            "title": " cartographie visible",
             "type": "img",
-            "subtitle": "à force d'y voir on n'y voit plus, passe ton chemin",
-            "img": "http://jdlf.info/p/media/map_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "the BEQuali project is conducted within the DIME-SHS equipment in Sciences-Po, allowing qualitative online surveys to be filed and consulted.\n\nthe website includes innovative tools for data visualization and manipulation.\n\nfor more informations, please refer to the following on-going project links :\n\n- [médialab](http://medialab.sciences-po.fr/) at Sciences-Po Paris\n- [Sciences-Po DIME-SHS](http://www.sciencespo.fr/dime-shs/content/dime-shs-quali)",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/content_overview.png",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/tools_overview-01.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Attributes.png",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Cloud_SolrSpeakerTagCloud.png",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Graph_SpeakersAttributes.png",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/viz_ex_Graph_SpeakersWords.png",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/viz_ex_TexteStreamTimeline.png",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/medialab/viz_ex_view_dBrowse.png",
-                    "type": "img"
-                }
-            ],
-            "title": "'11 medialab",
-            "type": "title"
+            "subtitle": "ne demande pas ton chemin",
+            "img": "http://jdlf.info/p/media/map/map_thumb.jpg"
         },
         {
             "content": "## réseau de création connective",
             "children": [
                 {
                     "content": "",
-                    "text": "The Art Collider (In/Out) est un réseau p2p permettant à des artistes d'échanger des flux multimédia en temps réel.\n\nChaque participant utilise les productions (images, sons, textes) d'autres cellules du réseau. Le résultat de chaque intervention artistique est rendu disponible aux autres.\n\nLes projets artistiques sont visibles au public sur internet ou dans des lieux d'exposition.\n\n\n\nCollectionnisme (M.Okura &amp; D.Cunin)\nf8 (V.Goudard)\ninterface d'observation des projets et des flux\n\n[http://theartcollider.org/](http://theartcollider.org/)\n\nLe Projet In/Out est porté par le [CITU](http://www.citu.info/) (Création Interactive Transdisciplinaire Universitaire), Fédération de Laboratoires des Universités Paris I ([LAM](http://creca.univ-paris1.fr/)) et Paris VIII ([Paragraphe](http://paragraphe.univ-paris8.fr/fr/), [CIREN](http://www.ciren.org/ciren/leciren/index.html))\n\nIn/Out (édition 2008) : [Wiki](http://www.citu.fr/wiki)\n\nLieux partenaires et événements « In/Out » au cours de l'année 2008 :\n\n- [Maison Populaire](http://www.maisonpop.net/index.php), à Montreuil (installations, conférence)\n- [Studio Petaherz](http://www.petahertz.eu/), à Montreuil (installations)\n- [La Bellevilloise](http://www.labellevilloise.com/), à Paris (installations, rencontres et concerts)\n- [Ars Longa](http://www.arslonga.fr/), à Paris (exposition et performances)\n- [La Cantine](http://lacantine.org/), à Paris (conférence « [Dorkbot](http://dorkbot.org/dorkbotparis) » )\n- [Le Cube](http://www.lesiteducube.com/site/index.php?section=agenda), à Issy-les-Moulineaux (installation et conférence)\n- [École Nationale Supérieure d'Art](http://www.ensa-nancy.fr/), à Nancy ([Workshop](http://in-out.citu.fr/wiki/index.php?title=Compte_Rendu_du_Workshop_de_Nancy \"Compte_Rendu_du_Workshop_de_Nancy\") d'une semaine avec 10 artistes)\n- [L'Autre Canal](http://www.lautrecanal.fr/), à Nancy ( « Pecha Kucha Night » )\n- [École Européenne Supérieure de l'Image](http://www.eesi.eu/site/spip.php?rubrique124), à Poitier (conférence)",
+                    "text": "[The Art Collider](http://theartcollider.org/) (In/Out) est un réseau p2p permettant à des artistes d'échanger des flux multimédia en temps réel.\n\nChaque participant utilise les productions (images, sons, textes) d'autres cellules du réseau. Le résultat de chaque intervention artistique est rendu disponible aux autres.\n\nLes projets artistiques sont visibles au public sur internet ou dans des lieux d'exposition.\n\nLe projet est porté par le [CITU](http://www.citu.info/) (Création Interactive Transdisciplinaire Universitaire), fédération des laboratoires des universités Paris I ([LAM](http://creca.univ-paris1.fr/)) et Paris VIII ([Paragraphe](http://paragraphe.univ-paris8.fr/fr/), [CIREN](http://www.ciren.org/ciren/leciren/index.html)).\n\nLieux partenaires au cours de l'année 2008:\n\n- [Maison Populaire](http://www.maisonpop.net/index.php), Montreuil\n- [Studio Petaherz](http://www.petahertz.eu/), Montreuil\n- [La Bellevilloise](http://www.labellevilloise.com/), Paris\n- [Ars Longa](http://www.arslonga.fr/), Paris\n- [La Cantine](http://lacantine.org/), Paris\n- [Dorkbot](http://dorkbot.org/dorkbotparis), Paris\n- [Le Cube](http://www.lesiteducube.com/site/index.php?section=agenda), Issy-les-Moulineaux\n- [École Nationale Supérieure d'Art](http://www.ensa-nancy.fr/), Nancy\n- [L'Autre Canal](http://www.lautrecanal.fr/), Nancy\n- [École Européenne Supérieure de l'Image](http://www.eesi.eu/site/spip.php?rubrique124), Poitier\n\ncrédits photos:\n- Collectionnisme (M.Okura, D.Cunin)\n- f8 (V.Goudard)",
                     "type": "text"
                 },
                 {
@@ -1127,7 +1111,7 @@
                     "type": "img"
                 }
             ],
-            "title": "'08 in/out",
+            "title": "in/out, the art collider",
             "type": "title"
         },
         {
@@ -1135,7 +1119,7 @@
             "children": [
                 {
                     "content": "",
-                    "text": "please go to [iannix.org](http://iannix.org) to have fun.",
+                    "text": "[IanniX](http://iannix.org) est un séquenceur graphique open-source, inspiré des travaux de Iannis Xenakis, destiné à la création numérique. IanniX synchronise via Open Sound Control (OSC) des événements et courbes vers votre environnement temps-réel.",
                     "type": "text"
                 },
                 {
@@ -1149,10 +1133,10 @@
                     "type": "img"
                 }
             ],
-            "title": "'06 iannix",
+            "title": "iannix",
             "type": "img",
-            "subtitle": " séquenceur audio vidéo multitemporel",
-            "img": "http://jdlf.info/p/media/iannix_old.jpg"
+            "subtitle": " séquenceur graphique multitemporel",
+            "img": "http://jdlf.info/p/media/iannix_thumb.jpg"
         }
     ]
 }

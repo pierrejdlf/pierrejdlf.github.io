@@ -654,6 +654,13 @@ blockquote {
   overflow-x: hidden;
   overflow-y: auto;
 }
+.card .text a {
+  color: #A8A8A8;
+  text-decoration: none;
+}
+.card .text a:hover {
+  text-decoration: underline;
+}
 .card .img {
   width: 100%;
   height: 100%;
