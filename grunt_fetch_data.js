@@ -6,7 +6,7 @@ console.log("Welcome.");
 
 
 
-var dataurl = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
+var dataurl = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/4xcx2x.json";
 
 
 

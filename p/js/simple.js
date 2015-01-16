@@ -639,9 +639,9 @@ angular.module('jdlf.controllers', ['underscore','config'])
 
     console.log("SETTINGS:",settings);
     var LOCAL = settings.fetchlocal;
-    var proxyurl = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/farfouille.json";
+    var proxyurl = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/4xcx2x.json";
     var localurl = 'data/contents.json';
-
+    var IFRAMEGITHUBPROJECTS = "tellme|treeword|static|gifcomics|streetmap|zoomap|bangalore";
 
 
 
@@ -712,7 +712,7 @@ angular.module('jdlf.controllers', ['underscore','config'])
             extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
             extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
             extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
-            extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/(tellme|treeword|static|gifcomics|streetmap)[^\\n]*)\\n*');
+            extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/('+IFRAMEGITHUBPROJECTS+')[^\\n]*)\\n*');
             extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
             extractRegexp(d,'text','^---\\n((.|\\n)+)');
           }
