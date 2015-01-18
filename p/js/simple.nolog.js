@@ -507,7 +507,8 @@ angular.module('angular-texttailor', [])
         texttailor: '@',
         ttResizable: '=',
         ttEllipsis: '=',
-        ttCenter: '='
+        ttCenter: '=',
+        ttPrewraptext: '=',
       },
       link: function(scope, element, attr) {
         var container = element,
@@ -515,6 +516,7 @@ angular.module('angular-texttailor', [])
                 resizable: attr.ttResizable || true,
                 ellipsis: attr.ttEllipsis || false,
                 center: attr.ttCenter || false,
+                preWrapText: attr.ttPrewraptext || false,
             };
         $timeout(function() {
           0;

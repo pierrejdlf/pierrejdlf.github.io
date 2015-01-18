@@ -476,7 +476,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #ebe6d5;
+  background: #e4e0d3;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -510,6 +510,14 @@ blockquote {
   text-align: center;
   margin: 17px;
 }
+.nohighlight {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .hidden {
   display: none;
 }
@@ -524,7 +532,9 @@ blockquote {
 }
 .nopointer {
   pointer-events: none;
+  cursor: initial;
 }
+/* HEADER */
 .me {
   vertical-align: top;
   padding-top: 35px;
@@ -546,13 +556,14 @@ blockquote {
 .me img:hover {
   opacity: 0.8;
 }
+/* ALL CARDS */
 .card {
   box-sizing: border-box;
   display: inline-block;
   position: relative;
   vertical-align: top;
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   padding: 0;
   font-size: 1.3em;
   cursor: pointer;
@@ -576,19 +587,14 @@ blockquote {
 .card.a {
   -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.62);
   box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.62);
-  border: 8px solid #ebe6d5;
+  border: 8px solid #e4e0d3;
 }
 .card.a.opened {
   border: 8px solid #ca9f4d;
 }
 .card.cartel {
-  background: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.card.cartel .text {
-  color: black;
-  background: none;
+  pointer-events: none;
+  cursor: initial;
 }
 .card .cover {
   z-index: 99;
@@ -603,31 +609,6 @@ blockquote {
   -ms-transition: transform 0.2s;
   transition: transform 0.2s;
 }
-.card:hover .cover {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
-}
-.card .backed {
-  background-color: rgba(0, 0, 0, 0.47);
-}
-.card .closer {
-  z-index: 170;
-  pointer-events: none;
-  opacity: 0;
-}
-.card.opened .closer {
-  opacity: 1;
-}
-.card .opener {
-  z-index: 170;
-  opacity: 0;
-}
-.card.closed:hover .card.b:hover .opener {
-  opacity: 1;
-}
 .card .meta {
   z-index: 130;
   box-sizing: border-box;
@@ -636,6 +617,47 @@ blockquote {
   text-align: left;
   background: black;
   opacity: 0;
+}
+.card:hover .cover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.card .backedop {
+  background-color: rgba(0, 0, 0, 0.47);
+}
+.card .backed {
+  background-color: #e4e0d3;
+}
+.card .coin {
+  position: absolute;
+}
+.card .centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.card .closer {
+  z-index: 170;
+  pointer-events: none;
+  opacity: 0;
+}
+.card .opener {
+  z-index: 170;
+  opacity: 0;
+}
+.card.opened .closer {
+  opacity: 1;
+}
+.card.closed:hover .opener {
+  opacity: 1;
 }
 .card:hover .meta,
 .card.opened .meta {
@@ -655,6 +677,10 @@ blockquote {
   color: #DADADA;
   padding: 8px 12px;
   font-size: 0.7rem;
+}
+.card.text {
+  pointer-events: none;
+  cursor: initial;
 }
 .card .text {
   box-sizing: border-box;
@@ -710,16 +736,6 @@ blockquote {
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-.card img.centered {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
 .card .redirect {
   display: block;
   width: 100%;
@@ -747,7 +763,7 @@ blockquote {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 8px solid #ebe6d5;
+  border: 8px solid #e4e0d3;
 }
 .card.b.opened .img .cover {
   -webkit-transform: scale(1);
@@ -768,7 +784,7 @@ blockquote {
 }
 .card.ng-enter-active,
 .card.ng-leave {
-  width: 200px;
+  width: 250px;
 }
 .card.ng-leave-active {
   overflow: hidden;

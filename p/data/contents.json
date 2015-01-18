@@ -3,7 +3,7 @@
     "children": [
         {
             "content": "",
-            "text": "interactions cartographiables",
+            "text": "interactions\ncarto\ngraphiables",
             "type": "text"
         },
         {
@@ -230,7 +230,16 @@
                     "content": "",
                     "vimeo": "http://vimeo.com/44886450",
                     "type": "vimeo"
-                },
+                }
+            ],
+            "title": "montreal",
+            "type": "img",
+            "subtitle": "respirer",
+            "img": "http://jdlf.info/p/media/montreal_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
                 {
                     "content": "",
                     "vimeo": "http://vimeo.com/50007062",
@@ -260,7 +269,16 @@
                     "content": "",
                     "iframe": "http://pierrejdlf.github.io/gifcomics/?p=nyc2",
                     "type": "iframe"
-                },
+                }
+            ],
+            "title": " new york",
+            "type": "img",
+            "subtitle": "marcher, filmer",
+            "img": "http://jdlf.info/p/media/nyc_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
                 {
                     "content": "",
                     "text": "Au pays du café",
@@ -275,7 +293,16 @@
                     "content": "",
                     "iframe": "http://pierrejdlf.github.io/gifcomics/?p=colombia",
                     "type": "iframe"
-                },
+                }
+            ],
+            "title": "colombia",
+            "type": "img",
+            "subtitle": "parler",
+            "img": "http://jdlf.info/p/media/colombia_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
                 {
                     "content": "",
                     "text": "Village merveille de l'industrie touristique",
@@ -287,14 +314,19 @@
                     "type": "vimeo"
                 }
             ],
-            "title": " au nord au sud",
+            "title": "mollendo",
             "type": "img",
-            "subtitle": "écouter, crier, marcher, filmer",
-            "img": "http://jdlf.info/p/media/colombia_thumb.jpg"
+            "subtitle": "sable",
+            "img": "http://jdlf.info/p/media/mollendo_thumb.jpg"
         },
         {
             "content": "",
             "children": [
+                {
+                    "content": "",
+                    "text": "Tous les processus ont été conçus de toutes pièces",
+                    "type": "text"
+                },
                 {
                     "content": "",
                     "img": "http://jdlf.info/p/media/china/a.jpg",
@@ -367,111 +399,13 @@
             "img": "http://jdlf.info/p/media/china_thumb.jpg"
         },
         {
-            "content": "",
-            "text": "lettres",
-            "type": "text"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/lettre",
-                    "type": "iframe"
-                }
-            ],
-            "title": "lettre",
-            "type": "img",
-            "subtitle": "je t'écris pour te dire",
-            "img": "http://jdlf.info/p/media/lettre_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/touche",
-                    "type": "iframe"
-                }
-            ],
-            "title": "ne me touche",
-            "type": "img",
-            "subtitle": "le transport public amoureux",
-            "img": "http://jdlf.info/p/media/touche_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/abidjan",
-                    "type": "iframe"
-                }
-            ],
-            "title": "abidjan",
-            "type": "img",
-            "subtitle": " dialogue de sourd",
-            "img": "http://jdlf.info/p/media/abidjan_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/saopaulo",
-                    "type": "iframe"
-                }
-            ],
-            "title": "sao ~ paulo",
-            "type": "img",
-            "subtitle": "j'aime la publicité",
-            "img": "http://jdlf.info/p/media/saopaulo_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/hasard",
-                    "type": "iframe"
-                }
-            ],
-            "title": "hasards répétés",
-            "type": "img",
-            "subtitle": "des possibles cheveux blonds",
-            "img": "http://jdlf.info/p/media/hasard_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/crise",
-                    "type": "iframe"
-                }
-            ],
-            "title": "europe austérité",
-            "type": "img",
-            "subtitle": "terrible crise à tranchants",
-            "img": "http://jdlf.info/p/media/crise_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/conversation",
-                    "type": "iframe"
-                }
-            ],
-            "title": "no conversation",
-            "type": "img",
-            "subtitle": "on ne se parle plus",
-            "img": "http://jdlf.info/p/media/conversation_thumb.jpg"
-        },
-        {
             "content": "---",
             "children": [
+                {
+                    "content": "",
+                    "text": "Meka\nokangama",
+                    "type": "text"
+                },
                 {
                     "content": "",
                     "img": "http://jdlf.info/p/media/brazza/AAGoutRecadre.jpg",
@@ -545,8 +479,205 @@
         },
         {
             "content": "",
-            "text": "bricolages",
+            "text": "lettres images",
             "type": "text"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "je te recherche",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/lettre",
+                    "type": "iframe"
+                }
+            ],
+            "title": "lettre",
+            "type": "img",
+            "subtitle": "je t'écris pour te dire",
+            "img": "http://jdlf.info/p/media/lettre_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Votre titre de transport",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/touche",
+                    "type": "iframe"
+                }
+            ],
+            "title": "ne me touche",
+            "type": "img",
+            "subtitle": "le transport public amoureux",
+            "img": "http://jdlf.info/p/media/touche_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "À l'époque",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/abidjan",
+                    "type": "iframe"
+                }
+            ],
+            "title": "abidjan",
+            "type": "img",
+            "subtitle": " dialogue de sourd",
+            "img": "http://jdlf.info/p/media/abidjan_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/saopaulo",
+                    "type": "iframe"
+                }
+            ],
+            "title": "sao ~ paulo",
+            "type": "img",
+            "subtitle": "j'aime la publicité",
+            "img": "http://jdlf.info/p/media/saopaulo_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Mon oncle d'amérique",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/hasard",
+                    "type": "iframe"
+                }
+            ],
+            "title": "hasards répétés",
+            "type": "img",
+            "subtitle": "des possibles cheveux blonds",
+            "img": "http://jdlf.info/p/media/hasard_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Cours des bourses",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/crise",
+                    "type": "iframe"
+                }
+            ],
+            "title": "europe austérité",
+            "type": "img",
+            "subtitle": "terrible crise à tranchants",
+            "img": "http://jdlf.info/p/media/crise_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Écart verbal",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/conversation",
+                    "type": "iframe"
+                }
+            ],
+            "title": "no conversation",
+            "type": "img",
+            "subtitle": "on ne se parle plus",
+            "img": "http://jdlf.info/p/media/conversation_thumb.jpg"
+        },
+        {
+            "content": "",
+            "text": "brico lages",
+            "type": "text"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Machine à",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/739.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200720.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/744.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "endormir",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/747.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200715.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200718.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "les neurones",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200732.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200750.JPG",
+                    "type": "img"
+                }
+            ],
+            "title": "inside machine",
+            "type": "img",
+            "subtitle": "production musicale et lumineuse",
+            "img": "http://jdlf.info/p/media/machine/thumb.jpg"
         },
         {
             "content": "",
@@ -603,16 +734,6 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/inutiles/DSC03214.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/inutiles/DSC04037.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
                     "img": "http://jdlf.info/p/media/inutiles/DSC05293.jpg",
                     "type": "img"
                 },
@@ -628,22 +749,12 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/inutiles/P2080310.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
                     "img": "http://jdlf.info/p/media/inutiles/P2080296.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
                     "img": "http://jdlf.info/p/media/inutiles/P2080294.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/inutiles/DSC04040.jpg",
                     "type": "img"
                 },
                 {
@@ -680,16 +791,6 @@
                     "content": "",
                     "img": "http://jdlf.info/p/media/inutiles/bricole_o_2-650x564.jpg",
                     "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/inutiles/colle_c_02-650x487.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/inutiles/colle_c_03-650x539.jpg",
-                    "type": "img"
                 }
             ],
             "title": "des objets inutiles",
@@ -702,23 +803,38 @@
             "children": [
                 {
                     "content": "",
+                    "text": "- dimensions 27” x 345” x 3”\n- audio + video + taste\n- 3min",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "glass shelf, with a half frosted window glass to receive the fluids",
+                    "type": "text"
+                },
+                {
+                    "content": "",
                     "img": "http://jdlf.info/p/media/penatizerA.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "text": "- dimensions 27” x 345” x 3”\n- audio + video + taste\n- 3min\n\nglass shelf, with a half frosted window glass to receive the fluids\n\nsurrounded with concrete red plastic made of human hair",
+                    "text": "surrounded with concrete red plastic made of human hair",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "text": "into a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand\n\nFirst image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone.",
+                    "text": "into a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand",
                     "type": "text"
                 },
                 {
                     "content": "",
                     "img": "http://jdlf.info/p/media/penatizerB.jpg",
                     "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "First image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone.",
+                    "type": "text"
                 }
             ],
             "title": "made of",
@@ -731,7 +847,12 @@
             "children": [
                 {
                     "content": "",
-                    "text": "##Recette\n- fil de cuivre\n- arduino\n- 12V\n- discussions\n- TVA",
+                    "text": "Im pression",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "- fil de cuivre\n- arduino\n- 12V\n- discussions\n- TVA",
                     "type": "text"
                 },
                 {
@@ -747,56 +868,7 @@
         },
         {
             "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/739.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200720.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/744.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/747.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200715.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200718.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200732.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200750.JPG",
-                    "type": "img"
-                }
-            ],
-            "title": "inside machine",
-            "type": "img",
-            "subtitle": "production musicale et lumineuse",
-            "img": "http://jdlf.info/p/media/machine/thumb.jpg"
-        },
-        {
-            "content": "",
-            "text": "collages",
+            "text": "col-lages",
             "type": "text"
         },
         {
@@ -847,34 +919,6 @@
             "type": "img",
             "subtitle": "20x30, papier brillant",
             "img": "http://jdlf.info/p/media/glace/thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/napoli.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "napoli",
-            "type": "img",
-            "subtitle": "j'y ai été avec toi",
-            "img": "http://jdlf.info/p/media/napoli_thumb.jpg"
-        },
-        {
-            "content": "---",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/asia.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "asia",
-            "type": "img",
-            "subtitle": "marcher, rouler",
-            "img": "http://jdlf.info/p/media/asia_thumb.jpg"
         },
         {
             "content": "",
@@ -939,6 +983,73 @@
             "type": "img",
             "subtitle": "on raconte n'importe quoi",
             "img": "http://jdlf.info/p/media/collages_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC04040.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/P2080310.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC04037.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/colle_c_03-650x539.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/DSC03214.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/inutiles/colle_c_02-650x487.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "avant",
+            "type": "img",
+            "subtitle": "on y allait au pif",
+            "img": "http://jdlf.info/p/media/inutiles/colle_c_03-650x539.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/napoli.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "napoli",
+            "type": "img",
+            "subtitle": "j'y ai été avec toi",
+            "img": "http://jdlf.info/p/media/napoli_thumb.jpg"
+        },
+        {
+            "content": "---",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/asia.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "asia",
+            "type": "img",
+            "subtitle": "marcher, rouler",
+            "img": "http://jdlf.info/p/media/asia_thumb.jpg"
         },
         {
             "content": "",
@@ -1029,7 +1140,7 @@
         },
         {
             "content": "",
-            "text": "clignotages",
+            "text": "clign otages",
             "type": "text"
         },
         {
@@ -1165,7 +1276,7 @@
         },
         {
             "content": "",
-            "text": "réalité",
+            "text": "réalité des flux",
             "type": "text"
         },
         {

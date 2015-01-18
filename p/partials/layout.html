@@ -16,7 +16,6 @@
   <!-- ———————————————— THE ARTICLE COVER -->
   <div class="hidden" ng-repeat-start="a in root.children"></div><div
     class="card a"
-    ng-if="a.title"
     ng-class="{ 
       opened:now.a==$index,
       closed:now.a!=$index,
@@ -24,14 +23,16 @@
       fadeaway:now.a!=$index && now.a!=-1,
       fadedead:now.a!=$index && now.b!=-1,
       cartel:!a.title}"
-    ng-click="clickA(a,$index);">
-    <img class="closer centered backed" src="images/ic_close.svg">
+    ng-click="a.title && clickA(a,$index);">
+    <img class="closer centered backedop" src="images/ic_close.svg">
     <img class="opener centered" src="images/ic_expand.svg">
     <div ng-if="a.title" class="title meta">{{a.title}}</div>
     <div ng-if="a.subtitle" class="subtitle meta">{{a.subtitle}}</div>
     <markdown
+      texttailor
+      tt-center="true"
       ng-if="a.text"
-      class="text"
+      class="text nohighlight"
       ng-model="a.text">
     </markdown>
     <div ng-class="{cover:a.img}" back-img="{{a.img}}"></div>
@@ -45,14 +46,15 @@
       closed:now.b!=$index,
       fadesoft:now.b!=$index && now.b!=-1,
       fadeaway:now.a!=$parent.$parent.$index,
-      fadedead:now.a!=$parent.$parent.$index && now.b!=-1}"
+      fadedead:now.a!=$parent.$parent.$index && now.b!=-1
+      }"
     ng-click="b.type!='redirect' && b.type!='text' && clickB(a,$parent.$parent.$index,b,$index);">
     <!-- TEXT CONTENT -->
     <markdown
       texttailor
       tt-center="true"
       ng-if="b.type=='text'"
-      class="text"
+      class="text nohighlight"
       ng-model="b.text">
     </markdown>
     <!-- IMAGE -->
@@ -65,6 +67,11 @@
         back-img="{{b.img}}">
       </div>
     </div>
+    <!-- IFRAME CLOSER -->
+    <img
+      ng-if="(b.type=='iframe'||b.type=='vimeo') && now.b==$index"
+      class="coin backed" src="images/ic_close.svg"
+      ng-click="now.b=-1; $event.stopPropagation();">
     <!-- IFRAME -->
     <img
       ng-if="b.type=='iframe' && now.b!=$index"
