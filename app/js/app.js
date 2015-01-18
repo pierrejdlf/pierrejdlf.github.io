@@ -10,6 +10,7 @@ angular.module('jdlf', [
   'jdlf.directives',
   'jdlf.filters',
   'jdlf.controllers',
+  'angular-texttailor',
   'config'
 ])
   

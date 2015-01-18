@@ -496,6 +496,39 @@ MarkdownModule.directive('markdown', function () {
 //----------------------------------------------------------------------------------------------------------------------
 ;
 
+
+'use strict'
+
+angular.module('angular-texttailor', [])
+  .directive('texttailor', function ($timeout) {
+    return {
+      restrict: 'A',
+      scope: {
+        texttailor: '@',
+        ttResizable: '=',
+        ttEllipsis: '=',
+        ttCenter: '='
+      },
+      link: function(scope, element, attr) {
+        var container = element,
+            options = {
+                resizable: attr.ttResizable || true,
+                ellipsis: attr.ttEllipsis || false,
+                center: attr.ttCenter || false,
+            };
+        $timeout(function() {
+          console.log(options);
+            $(container).textTailor(options);
+        });
+
+        // scope.$watch('texttailor', function () {
+        //   $(container).texttailor(options);
+        // });
+      }
+    };
+  });
+;
+
 'use strict';
 
 /* App */
@@ -508,6 +541,7 @@ angular.module('jdlf', [
   'jdlf.directives',
   'jdlf.filters',
   'jdlf.controllers',
+  'angular-texttailor',
   'config'
 ])
   
@@ -668,11 +702,6 @@ angular.module('jdlf.controllers', ['underscore','config'])
       if($scope.now.a != index) {
         $scope.now.a = index;
         $scope.now.b = -1;
-        // texttailor children text
-        $timeout(function() {
-          $(".card.b.a_"+index+" markdown").textTailor(tailor);
-        },100);
-
       } else {
         $scope.now.a = -1;
         $scope.now.b = -1;

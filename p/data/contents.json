@@ -3,160 +3,186 @@
     "children": [
         {
             "content": "",
+            "text": "interactions cartographiables",
+            "type": "text"
+        },
+        {
+            "content": "",
             "children": [
                 {
                     "content": "",
-                    "text": "##Recette\n- fil de cuivre\n- arduino\n- 12V\n- discussions\n- TVA",
+                    "text": "Espace ouvert d'échanges\net agenda culturel libre cartographié\n",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "redirect": "https://github.com/pierrejdlf/thermalprinter",
+                    "text": "Un robot twitter répondra à votre appel",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "redirect": "http://www.parismappartient.fr",
                     "type": "redirect"
                 }
             ],
-            "title": "tête thermique",
+            "title": "paris m'appartient",
             "type": "img",
-            "subtitle": " imprimer ses propres factures",
-            "img": "http://jdlf.info/p/media/thermal_thumb.jpg"
+            "subtitle": "réseau ouvert de proximité",
+            "img": "http://jdlf.info/p/media/parismap_thumb.jpg"
         },
         {
             "content": "",
             "children": [
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/machine/739.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200720.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/744.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/747.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200715.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200718.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200732.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/machine/P1200750.JPG",
-                    "type": "img"
-                }
-            ],
-            "title": "inside machine",
-            "type": "img",
-            "subtitle": "production musicale et lumineuse",
-            "img": "http://jdlf.info/p/media/machine/thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "voici que tout d'un coup, la grille se ferme sur mes doigts",
+                    "text": "Carte interactive des messages amoureux parisiens",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/sacage/P1200687.JPG",
-                    "type": "img"
+                    "text": "Pour voir où on s'aime",
+                    "type": "text"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/sacage/P1200691.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/sacage/P1200699.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/sacage/P1200705.JPG",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "children": [],
-                    "img": "http://jdlf.info/p/media/sacage/P1200713.JPG",
-                    "type": "img"
+                    "redirect": "http://pierrejdlf.github.io/cdlm",
+                    "type": "redirect"
                 }
             ],
-            "title": "un sacage",
+            "title": "dis-moi où tu me plaîs",
             "type": "img",
-            "subtitle": "courant continu",
-            "img": "http://jdlf.info/p/media/sacage/thumb.jpg"
+            "subtitle": "amours du métro parisien",
+            "img": "http://jdlf.info/p/media/cdlm_thumb.jpg"
         },
         {
-            "content": "---\n",
+            "content": "",
             "children": [
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/glace/a.jpg",
-                    "type": "img"
+                    "text": "Carte pour lire les histoires de quartier",
+                    "type": "text"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/glace/b.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/glace/c.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/glace/d.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/glace/e.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/glace/f.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/glace/g.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/glace/h.jpg",
-                    "type": "img"
+                    "redirect": "http://pierrejdlf.github.io/zoomap",
+                    "type": "redirect"
                 }
             ],
-            "title": "papier glaçé",
+            "title": " belle-de-mai",
             "type": "img",
-            "subtitle": "20x30, papier brillant",
-            "img": "http://jdlf.info/p/media/glace/thumb.jpg"
+            "subtitle": " que dis-tu au creux des rues ?",
+            "img": "http://jdlf.info/p/media/belledemai_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Observation d'un quartier (appuyer sur la touche espace)",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/streetmap/map_gridview.html",
+                    "type": "iframe"
+                },
+                {
+                    "content": "",
+                    "text": "Carte déroutée",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/streetmap/map_messed.html",
+                    "type": "iframe"
+                },
+                {
+                    "content": "",
+                    "text": "Mille-carte",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/streetmap/map_pancake.html",
+                    "type": "iframe"
+                }
+            ],
+            "title": "look around",
+            "type": "img",
+            "subtitle": " échantillon gratuit d'oiseaux",
+            "img": "http://jdlf.info/p/media/streetmap_thumb.jpg"
+        },
+        {
+            "content": "",
+            "text": "lectures au clic",
+            "type": "text"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Histoire dont vous êtes le héros",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/tellme",
+                    "type": "iframe"
+                }
+            ],
+            "title": "tell me",
+            "type": "img",
+            "subtitle": "on avance et on change le cours des mots",
+            "img": "http://jdlf.info/p/media/tellme_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "Creuser les usages",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/treeword/?p=0",
+                    "type": "iframe"
+                },
+                {
+                    "content": "",
+                    "text": "Avec css et images",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/treeword/?p=11",
+                    "type": "iframe"
+                }
+            ],
+            "title": "puits de mots",
+            "type": "img",
+            "subtitle": " lecture en profondeur",
+            "img": "http://jdlf.info/p/media/treeword_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "de portes en portes on laisse des traces",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "redirect": "http://pierrejdlf.github.io/bangalore",
+                    "type": "redirect"
+                }
+            ],
+            "title": "bangalore",
+            "type": "img",
+            "subtitle": " labyrinthe interactif cartographié",
+            "img": "http://jdlf.info/p/media/bangalore_thumb.jpg"
         },
         {
             "content": "",
@@ -179,182 +205,41 @@
         },
         {
             "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "Clique sur Paris pour voir qui t'aime.",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "redirect": "http://pierrejdlf.github.io/cdlm",
-                    "type": "redirect"
-                }
-            ],
-            "title": "... où tu me plaîs",
-            "type": "img",
-            "subtitle": "carte interactive des amours en métro parisien",
-            "img": "http://jdlf.info/p/media/cdlm_thumb.jpg"
+            "text": "carnets d'avions",
+            "type": "text"
         },
         {
             "content": "",
             "children": [
                 {
                     "content": "",
-                    "text": "ccc copie-copains-club.net\nccc Google Earth Movies, par EBMM\nccc Google Earth, par Google\nccc C’était un Rendez-Vous, par Claude Lelouch",
+                    "text": "Une lettre de rappel",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "vimeo": "http://vimeo.com/65909214",
+                    "iframe": "http://pierrejdlf.github.io/static/montreal",
+                    "type": "iframe"
+                },
+                {
+                    "content": "",
+                    "text": "Avec quelques images de la réalité",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "vimeo": "http://vimeo.com/44886450",
                     "type": "vimeo"
                 },
-                {
-                    "content": "",
-                    "text": "##22 janvier 2025\nLa GSF (Google Science Foundation) rend public l’affaire “Disk-Gate”.\nAlors qu’on pensait les ressources de stockage quasi infinies, on apprend qu’il ne reste plus que 42 To d’espace disque disponible sur la planète.\nSuite au G4 de juillet, chaque pays reconnu se voit attribué un part liée à son PIB.\nMalgré la seconde crise européenne de 2022, la France parvient à obtenir 427,3 Mo d’espace libre dans le nuage.",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "text": "##17 octobre 2025\nAprès 2 mois de discussions ouvertes à l’Assemblée Populaire, il est décidé d’archiver l’échantillon le plus représentatif du pays.\nLa capitale Paris sera mise à l’honneur, telle qu’elle a été filmée un matin d’août 1976 par Claude Lelouch.\nLe réalisateur utilise alors les relicats de pellicule de son film “Si c’était à refaire” pour parcourir la ville à toute vitesse au volant d’une Mercedes.\nLes images originales (endommagées par le déluge de l’été 2015) ont été gracieusement restaurées et compressées par la GSF, afin de ne pas dépasser la barre des 425 Mo\n\nL’espace restant (2,3 Mo) fut alloué à la conservation d’un fil de commentaire en réaction à l’œuvre archivée.",
-                    "type": "text"
-                }
-            ],
-            "title": "on a dû le refaire",
-            "type": "img",
-            "subtitle": "rendez-vous endommagé",
-            "img": "http://jdlf.info/p/media/ccc_refaire_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "«paris m'appartient», espace ouvert d'échanges\net agenda culturel libre cartographié\n",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "redirect": "http://www.parismappartient.fr",
-                    "type": "redirect"
-                }
-            ],
-            "title": "paris m'appartient",
-            "type": "img",
-            "subtitle": "réseau ouvert de proximité",
-            "img": "http://jdlf.info/p/media/parismap_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "ccc [copie copain club](http://copie-copains-club.net/marker-attack)\nccc [chris marker](http://www.telegraph.co.uk/news/obituaries/culture-obituaries/film-obituaries/9439368/Chris-Marker.html) attack\nccc Les Statues Meurent Aussi\nccc was considered an attack on French foreign policy and was banned",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "text": "> Quand les hommes sont morts, ils entrent dans l’Histoire\nQuand les statues sont mortes, elles entrent dans l’Art\nCette botanique de la mort, c’est ce que nous appelons: la Culture.",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/markers.gif",
-                    "type": "img"
-                }
-            ],
-            "title": "marker attack",
-            "type": "img",
-            "subtitle": "contre attaque ccc",
-            "img": "http://jdlf.info/p/media/ccc_marker_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "vimeo": "http://vimeo.com/59641414",
-                    "type": "vimeo"
-                }
-            ],
-            "title": "mollendo",
-            "type": "img",
-            "subtitle": "plastique et sable",
-            "img": "http://jdlf.info/p/media/mollendo_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "redirect": "http://pierrejdlf.github.io/zoomap",
-                    "type": "redirect"
-                }
-            ],
-            "title": " belle-de-mai",
-            "type": "img",
-            "subtitle": " que dis-tu au creux des rues ?",
-            "img": "http://jdlf.info/p/media/belledemai_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/tellme",
-                    "type": "iframe"
-                }
-            ],
-            "title": "tell me",
-            "type": "img",
-            "subtitle": "on avance et on change le cours des mots",
-            "img": "http://jdlf.info/p/media/tellme_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/treeword/?p=0",
-                    "type": "iframe"
-                },
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/treeword/?p=11",
-                    "type": "iframe"
-                }
-            ],
-            "title": "puits de mots",
-            "type": "img",
-            "subtitle": " lecture interactive cartographiée",
-            "img": "http://jdlf.info/p/media/treeword_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "vimeo": "http://vimeo.com/55290004",
-                    "type": "vimeo"
-                },
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/gifcomics/?p=colombia",
-                    "type": "iframe"
-                }
-            ],
-            "title": " colombia",
-            "type": "img",
-            "subtitle": "écouter, filmer",
-            "img": "http://jdlf.info/p/media/colombia_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
                 {
                     "content": "",
                     "vimeo": "http://vimeo.com/50007062",
                     "type": "vimeo"
+                },
+                {
+                    "content": "",
+                    "text": "En descendant dans le sud",
+                    "type": "text"
                 },
                 {
                     "content": "",
@@ -375,401 +260,37 @@
                     "content": "",
                     "iframe": "http://pierrejdlf.github.io/gifcomics/?p=nyc2",
                     "type": "iframe"
-                }
-            ],
-            "title": " new-york",
-            "type": "img",
-            "subtitle": " crier, manger, filmer",
-            "img": "http://jdlf.info/p/media/nyc_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
+                },
                 {
                     "content": "",
-                    "text": "ci-avant, des images de la réalité",
+                    "text": "Au pays du café",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "vimeo": "http://vimeo.com/44886450",
+                    "vimeo": "http://vimeo.com/55290004",
                     "type": "vimeo"
                 },
                 {
                     "content": "",
-                    "text": "une lettre de rappel",
+                    "iframe": "http://pierrejdlf.github.io/gifcomics/?p=colombia",
+                    "type": "iframe"
+                },
+                {
+                    "content": "",
+                    "text": "Village merveille de l'industrie touristique",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/montreal",
-                    "type": "iframe"
+                    "vimeo": "http://vimeo.com/59641414",
+                    "type": "vimeo"
                 }
             ],
-            "title": "montreal",
+            "title": " au nord au sud",
             "type": "img",
-            "subtitle": " marcher, filmer",
-            "img": "http://jdlf.info/p/media/montreal_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "appuyez sur la touche espace pour prendre la température du quartier",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/streetmap/map_gridview.html",
-                    "type": "iframe"
-                },
-                {
-                    "content": "",
-                    "text": "en regardant juste à côté",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/streetmap/map_messed.html",
-                    "type": "iframe"
-                },
-                {
-                    "content": "",
-                    "text": "je te rejoins dans 5 minutes",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/streetmap/map_pancake.html",
-                    "type": "iframe"
-                }
-            ],
-            "title": "look around",
-            "type": "img",
-            "subtitle": " échantillon gratuit d'oiseaux",
-            "img": "http://jdlf.info/p/media/streetmap_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "infographic based on [this](http://www.irjponline.com/admin/php/uploads/1154_pdf.pdf) article",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/moringa.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "moringa",
-            "type": "img",
-            "subtitle": "l'arbre miracle qu'on boit avec de l'eau",
-            "img": "http://jdlf.info/p/media/moringa_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/abidjan",
-                    "type": "iframe"
-                }
-            ],
-            "title": "abidjan",
-            "type": "img",
-            "subtitle": " dialogue de sourd",
-            "img": "http://jdlf.info/p/media/abidjan_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/touche",
-                    "type": "iframe"
-                }
-            ],
-            "title": "ne me touche",
-            "type": "img",
-            "subtitle": "le transport public amoureux",
-            "img": "http://jdlf.info/p/media/touche_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "text": "de portes en portes on laisse des traces",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "redirect": "http://pierrejdlf.github.io/bangalore",
-                    "type": "redirect"
-                }
-            ],
-            "title": "bangalore",
-            "type": "img",
-            "subtitle": " labyrinthe interactif cartographié",
-            "img": "http://jdlf.info/p/media/bangalore_thumb.jpg"
-        },
-        {
-            "content": "---",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/cligne/movimach.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "text": "ça tourne à peine — 2.3cm de glace\nle matin terrible\nles couleurs que l’on aperçoit là sont factices",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/cligne/glacematinterrible.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/cligne/lavabo.gif",
-                    "type": "img"
-                }
-            ],
-            "title": "seven eleven",
-            "type": "img",
-            "subtitle": " nuit silencieuse",
-            "img": "http://jdlf.info/p/media/cligne/seven_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_maison.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_parapluie.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_tagcloud.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_coindufeu.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_biphenol.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_notredame.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_lines.gif",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_abdos.gif",
-                    "type": "img"
-                }
-            ],
-            "title": "œil minimal",
-            "type": "img",
-            "subtitle": " derrière la couleur, la lumière, au fond, la peau",
-            "img": "http://jdlf.info/p/media/headache_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/saopaulo",
-                    "type": "iframe"
-                }
-            ],
-            "title": "sao ~ paulo",
-            "type": "img",
-            "subtitle": "j'aime la publicité",
-            "img": "http://jdlf.info/p/media/saopaulo_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/penatizerA.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "text": "- dimensions 27” x 345” x 3”\n- audio + video + taste\n- 3min\n\nglass shelf, with a half frosted window glass to receive the fluids\n\nsurrounded with concrete red plastic made of human hair",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "text": "into a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand\n\nFirst image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone.",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/penatizerB.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "made of",
-            "type": "img",
-            "subtitle": "vu, reconnu, vendu",
-            "img": "http://jdlf.info/p/media/madeof.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/lettre",
-                    "type": "iframe"
-                }
-            ],
-            "title": "lettre",
-            "type": "img",
-            "subtitle": "je t'écris pour te dire",
-            "img": "http://jdlf.info/p/media/lettre_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/hasard",
-                    "type": "iframe"
-                }
-            ],
-            "title": "hasards répétés",
-            "type": "img",
-            "subtitle": "des possibles cheveux blonds",
-            "img": "http://jdlf.info/p/media/hasard_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/crise",
-                    "type": "iframe"
-                }
-            ],
-            "title": "europe austérité",
-            "type": "img",
-            "subtitle": "terrible crise à tranchants",
-            "img": "http://jdlf.info/p/media/crise_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "iframe": "http://pierrejdlf.github.io/static/conversation",
-                    "type": "iframe"
-                }
-            ],
-            "title": "no conversation",
-            "type": "img",
-            "subtitle": "on ne se parle plus",
-            "img": "http://jdlf.info/p/media/conversation_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/napoli.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "napoli",
-            "type": "img",
-            "subtitle": "j'y ai été avec toi",
-            "img": "http://jdlf.info/p/media/napoli_thumb.jpg"
-        },
-        {
-            "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8218.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8231.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8239.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8243.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8246.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8248.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8258.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8265.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8267.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/IMG_8269.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/collages/lookingforward.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "collages",
-            "type": "img",
-            "subtitle": "on raconte n'importe quoi",
-            "img": "http://jdlf.info/p/media/collages_thumb.jpg"
+            "subtitle": "écouter, crier, marcher, filmer",
+            "img": "http://jdlf.info/p/media/colombia_thumb.jpg"
         },
         {
             "content": "",
@@ -847,31 +368,106 @@
         },
         {
             "content": "",
-            "children": [
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/romania.jpg",
-                    "type": "img"
-                }
-            ],
-            "title": "romania",
-            "type": "img",
-            "subtitle": "rencontrer, coller",
-            "img": "http://jdlf.info/p/media/romania_thumb.jpg"
+            "text": "lettres",
+            "type": "text"
         },
         {
-            "content": "---",
+            "content": "",
             "children": [
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/asia.jpg",
-                    "type": "img"
+                    "iframe": "http://pierrejdlf.github.io/static/lettre",
+                    "type": "iframe"
                 }
             ],
-            "title": "asia",
+            "title": "lettre",
             "type": "img",
-            "subtitle": "marcher, rouler",
-            "img": "http://jdlf.info/p/media/asia_thumb.jpg"
+            "subtitle": "je t'écris pour te dire",
+            "img": "http://jdlf.info/p/media/lettre_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/touche",
+                    "type": "iframe"
+                }
+            ],
+            "title": "ne me touche",
+            "type": "img",
+            "subtitle": "le transport public amoureux",
+            "img": "http://jdlf.info/p/media/touche_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/abidjan",
+                    "type": "iframe"
+                }
+            ],
+            "title": "abidjan",
+            "type": "img",
+            "subtitle": " dialogue de sourd",
+            "img": "http://jdlf.info/p/media/abidjan_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/saopaulo",
+                    "type": "iframe"
+                }
+            ],
+            "title": "sao ~ paulo",
+            "type": "img",
+            "subtitle": "j'aime la publicité",
+            "img": "http://jdlf.info/p/media/saopaulo_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/hasard",
+                    "type": "iframe"
+                }
+            ],
+            "title": "hasards répétés",
+            "type": "img",
+            "subtitle": "des possibles cheveux blonds",
+            "img": "http://jdlf.info/p/media/hasard_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/crise",
+                    "type": "iframe"
+                }
+            ],
+            "title": "europe austérité",
+            "type": "img",
+            "subtitle": "terrible crise à tranchants",
+            "img": "http://jdlf.info/p/media/crise_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "iframe": "http://pierrejdlf.github.io/static/conversation",
+                    "type": "iframe"
+                }
+            ],
+            "title": "no conversation",
+            "type": "img",
+            "subtitle": "on ne se parle plus",
+            "img": "http://jdlf.info/p/media/conversation_thumb.jpg"
         },
         {
             "content": "---",
@@ -948,48 +544,49 @@
             "img": "http://jdlf.info/p/media/brazza_thumb.jpg"
         },
         {
-            "content": "---",
+            "content": "",
+            "text": "bricolages",
+            "type": "text"
+        },
+        {
+            "content": "",
             "children": [
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/bd/symA.jpg",
+                    "text": "voici que tout d'un coup, la grille se ferme sur mes doigts",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/sacage/P1200687.JPG",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/bd/symB.jpg",
+                    "img": "http://jdlf.info/p/media/sacage/P1200691.JPG",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/bd/initiatiqueX.jpg",
+                    "img": "http://jdlf.info/p/media/sacage/P1200699.JPG",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/bd/initiatiqueA.jpg",
+                    "img": "http://jdlf.info/p/media/sacage/P1200705.JPG",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/bd/initiatiqueB.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/bd/georges.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/bd/3bandescartovie.v2.jpg",
+                    "children": [],
+                    "img": "http://jdlf.info/p/media/sacage/P1200713.JPG",
                     "type": "img"
                 }
             ],
-            "title": "symétrie narrative",
+            "title": "un sacage",
             "type": "img",
-            "subtitle": " de droite à gauche",
-            "img": "http://jdlf.info/p/media/bd/bd_thumb.jpg"
+            "subtitle": "courant continu",
+            "img": "http://jdlf.info/p/media/sacage/thumb.jpg"
         },
         {
             "content": "---",
@@ -1101,6 +698,263 @@
             "img": "http://jdlf.info/p/media/inutiles/inutiles_thumb.jpg"
         },
         {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/penatizerA.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "- dimensions 27” x 345” x 3”\n- audio + video + taste\n- 3min\n\nglass shelf, with a half frosted window glass to receive the fluids\n\nsurrounded with concrete red plastic made of human hair",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "into a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand\n\nFirst image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/penatizerB.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "made of",
+            "type": "img",
+            "subtitle": "vu, reconnu, vendu",
+            "img": "http://jdlf.info/p/media/madeof.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "##Recette\n- fil de cuivre\n- arduino\n- 12V\n- discussions\n- TVA",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "redirect": "https://github.com/pierrejdlf/thermalprinter",
+                    "type": "redirect"
+                }
+            ],
+            "title": "tête thermique",
+            "type": "img",
+            "subtitle": " imprimer ses propres factures",
+            "img": "http://jdlf.info/p/media/thermal_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/739.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200720.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/744.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/747.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200715.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200718.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200732.JPG",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/machine/P1200750.JPG",
+                    "type": "img"
+                }
+            ],
+            "title": "inside machine",
+            "type": "img",
+            "subtitle": "production musicale et lumineuse",
+            "img": "http://jdlf.info/p/media/machine/thumb.jpg"
+        },
+        {
+            "content": "",
+            "text": "collages",
+            "type": "text"
+        },
+        {
+            "content": "---\n",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/a.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/b.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/c.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/d.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/e.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/f.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/g.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/glace/h.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "papier glaçé",
+            "type": "img",
+            "subtitle": "20x30, papier brillant",
+            "img": "http://jdlf.info/p/media/glace/thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/napoli.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "napoli",
+            "type": "img",
+            "subtitle": "j'y ai été avec toi",
+            "img": "http://jdlf.info/p/media/napoli_thumb.jpg"
+        },
+        {
+            "content": "---",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/asia.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "asia",
+            "type": "img",
+            "subtitle": "marcher, rouler",
+            "img": "http://jdlf.info/p/media/asia_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8218.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8231.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8239.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8243.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8246.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8248.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8258.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8265.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8267.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/IMG_8269.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/collages/lookingforward.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "de nos jours",
+            "type": "img",
+            "subtitle": "on raconte n'importe quoi",
+            "img": "http://jdlf.info/p/media/collages_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/romania.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "romania",
+            "type": "img",
+            "subtitle": "rencontrer, coller",
+            "img": "http://jdlf.info/p/media/romania_thumb.jpg"
+        },
+        {
             "content": "---",
             "children": [
                 {
@@ -1130,11 +984,230 @@
             "img": "http://jdlf.info/p/media/map/map_thumb.jpg"
         },
         {
+            "content": "---",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/symA.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/symB.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/initiatiqueX.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/initiatiqueA.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/initiatiqueB.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/georges.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/bd/3bandescartovie.v2.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "symétrie narrative",
+            "type": "img",
+            "subtitle": " de droite à gauche",
+            "img": "http://jdlf.info/p/media/bd/bd_thumb.jpg"
+        },
+        {
+            "content": "",
+            "text": "clignotages",
+            "type": "text"
+        },
+        {
             "content": "",
             "children": [
                 {
                     "content": "",
-                    "text": "[The Art Collider](http://theartcollider.org/) (In/Out) est un réseau p2p permettant à des artistes d'échanger des flux multimédia en temps réel.\n\nChaque participant utilise les productions (images, sons, textes) d'autres cellules du réseau. Le résultat de chaque intervention artistique est rendu disponible aux autres.",
+                    "text": "ccc [copie copain club](http://copie-copains-club.net/marker-attack)\nccc [chris marker](http://www.telegraph.co.uk/news/obituaries/culture-obituaries/film-obituaries/9439368/Chris-Marker.html) attack\nccc Les Statues Meurent Aussi\nccc was considered an attack on French foreign policy and was banned",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "> Quand les hommes sont morts, ils entrent dans l’Histoire\nQuand les statues sont mortes, elles entrent dans l’Art\nCette botanique de la mort, c’est ce que nous appelons: la Culture.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/markers.gif",
+                    "type": "img"
+                }
+            ],
+            "title": "marker attack",
+            "type": "img",
+            "subtitle": "contre attaque ccc",
+            "img": "http://jdlf.info/p/media/ccc_marker_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "ccc copie-copains-club.net\nccc Google Earth Movies, par EBMM\nccc Google Earth, par Google\nccc C’était un Rendez-Vous, par Claude Lelouch",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "vimeo": "http://vimeo.com/65909214",
+                    "type": "vimeo"
+                },
+                {
+                    "content": "",
+                    "text": "##22 janvier 2025\nLa GSF (Google Science Foundation) rend public l’affaire “Disk-Gate”.\nAlors qu’on pensait les ressources de stockage quasi infinies, on apprend qu’il ne reste plus que 42 To d’espace disque disponible sur la planète.\nSuite au G4 de juillet, chaque pays reconnu se voit attribué un part liée à son PIB.\nMalgré la seconde crise européenne de 2022, la France parvient à obtenir 427,3 Mo d’espace libre dans le nuage.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "##17 octobre 2025\nAprès 2 mois de discussions ouvertes à l’Assemblée Populaire, il est décidé d’archiver l’échantillon le plus représentatif du pays.\nLa capitale Paris sera mise à l’honneur, telle qu’elle a été filmée un matin d’août 1976 par Claude Lelouch.\nLe réalisateur utilise alors les relicats de pellicule de son film “Si c’était à refaire” pour parcourir la ville à toute vitesse au volant d’une Mercedes.\nLes images originales (endommagées par le déluge de l’été 2015) ont été gracieusement restaurées et compressées par la GSF, afin de ne pas dépasser la barre des 425 Mo\n\nL’espace restant (2,3 Mo) fut alloué à la conservation d’un fil de commentaire en réaction à l’œuvre archivée.",
+                    "type": "text"
+                }
+            ],
+            "title": "on a dû le refaire",
+            "type": "img",
+            "subtitle": "rendez-vous endommagé",
+            "img": "http://jdlf.info/p/media/ccc_refaire_thumb.jpg"
+        },
+        {
+            "content": "---",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/cligne/movimach.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "ça tourne à peine — 2.3cm de glace\nle matin terrible\nles couleurs que l’on aperçoit là sont factices",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/cligne/glacematinterrible.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/cligne/lavabo.gif",
+                    "type": "img"
+                }
+            ],
+            "title": "seven eleven",
+            "type": "img",
+            "subtitle": " nuit silencieuse",
+            "img": "http://jdlf.info/p/media/cligne/seven_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_maison.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_parapluie.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_tagcloud.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_coindufeu.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_biphenol.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_notredame.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_lines.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/brainfuck/brainfuck_abdos.gif",
+                    "type": "img"
+                }
+            ],
+            "title": "œil minimal",
+            "type": "img",
+            "subtitle": " derrière la couleur, la lumière, au fond, la peau",
+            "img": "http://jdlf.info/p/media/headache_thumb.jpg"
+        },
+        {
+            "content": "",
+            "text": "réalité",
+            "type": "text"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "[IanniX](http://iannix.org) est un séquenceur graphique open-source, inspiré des travaux de Iannis Xenakis, destiné à la création numérique.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "IanniX synchronise via Open Sound Control (OSC) des événements et courbes vers votre environnement temps-réel.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "vimeo": "http://vimeo.com/25045003",
+                    "type": "vimeo"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/iannix_old.jpg",
+                    "type": "img"
+                }
+            ],
+            "title": "iannix",
+            "type": "img",
+            "subtitle": " séquenceur graphique multitemporel",
+            "img": "http://jdlf.info/p/media/iannix_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "text": "[The Art Collider](http://theartcollider.org/) (In/Out) est un réseau p2p permettant à des artistes d'échanger des flux multimédia en temps réel.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "Chaque participant utilise les productions (images, sons, textes) d'autres cellules du réseau. Le résultat de chaque intervention artistique est rendu disponible aux autres.",
                     "type": "text"
                 },
                 {
@@ -1154,7 +1227,12 @@
                 },
                 {
                     "content": "",
-                    "text": "Les projets artistiques sont visibles au public sur internet ou dans des lieux d'exposition.\n\nLe projet est porté par le [CITU](http://www.citu.info/) (Création Interactive Transdisciplinaire Universitaire), fédération des laboratoires des universités Paris I ([LAM](http://creca.univ-paris1.fr/)) et Paris VIII ([Paragraphe](http://paragraphe.univ-paris8.fr/fr/), [CIREN](http://www.ciren.org/ciren/leciren/index.html)).",
+                    "text": "Les projets artistiques sont visibles au public sur internet ou dans des lieux d'exposition.",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "Le projet est porté par le [CITU](http://www.citu.info/) (Création Interactive Transdisciplinaire Universitaire), fédération des laboratoires des universités Paris I ([LAM](http://creca.univ-paris1.fr/)) et Paris VIII ([Paragraphe](http://paragraphe.univ-paris8.fr/fr/), [CIREN](http://www.ciren.org/ciren/leciren/index.html)).",
                     "type": "text"
                 },
                 {
@@ -1169,7 +1247,12 @@
                 },
                 {
                     "content": "",
-                    "text": "Lieux partenaires au cours de l'année 2008:\n\n- [Maison Populaire](http://www.maisonpop.net/index.php), Montreuil\n- [Studio Petaherz](http://www.petahertz.eu/), Montreuil\n- [La Bellevilloise](http://www.labellevilloise.com/), Paris\n- [Ars Longa](http://www.arslonga.fr/), Paris\n- [La Cantine](http://lacantine.org/), Paris\n- [Dorkbot](http://dorkbot.org/dorkbotparis), Paris\n- [Le Cube](http://www.lesiteducube.com/site/index.php?section=agenda), Issy-les-Moulineaux\n- [École Nationale Supérieure d'Art](http://www.ensa-nancy.fr/), Nancy\n- [L'Autre Canal](http://www.lautrecanal.fr/), Nancy\n- [École Européenne Supérieure de l'Image](http://www.eesi.eu/site/spip.php?rubrique124), Poitier\n\n\n##crédits photos\n\n- Collectionnisme (M.Okura, D.Cunin)\n- f8 (V.Goudard)",
+                    "text": "Lieux partenaires au cours de l'année 2008:\n\n- [Maison Populaire](http://www.maisonpop.net/index.php), Montreuil\n- [Studio Petaherz](http://www.petahertz.eu/), Montreuil\n- [La Bellevilloise](http://www.labellevilloise.com/), Paris\n- [Ars Longa](http://www.arslonga.fr/), Paris\n- [La Cantine](http://lacantine.org/), Paris\n- [Dorkbot](http://dorkbot.org/dorkbotparis), Paris\n- [Le Cube](http://www.lesiteducube.com/site/index.php?section=agenda), Issy-les-Moulineaux\n- [École Nationale Supérieure d'Art](http://www.ensa-nancy.fr/), Nancy\n- [L'Autre Canal](http://www.lautrecanal.fr/), Nancy\n- [École Européenne Supérieure de l'Image](http://www.eesi.eu/site/spip.php?rubrique124), Poitier",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "text": "##crédits photos\n\n- Collectionnisme (M.Okura, D.Cunin)\n- f8 (V.Goudard)",
                     "type": "text"
                 }
             ],
@@ -1183,24 +1266,19 @@
             "children": [
                 {
                     "content": "",
-                    "text": "[IanniX](http://iannix.org) est un séquenceur graphique open-source, inspiré des travaux de Iannis Xenakis, destiné à la création numérique. IanniX synchronise via Open Sound Control (OSC) des événements et courbes vers votre environnement temps-réel.",
+                    "text": "infographic based on [this](http://www.irjponline.com/admin/php/uploads/1154_pdf.pdf) article",
                     "type": "text"
                 },
                 {
                     "content": "",
-                    "vimeo": "http://vimeo.com/25045003",
-                    "type": "vimeo"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/iannix_old.jpg",
+                    "img": "http://jdlf.info/p/media/moringa.jpg",
                     "type": "img"
                 }
             ],
-            "title": "iannix",
+            "title": "moringa",
             "type": "img",
-            "subtitle": " séquenceur graphique multitemporel",
-            "img": "http://jdlf.info/p/media/iannix_thumb.jpg"
+            "subtitle": "l'arbre miracle qu'on boit avec de l'eau",
+            "img": "http://jdlf.info/p/media/moringa_thumb.jpg"
         }
     ]
 }

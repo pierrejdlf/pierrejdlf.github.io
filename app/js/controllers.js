@@ -50,11 +50,6 @@ angular.module('jdlf.controllers', ['underscore','config'])
       if($scope.now.a != index) {
         $scope.now.a = index;
         $scope.now.b = -1;
-        // texttailor children text
-        $timeout(function() {
-          $(".card.b.a_"+index+" markdown").textTailor(tailor);
-        },100);
-
       } else {
         $scope.now.a = -1;
         $scope.now.b = -1;

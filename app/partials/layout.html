@@ -16,12 +16,14 @@
   <!-- ———————————————— THE ARTICLE COVER -->
   <div class="hidden" ng-repeat-start="a in root.children"></div><div
     class="card a"
+    ng-if="a.title"
     ng-class="{ 
       opened:now.a==$index,
       closed:now.a!=$index,
       fadesoft:now.a==$index && now.b!=-1,
       fadeaway:now.a!=$index && now.a!=-1,
-      fadedead:now.a!=$index && now.b!=-1}"
+      fadedead:now.a!=$index && now.b!=-1,
+      cartel:!a.title}"
     ng-click="clickA(a,$index);">
     <img class="closer centered backed" src="images/ic_close.svg">
     <img class="opener centered" src="images/ic_expand.svg">
@@ -47,6 +49,8 @@
     ng-click="b.type!='redirect' && b.type!='text' && clickB(a,$parent.$parent.$index,b,$index);">
     <!-- TEXT CONTENT -->
     <markdown
+      texttailor
+      tt-center="true"
       ng-if="b.type=='text'"
       class="text"
       ng-model="b.text">
@@ -64,7 +68,7 @@
     <!-- IFRAME -->
     <img
       ng-if="b.type=='iframe' && now.b!=$index"
-      class="centered" src="images/ic_doubledown.svg">
+      class="centered" src="images/ic_expandframe.svg">
     <iframe
       ng-if="b.type=='iframe' && now.b==$index"
       class="iframe"

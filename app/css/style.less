@@ -1,7 +1,13 @@
 @import "constants";
 
-@backcolor: #FDC253;
+@backcolor: #ebe6d5; //#FDC253
 @backcolorsel: #CA9F4D;
+
+@cardW: 200px;
+@cardH: 150px;
+@border: 8px;
+
+@textpad: 17px;
 
 html, body {
   width: 100%;
@@ -31,10 +37,6 @@ blockquote {
   color: #A37979;
   border-left: 1px solid #A37979;
 }
-
-@cardW: 290px;
-@cardH: 200px;
-@border: 15px;
 
 .container {
   box-sizing: border-box;
@@ -129,6 +131,15 @@ blockquote {
     }
   }
 
+  &.cartel {
+    background: none;
+    .box-shadow(none);
+    .text {
+      color: black;
+      background: none;
+    }
+  }
+
   .cover {
     z-index:99;
     position: absolute;
@@ -161,7 +172,7 @@ blockquote {
     z-index:170;
     opacity:0;
   }
-  &.closed:hover {
+  &.closed:hover &.b:hover {
     .opener {
       opacity:1;
     }
@@ -199,23 +210,24 @@ blockquote {
     font-size: 0.7rem;
   }
   .text {
-    @textpad: 17px;
     box-sizing: border-box;
     display: block;
     position: absolute;
-    left: @textpad;
-    right: -@textpad;
-    bottom: @textpad;
-    top: @textpad;
-    padding-right: 2*@textpad;
+    width: 100%;
+    height: 100%;
+    padding: @textpad;
+    // left: @textpad;
+    // right: @textpad;
+    // bottom: @textpad;
+    // top: @textpad;
+    // padding-right: 2*@textpad;
 
     text-align: left;
     font-size: 0.8rem;
     line-height: 140%;
     background: black;
     color: white;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     h1,h2,h3,h4 {
       font-weight: normal;
     }

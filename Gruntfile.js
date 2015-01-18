@@ -95,6 +95,8 @@ module.exports = function(grunt) {
           'app/vendor/showdown/compressed/showdown.js',
           'app/vendor/angular-markdown/angular.markdown.js',
 
+          'app/vendor/angular-texttailor/angular-texttailor.js',
+
           'app/js/*.js'
         ],
         dest: 'p/js/<%= pkg.name %>.js'

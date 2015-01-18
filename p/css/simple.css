@@ -476,7 +476,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #fdc253;
+  background: #ebe6d5;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -551,8 +551,8 @@ blockquote {
   display: inline-block;
   position: relative;
   vertical-align: top;
-  width: 290px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   padding: 0;
   font-size: 1.3em;
   cursor: pointer;
@@ -576,10 +576,19 @@ blockquote {
 .card.a {
   -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.62);
   box-shadow: inset 0px 0px 7px 1px rgba(0, 0, 0, 0.62);
-  border: 15px solid #fdc253;
+  border: 8px solid #ebe6d5;
 }
 .card.a.opened {
-  border: 15px solid #ca9f4d;
+  border: 8px solid #ca9f4d;
+}
+.card.cartel {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.card.cartel .text {
+  color: black;
+  background: none;
 }
 .card .cover {
   z-index: 99;
@@ -616,7 +625,7 @@ blockquote {
   z-index: 170;
   opacity: 0;
 }
-.card.closed:hover .opener {
+.card.closed:hover .card.b:hover .opener {
   opacity: 1;
 }
 .card .meta {
@@ -651,18 +660,15 @@ blockquote {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  left: 17px;
-  right: -17px;
-  bottom: 17px;
-  top: 17px;
-  padding-right: 34px;
+  width: 100%;
+  height: 100%;
+  padding: 17px;
   text-align: left;
   font-size: 0.8rem;
   line-height: 140%;
   background: black;
   color: white;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
 }
 .card .text h1,
 .card .text h2,
@@ -741,7 +747,7 @@ blockquote {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 15px solid #fdc253;
+  border: 8px solid #ebe6d5;
 }
 .card.b.opened .img .cover {
   -webkit-transform: scale(1);
@@ -762,7 +768,7 @@ blockquote {
 }
 .card.ng-enter-active,
 .card.ng-leave {
-  width: 290px;
+  width: 200px;
 }
 .card.ng-leave-active {
   overflow: hidden;
