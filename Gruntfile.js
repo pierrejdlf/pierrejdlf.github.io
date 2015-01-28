@@ -238,24 +238,19 @@ module.exports = function(grunt) {
   });
   
 
-
   grunt.loadNpmTasks('grunt-ng-constant');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-copy' );
-  // grunt.loadNpmTasks('grunt-ng-annotate');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  // grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-env');
   grunt.loadNpmTasks('grunt-preprocess');
   grunt.loadNpmTasks('grunt-strip');
-
   grunt.loadNpmTasks('grunt-execute');
 
 
-  grunt.registerTask('dev', ['ngconstant:development']);  
-  
-  grunt.registerTask('default',['execute','jshint','ngconstant:production','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
+  grunt.registerTask('dev', ['ngconstant:development']);
+  grunt.registerTask('default',['ngconstant:production','execute','jshint','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
 
 };

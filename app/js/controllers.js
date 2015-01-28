@@ -16,12 +16,13 @@ angular.module('jdlf.controllers', ['underscore','config'])
     "$routeParams",
     "$http",
     "_",
+    "$document",
     "$location",
     "$anchorScroll",
     "$timeout",
     "anchorSmoothScroll",
     "settings",
-    function ($scope, $routeParams, $http, _, $window, $anchorScroll, $timeout, anchorSmoothScroll, settings) {
+    function ($scope, $routeParams, $http, _, $document, $window, $anchorScroll, $timeout, anchorSmoothScroll, settings) {
   
     // $scope.$on('$locationChangeStart', function(ev) {
     //   ev.preventDefault();
@@ -32,9 +33,10 @@ angular.module('jdlf.controllers', ['underscore','config'])
 
     console.log("SETTINGS:",settings);
     var LOCAL = settings.fetchlocal;
-    var proxyurl = "http://localhost/pierrejdlf.github.io/app/miniProxy.php/https://gingkoapp.com/4xcx2x.json";
+    var proxyurl = "miniProxy.php/https://gingkoapp.com/4xcx2x.json";
     var localurl = 'data/contents.json';
     var IFRAMEGITHUBPROJECTS = "tellme|treeword|static|gifcomics|streetmap|zoomap|bangalore";
+
 
     var tailor = {
       resizable: true,
@@ -46,18 +48,26 @@ angular.module('jdlf.controllers', ['underscore','config'])
       a:-1,
       b:-1,
     };
+    $scope.element = {
+      a:null,
+      b:null
+    };
     $scope.clickA = function(a,index) {
       if($scope.now.a != index) {
+        $scope.element.a = a;
         $scope.now.a = index;
         $scope.now.b = -1;
       } else {
+        $scope.element.a = null;
         $scope.now.a = -1;
         $scope.now.b = -1;
       }
       $scope.log($scope.now);
     };
     $scope.clickB = function(a,aindex,b,bindex) {
+      //console.log("was",$scope.now);
       if($scope.now.b != bindex) {
+        $scope.element.b = b;
         $scope.now.a = aindex;
         $scope.now.b = bindex;
         //$location.hash('b_'+index);
@@ -66,11 +76,32 @@ angular.module('jdlf.controllers', ['underscore','config'])
         //   //$anchorScroll();
         // },500);
       } else {
+        $scope.element.b = null;
         $scope.now.b = -1;
       }
       $scope.log($scope.now);
     };
-    
+
+    $document.bind("keydown keypress", function(event) {
+      //console.debug("key",event, event.which);
+      if(event.which==27) { // ESC
+        console.log("ESC");
+        if($scope.now.b==-1) {
+          $scope.element.a = null;
+          $scope.now.a = -1;
+        } else {
+          $scope.element.b = null;
+          $scope.now.b = -1;
+        }
+        $scope.$apply();
+      }
+      if(event.which==37) { // LEFT
+
+      }
+      if(event.which==39) { // RIGHT
+
+      }
+    });
 
 
 
