@@ -707,7 +707,7 @@ angular.module('jdlf.controllers', ['underscore','config'])
       b:null
     };
     $scope.clickA = function(a,index) {
-      if($scope.now.a != index) {
+      if($scope.now.a == -1) {
         $scope.element.a = a;
         $scope.now.a = index;
         $scope.now.b = -1;
