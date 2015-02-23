@@ -16,19 +16,144 @@
                 },
                 {
                     "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/words.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
                     "redirect": "http://www.parismappartient.fr",
                     "type": "redirect"
                 },
                 {
                     "content": "",
+                    "vimeo": "https://vimeo.com/69411582",
+                    "type": "vimeo"
+                },
+                {
+                    "content": "",
                     "text": "*Un robot twitter répond à votre appel*",
                     "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/slides_1.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/slides_2.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "ruches",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/ruche_1.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/ruche_2.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/class_graf1.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/class_graf2.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "que reste t'il a explorer ?",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/zone_1.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/zone_2.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/zone_3.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/zone_4.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "les plus riches de Paris",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/class_1.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/class_2.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "un jeu à l'insu de votre plein gré",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/class_3.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "conversations",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/tw_quoi.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/tw_qui.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/tweets.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "hors-la-loi",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/twitter_suspend.jpg",
+                    "type": "img"
                 }
             ],
             "title": "paris m'appartient",
             "type": "img",
             "subtitle": "réseau ouvert de proximité",
-            "img": "http://jdlf.info/p/media/parismap_thumb.jpg"
+            "img": "http://jdlf.info/p/media/parismap/parismap_thumb.jpg"
         },
         {
             "content": "",
@@ -47,12 +172,32 @@
                     "content": "",
                     "text": "*Pour voir où on s'aime*",
                     "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/old.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/parismap/charmant.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "text": "thanks to",
+                    "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/cdlm/zona30.jpg",
+                    "type": "img"
                 }
             ],
             "title": "dis-moi où tu me plaîs",
             "type": "img",
             "subtitle": "amours du métro parisien",
-            "img": "http://jdlf.info/p/media/cdlm_thumb.jpg"
+            "img": "http://jdlf.info/p/media/cdlm/cdlm_thumb.jpg"
         },
         {
             "content": "",
@@ -66,12 +211,22 @@
                     "content": "",
                     "redirect": "http://pierrejdlf.github.io/zoomap",
                     "type": "redirect"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/belledemai/z_1.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/belledemai/z_2.jpg",
+                    "type": "img"
                 }
             ],
             "title": " belle-de-mai",
             "type": "img",
             "subtitle": " que dis-tu au creux des rues ?",
-            "img": "http://jdlf.info/p/media/belledemai_thumb.jpg"
+            "img": "http://jdlf.info/p/media/belledemai/belledemai_thumb.jpg"
         },
         {
             "content": "",
