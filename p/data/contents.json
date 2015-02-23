@@ -16,13 +16,13 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/parismap/words.jpg",
-                    "type": "img"
+                    "redirect": "http://www.parismappartient.fr",
+                    "type": "redirect"
                 },
                 {
                     "content": "",
-                    "redirect": "http://www.parismappartient.fr",
-                    "type": "redirect"
+                    "img": "http://jdlf.info/p/media/parismap/words.jpg",
+                    "type": "img"
                 },
                 {
                     "content": "",
@@ -46,7 +46,7 @@
                 },
                 {
                     "content": "",
-                    "text": "ruches",
+                    "text": "rues ruches",
                     "type": "text"
                 },
                 {
@@ -111,7 +111,7 @@
                 },
                 {
                     "content": "",
-                    "text": "un jeu à l'insu de votre plein gré",
+                    "text": "un jeu à l'insu du plein gré",
                     "type": "text"
                 },
                 {
@@ -121,7 +121,7 @@
                 },
                 {
                     "content": "",
-                    "text": "conversations",
+                    "text": "conversations sans médiation",
                     "type": "text"
                 },
                 {
@@ -175,22 +175,12 @@
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/parismap/old.jpg",
+                    "img": "http://jdlf.info/p/media/cdlm/charmant.jpg",
                     "type": "img"
                 },
                 {
                     "content": "",
-                    "img": "http://jdlf.info/p/media/parismap/charmant.jpg",
-                    "type": "img"
-                },
-                {
-                    "content": "",
-                    "text": "thanks to",
-                    "type": "text"
-                },
-                {
-                    "content": "",
-                    "img": "http://jdlf.info/p/media/cdlm/zona30.jpg",
+                    "img": "http://jdlf.info/p/media/cdlm/old.jpg",
                     "type": "img"
                 }
             ],
@@ -1539,6 +1529,20 @@
             "type": "img",
             "subtitle": "rendez-vous endommagé",
             "img": "http://jdlf.info/p/media/ccc_refaire_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
+                    "vimeo": "https://vimeo.com/65448253",
+                    "type": "vimeo"
+                }
+            ],
+            "title": "un homme",
+            "type": "img",
+            "subtitle": " avec un tout petit chien",
+            "img": "http://jdlf.info/p/media/petitchien_thumb.jpg"
         },
         {
             "content": "",
