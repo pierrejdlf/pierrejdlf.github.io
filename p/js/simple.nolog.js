@@ -711,9 +711,9 @@ angular.module('jdlf.controllers', ['underscore','config'])
         $scope.element.a = a;
         $scope.now.a = index;
         $scope.now.b = -1;
-        _gaq.push(['_trackEvent', 'Cell_A', 'Opened', index ]); // hello to ga
+        _trackEvent('Cell_A', 'Opened', index); // hello to ga
       } else {
-        _gaq.push(['_trackEvent', 'Cell_A', 'Closed', index ]); // hello to ga
+        _trackEvent('Cell_A', 'Closed', index); // hello to ga
         $scope.element.a = null;
         $scope.now.a = -1;
         $scope.now.b = -1;
@@ -727,7 +727,7 @@ angular.module('jdlf.controllers', ['underscore','config'])
         $scope.now.a = aindex;
         $scope.now.b = bindex;
 
-        _gaq.push(['_trackEvent', 'Cell_B', 'Opened', aindex+"_"+bindex ]); // hello to ga
+        _trackEvent('Cell_B', 'Opened', aindex+"_"+bindex); // hello to ga
 
         //$location.hash('b_'+index);
         // $timeout(function() {
@@ -735,7 +735,7 @@ angular.module('jdlf.controllers', ['underscore','config'])
         //   //$anchorScroll();
         // },500);
       } else {
-        _gaq.push(['_trackEvent', 'Cell_B', 'Closed', aindex+"_"+bindex ]); // hello to ga
+        _trackEvent('Cell_B', 'Closed', aindex+"_"+bindex); // hello to ga
         $scope.element.b = null;
         $scope.now.b = -1;
       }
