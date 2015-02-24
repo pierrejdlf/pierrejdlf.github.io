@@ -57,9 +57,9 @@ angular.module('jdlf.controllers', ['underscore','config'])
         $scope.element.a = a;
         $scope.now.a = index;
         $scope.now.b = -1;
-        ga('send','event','Cell_A', 'Opened', index); // hello to ga
+        ga('send','event','Cell_A', 'Opened', index+"_"+a.title); // hello to ga
       } else {
-        ga('send','event','Cell_A', 'Closed', index); // hello to ga
+        ga('send','event','Cell_A', 'Closed', index+"_"+a.title); // hello to ga
         $scope.element.a = null;
         $scope.now.a = -1;
         $scope.now.b = -1;
@@ -73,7 +73,11 @@ angular.module('jdlf.controllers', ['underscore','config'])
         $scope.now.a = aindex;
         $scope.now.b = bindex;
 
-        ga('send','event','Cell_B', 'Opened', aindex+"_"+bindex); // hello to ga
+        var st = "";
+        st += b.type=='img' ? b.img : "";
+        st += b.type=='iframe' ? b.iframe : "";
+        st += b.type=='vimeo' ? b.vimeo : "";
+        ga('send','event','Cell_B', 'Opened', aindex+"_"+bindex+"_"+b.type+"_"+st); // hello to ga
 
         //$location.hash('b_'+index);
         // $timeout(function() {
@@ -81,7 +85,11 @@ angular.module('jdlf.controllers', ['underscore','config'])
         //   //$anchorScroll();
         // },500);
       } else {
-        ga('send','event','Cell_B', 'Closed', aindex+"_"+bindex); // hello to ga
+        var st = "";
+        st += b.type=='img' ? b.img : "";
+        st += b.type=='iframe' ? b.iframe : "";
+        st += b.type=='vimeo' ? b.vimeo : "";
+        ga('send','event','Cell_B', 'Closed', aindex+"_"+bindex+"_"+b.type+"_"+st); // hello to ga
         $scope.element.b = null;
         $scope.now.b = -1;
       }
