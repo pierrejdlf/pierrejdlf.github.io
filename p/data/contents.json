@@ -301,6 +301,11 @@
                 },
                 {
                     "content": "",
+                    "img": "http://jdlf.info/p/media/treeword.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
                     "text": "Avec css et images",
                     "type": "text"
                 },
@@ -1533,6 +1538,11 @@
         {
             "content": "",
             "children": [
+                {
+                    "content": "",
+                    "text": "cadavre exquis narratif",
+                    "type": "text"
+                },
                 {
                     "content": "",
                     "vimeo": "https://vimeo.com/65448253",
