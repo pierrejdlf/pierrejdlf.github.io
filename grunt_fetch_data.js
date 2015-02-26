@@ -57,6 +57,8 @@ var getPrepairedData = function(json) {
   return root;
 }
 
+console.log("Request:",dataurl);
+
 request({
     uri: dataurl,
     json: true
@@ -78,7 +80,7 @@ request({
     });
 
   } else {
-    console.log("error");
+    console.log("error:", error, response );
   }
 });
 

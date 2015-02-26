@@ -1101,8 +1101,18 @@
                 },
                 {
                     "content": "",
+                    "img": "http://jdlf.info/p/media/thermal_printer.gif",
+                    "type": "img"
+                },
+                {
+                    "content": "",
                     "text": "- fil de cuivre\n- arduino\n- 12V\n- discussions\n- TVA",
                     "type": "text"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/thermal.jpg",
+                    "type": "img"
                 },
                 {
                     "content": "",
