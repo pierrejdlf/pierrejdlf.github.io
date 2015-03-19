@@ -1447,6 +1447,25 @@
             "children": [
                 {
                     "content": "",
+                    "img": "http://jdlf.info/p/media/publi/publi_intro.jpg",
+                    "type": "img"
+                },
+                {
+                    "content": "",
+                    "img": "http://jdlf.info/p/media/publi/publi_quad.gif",
+                    "type": "img"
+                }
+            ],
+            "title": "publipostage",
+            "type": "img",
+            "subtitle": " flux",
+            "img": "http://jdlf.info/p/media/publi/publi_thumb.jpg"
+        },
+        {
+            "content": "",
+            "children": [
+                {
+                    "content": "",
                     "text": "ccc\n[copie copain club](http://copie-copains-club.net/marker-attack)",
                     "type": "text"
                 },
