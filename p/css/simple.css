@@ -611,6 +611,9 @@ blockquote {
 .me .author {
   margin-bottom: 9px;
 }
+.me .icons {
+  margin-bottom: 10px;
+}
 .me .description {
   margin-top: 9px;
 }
@@ -680,8 +683,32 @@ blockquote {
 .card .backedop {
   background-color: rgba(0, 0, 0, 0.47);
 }
-.card .backed {
-  background-color: #e4e0d3;
+.card .blackedcoin {
+  color: white;
+  background-color: black;
+  padding: 2px 15px 7px 8px;
+}
+.card .blacked {
+  color: white;
+  background-color: black;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+.card .zoomonover {
+  opacity: 0.7;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.card .zoomonover.ng-enter,
+.card .zoomonover.ng-leave {
+  -webkit-transition-duration: 0;
+  -moz-transition-duration: 0;
+  -ms-transition-duration: 0;
+  -o-transition-duration: 0;
+  transition-duration: 0;
 }
 .card .coin {
   position: absolute;
@@ -721,22 +748,6 @@ blockquote {
 }
 .card .iframecloser {
   color: white;
-}
-.card .zoomonover {
-  opacity: 0.7;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-.card .zoomonover.ng-enter,
-.card .zoomonover.ng-leave {
-  -webkit-transition-duration: 0;
-  -moz-transition-duration: 0;
-  -ms-transition-duration: 0;
-  -o-transition-duration: 0;
-  transition-duration: 0;
 }
 .card:hover .opener {
   opacity: 1;
@@ -864,7 +875,7 @@ blockquote {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 5px solid #e4e0d3;
+  border: 5px solid #000000;
 }
 .card.b.opened .img .cover {
   -webkit-transform: scale(1);
