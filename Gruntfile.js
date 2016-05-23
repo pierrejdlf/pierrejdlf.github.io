@@ -15,21 +15,23 @@ module.exports = function(grunt) {
       // Environment targets
       development: {
         options: {
-          dest: 'app/js/config.js' 
+          dest: 'src/js/config.js' 
         },
         constants: {
           settings: {
-            fetchlocal: false
+            dev: true,
+            mediapath: "../media"
           }
         }
       },
       production: {
         options: {
-          dest: 'app/js/config.js'
+          dest: 'src/js/config.js'
         },
         constants: {
           settings: {
-            fetchlocal: true
+            dev: false,
+            mediapath: "../media"
           }
         }
       }
@@ -54,14 +56,14 @@ module.exports = function(grunt) {
           paths: ["assets"]
         },
         files: {
-          "app/css/styles.css": "app/css/style.less"
+          "src/css/styles.css": "src/css/style.less"
         }
       }
     },
 
     // removelogging: {
     //   dist: {
-    //     src: "app/js/*.js",
+    //     src: "src/js/*.js",
     //     dest: "dist/js/*_nolog.js",
     //     options: {}
     //   }
@@ -73,31 +75,35 @@ module.exports = function(grunt) {
       },
       css: {
         src: [
-          'app/vendor/normalize.css/normalize.css',
-          'app/vendor/animate.css/animate.min.css',
-          // 'app/vendor/icomoon/dist/css/style.css',
-          'app/css/font.css',
-          'app/css/styles.css'
+          'src/vendor/font-awesome/css/font-awesome.min.css',
+
+          'src/vendor/normalize.css/normalize.css',
+          'src/vendor/animate.css/animate.min.css',
+          // 'src/vendor/icomoon/dist/css/style.css',
+          'src/css/font.css',
+          'src/css/styles.css'
         ],
         dest: 'p/css/<%= pkg.name %>.css'
       },
       js: {
         src: [
-          'app/vendor/underscore/underscore-min.js',
-          "app/vendor/jquery/dist/jquery.min.js",
-          "app/vendor/texttailor/dist/jquery.texttailor.min.js",
+          'src/vendor/underscore/underscore-min.js',
+          "src/vendor/jquery/dist/jquery.min.js",
+          "src/vendor/texttailor/dist/jquery.texttailor.min.js",
 
-          'app/vendor/angular/angular.min.js',
-          'app/vendor/angular-sanitize/angular-sanitize.min.js',
-          'app/vendor/angular-route/angular-route.min.js',
-          'app/vendor/angular-animate/angular-animate.min.js',
+          'src/vendor/angular/angular.min.js',
+          'src/vendor/angular-sanitize/angular-sanitize.min.js',
+          'src/vendor/angular-route/angular-route.min.js',
+          'src/vendor/angular-animate/angular-animate.min.js',
 
-          'app/vendor/showdown/compressed/showdown.js',
-          'app/vendor/angular-markdown/angular.markdown.js',
+          'src/vendor/showdown/compressed/showdown.js',
+          'src/vendor/angular-markdown/angular.markdown.js',
 
-          'app/vendor/angular-texttailor/angular-texttailor.js',
+          'src/vendor/angular-texttailor/angular-texttailor.js',
 
-          'app/js/*.js'
+          'src/vendor/js-yaml/dist/js-yaml.min.js',
+          
+          'src/js/*.js'
         ],
         dest: 'p/js/<%= pkg.name %>.js'
       }
@@ -107,7 +113,7 @@ module.exports = function(grunt) {
         dist: {
             files: [
                 // {
-                //     src: [ 'app/lib/intro.js/minified/introjs.min.css'],
+                //     src: [ 'src/lib/intro.js/minified/introjs.min.css'],
                 //     dest: 'dist/css/introjs.min.css',
                 //     filter: 'isFile'
                 // },
@@ -115,7 +121,7 @@ module.exports = function(grunt) {
                 //     expand: true,
                 //     flatten: true,
                 //     src: [ 
-                //         'app/fonts/**'
+                //         'src/fonts/**'
                 //     ],
                 //     dest: 'dist/fonts/',
                 //     filter: 'isFile'
@@ -124,47 +130,43 @@ module.exports = function(grunt) {
                 //     expand: true,
                 //     flatten: true,
                 //     src: [ 
-                //         'app/vendor/icomoon/dist/fonts/**'
+                //         'src/vendor/icomoon/dist/fonts/**'
                 //     ],
                 //     dest: 'dist/fonts/',
                 //     filter: 'isFile'
                 // },
+                {
+                    expand: true,
+                    flatten: true,
+                    src: ['src/vendor/font-awesome/fonts/**'],
+                    dest: 'p/fonts/',
+                    filter: 'isFile'
+                },
                 // {
                 //     expand: true,
                 //     flatten: true,
-                //     src: [ 
-                //         'app/lib/font-awesome/fonts/**'
-                //     ],
-                //     dest: 'dist/fonts/',
-                //     filter: 'isFile'
-                // },
-                // {
-                //     expand: true,
-                //     flatten: true,
-                //     src: [ 
-                //         'app/lib/font-awesome/css/**'
-                //     ],
-                //     dest: 'dist/css/',
+                //     src: ['src/vendor/font-awesome/css/font-awesome.min.css'],
+                //     dest: 'p/css/',
                 //     filter: 'isFile'
                 // },
                 {
                     expand: true,
                     flatten: false,
-                    cwd: 'app/images/',
+                    cwd: 'src/images/',
                     src: ['**'],
                     dest: 'p/images/'
                 },
                 {
                     expand: true,
                     flatten: true,
-                    src: ['app/data/**'],
+                    src: ['src/data/**'],
                     dest: 'p/data/',
                     filter: 'isFile'
                 },
                 {
                     expand: true,
                     flatten: true,
-                    src: ['app/partials/**'],
+                    src: ['src/partials/**'],
                     dest: 'p/partials/',
                     filter: 'isFile'
                 }
@@ -174,7 +176,7 @@ module.exports = function(grunt) {
 
     preprocess : {
       prod : {
-        src : 'app/index.html',
+        src : 'src/index.html',
         dest : 'p/index.html'
       }
     },
@@ -222,13 +224,13 @@ module.exports = function(grunt) {
           document: true
         }
       }
-    },
-
-    execute: {
-        target: {
-            src: ['grunt_fetch_data.js']
-        }
     }
+
+    // execute: {
+    //     target: {
+    //         src: ['grunt_fetch_data.js']
+    //     }
+    // }
 
     // watch: {
     //   files: ['<%= jshint.files %>'],
@@ -247,10 +249,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-env');
   grunt.loadNpmTasks('grunt-preprocess');
   grunt.loadNpmTasks('grunt-strip');
-  grunt.loadNpmTasks('grunt-execute');
+  //grunt.loadNpmTasks('grunt-execute');
 
 
-  grunt.registerTask('dev', ['ngconstant:development']);
-  grunt.registerTask('default',['ngconstant:production','execute','jshint','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod']);
+  //grunt.registerTask('dev', []);
+  grunt.registerTask('default',['ngconstant:production','jshint','env:prod','less:prod','concat:js','concat:css','copy','strip','uglify','preprocess:prod','ngconstant:development']);
 
 };
