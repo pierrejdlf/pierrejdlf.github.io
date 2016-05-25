@@ -507,12 +507,12 @@ Copyright (c) 2015 Daniel Eden
     width: 33.33%;
   }
 }
-@media (min-width: 360px) and (max-width: 620px) {
+@media (min-width: 450px) and (max-width: 620px) {
   .card {
     width: 50%;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 450px) {
   .card {
     width: 100%;
   }
@@ -573,7 +573,6 @@ blockquote {
   padding: 0;
   width: 100%;
   height: 100%;
-  margin-top: 30px;
 }
 .nohighlight {
   -webkit-touch-callout: none;
@@ -602,14 +601,14 @@ blockquote {
 /* HEADER */
 .me {
   vertical-align: top;
-  padding-top: 35px;
+  padding: 35px 0px 30px 0px;
   text-align: center;
   font-style: italic;
   font-weight: 100;
   color: #474747;
 }
 .me .author {
-  margin-bottom: 9px;
+  margin: 0px 20px 9px 20px;
 }
 .me .author i {
   margin: 0px 4px 0px 7px;
@@ -618,7 +617,7 @@ blockquote {
   margin-bottom: 10px;
 }
 .me .description {
-  margin-top: 9px;
+  margin: 0px 20px;
 }
 /* ALL CARDS */
 .card {
@@ -659,7 +658,8 @@ blockquote {
   cursor: initial;
 }
 .card.cartel .text {
-  background: #c7c3b7 !important;
+  color: grey;
+  background: #e4e0d3 !important;
 }
 .card .cover {
   z-index: 99;

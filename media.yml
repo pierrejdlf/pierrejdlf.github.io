@@ -1,7 +1,7 @@
 ---
   children: 
-    - 
-      text: interactions carto graphiables
+    -
+      text: on n’entre pas dans un monde meilleur sans effraction
       type: text
     - 
       title: utopies concrètes
@@ -9,15 +9,23 @@
       subtitle: manifeste(s) du monde qui vient
       img: utopies/utopies_thumb.jpg
       children: 
-        - 
-          img: utopies/utopies_position.jpg
-          type: img
-        - 
-          text: on en a marre
+        -
+          text: >
+            les Hommes naissent libres
+            
+
+            mais ils sont partout dans les chaînes
           type: text
         - 
           redirect: "http://utopies-concretes.org"
           type: redirect
+        - 
+          text: on en a marre
+          type: text
+        - 
+          img: utopies/utopies_position.jpg
+          type: img
+
         - 
           text: on formule
           type: text
@@ -39,6 +47,30 @@
         - 
           img: utopies/utopies_convergence.jpg
           type: img
+    - 
+      title: "dis-moi où tu me plaîs"
+      type: img
+      subtitle: "amours du métro parisien"
+      img: cdlm/cdlm_thumb.jpg
+      children: 
+        - 
+          text: "Carte interactive des messages amoureux parisiens"
+          type: text
+        - 
+          redirect: "http://pierrejdlf.github.io/cdlm"
+          type: redirect
+        - 
+          text: "*Pour voir où on s'aime*"
+          type: text
+        - 
+          img: cdlm/charmant.jpg
+          type: img
+        - 
+          img: cdlm/old.jpg
+          type: img
+    - 
+      text: la cartographie des désirs définit la méthodologie de toute révolution
+      type: text
     - 
       children: 
         - 
@@ -132,27 +164,6 @@
     - 
       children: 
         - 
-          text: "Carte interactive des messages amoureux parisiens"
-          type: text
-        - 
-          redirect: "http://pierrejdlf.github.io/cdlm"
-          type: redirect
-        - 
-          text: "*Pour voir où on s'aime*"
-          type: text
-        - 
-          img: cdlm/charmant.jpg
-          type: img
-        - 
-          img: cdlm/old.jpg
-          type: img
-      title: "dis-moi où tu me plaîs"
-      type: img
-      subtitle: "amours du métro parisien"
-      img: cdlm/cdlm_thumb.jpg
-    - 
-      children: 
-        - 
           text: "Lire les histoires du quartier"
           type: text
         - 
@@ -195,9 +206,6 @@
       type: img
       subtitle: " échantillon gratuit d'oiseaux"
       img: streetmap_thumb.jpg
-    - 
-      text: "interactures\nlectives\nau clic"
-      type: text
     - 
       children: 
         - 
@@ -256,7 +264,7 @@
       subtitle: "stéréo visuelle"
       img: atasco_thumb.jpg
     - 
-      text: "carnets d'avions"
+      text: la capacité d'un chercheur à penser l'impact concret des technologies sur la vie des gens est proportionnelle à la distance sociale et physique qui les sépare
       type: text
     - 
       children: 
@@ -431,9 +439,6 @@
       subtitle: "découpe du territoire avec le sable"
       img: brazza_thumb.jpg
     - 
-      text: "lettres images"
-      type: text
-    - 
       children: 
         - 
           text: "Aussitôt dit, il claque la porte derrière"
@@ -563,7 +568,7 @@
       subtitle: "on ne se parle plus"
       img: conversation_thumb.jpg
     - 
-      text: "brico lages"
+      text: l’invention du navire est aussi l’invention du naufrage
       type: text
     - 
       children: 
@@ -730,7 +735,11 @@
       subtitle: " imprimer ses propres factures"
       img: thermal_thumb.jpg
     - 
-      text: "col lages"
+      text: >
+        nobody can dig the truth
+
+
+        it will grow like a flower out the shit
       type: text
     - 
       content: "---\n"
@@ -925,9 +934,6 @@
       subtitle: " de droite à gauche"
       img: bd/bd_thumb.jpg
     - 
-      text: "clign otages"
-      type: text
-    - 
       children: 
         - 
           img: publi/publi_intro.jpg
@@ -1072,7 +1078,13 @@
       subtitle: " derrière la couleur, la lumière, au fond, la peau"
       img: headache_thumb.jpg
     - 
-      text: "réalité des flux"
+      text: >
+        ne dites pas que la lune existe
+        lorsque les nuages s'en vont
+
+
+        elle a toujours été là,
+        parfaitement claire
       type: text
     - 
       children: 
@@ -1176,3 +1188,8 @@
       type: img
       subtitle: "l'arbre miracle qu'on boit avec de l'eau"
       img: moringa_thumb.jpg
+
+
+
+
+
