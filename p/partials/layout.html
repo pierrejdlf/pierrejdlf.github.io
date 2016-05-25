@@ -1,106 +1,26 @@
 
 <div class="me">
-  <div class="author">pierre . jdlf  <i class="fa fa-at"></i> gmail • com</div>
-<!--   <a href="http://plus.google.com/118091992416644570539" target="_new"><img src="images/social/google.png"/></a>
+  <div class="author">
+    pierre . jdlf  <i class="fa fa-at"></i> gmail • com
+  </div>
+  <!--
+  <a href="http://plus.google.com/118091992416644570539" target="_new"><img src="images/social/google.png"/></a>
   <a href="http://facebook.com/pierre.jdlf" target="_new"><img src="images/social/facebook.png"/></a>
   <a href="http://twitter.com/pierrejdlf" target="_new"><img src="images/social/twitter.png"/></a>
   <a href="http://vimeo.com/pierrejdlf" target="_new"><img src="images/social/vimeo.png"/></a>
   <a href="http://github.com/pierrejdlf" target="_new"><img src="images/social/github.png"/></a>
   <a href="http://linkedin.com/in/pierrejdlf" target="_new"><img src="images/social/linkedin.png"/></a>
-  <a href="skype:pierre.jdlf?call" target="_new"><img src="images/social/skype.png"/></a> -->
+  <a href="skype:pierre.jdlf?call" target="_new"><img src="images/social/skype.png"/></a>
+  -->
   <div class="icons">
-    <i class="fa fa-blind"></i>
-    <i class="fa fa-deaf"></i>
-    <i class="fa fa-envira"></i>
-    <i class="fa fa-question-circle-o"></i>
-    <i class="fa fa-universal-access"></i>
-    <i class="fa fa-volume-control-phone"></i>
-    <i class="fa fa-adjust"></i>
-    <i class="fa fa-anchor"></i>
-    <i class="fa fa-arrows"></i>
-    <i class="fa fa-asterisk"></i>
-    <i class="fa fa-at"></i>
-    <i class="fa fa-battery-3"></i>
     <i class="fa fa-bicycle"></i>
-    <i class="fa fa-binoculars"></i>
-    <i class="fa fa-bolt"></i>
-    <i class="fa fa-book"></i>
-    <i class="fa fa-bomb"></i>    
-    <br>
-    <i class="fa fa-bullhorn"></i>
-    <i class="fa fa-calendar-check-o"></i>
-    <i class="fa fa-caret-square-o-right"></i>
-    <i class="fa fa-cc"></i>
-    <i class="fa fa-creative-commons"></i>
-    <i class="fa fa-check-circle-o"></i>
-    <i class="fa fa-child"></i>
-    <i class="fa fa-cloud-download"></i>
-    <i class="fa fa-coffee"></i>
-    <i class="fa fa-commenting"></i>
-    <i class="fa fa-cubes"></i>
-    <i class="fa fa-envelope-square"></i>
-    <i class="fa fa-external-link-square"></i>
-    <i class="fa fa-eye"></i>
-    <i class="fa fa-eyedropper"></i>
-    <i class="fa fa-fax"></i>
-    <i class="fa fa-fire-extinguisher"></i>
-    <br>
-    <i class="fa fa-hashtag"></i>
-    <i class="fa fa-history"></i>
-    <i class="fa fa-hourglass-3"></i>
-    <i class="fa fa-i-cursor"></i>
-    <i class="fa fa-info-circle"></i>
-    <i class="fa fa-life-ring"></i>
-    <i class="fa fa-magic"></i>
-    <i class="fa fa-magnet"></i>
-    <i class="fa fa-mail-reply-all"></i>
-    <i class="fa fa-map-marker"></i>
-    <i class="fa fa-microphone"></i>
-    <i class="fa fa-moon-o"></i>
-    <i class="fa fa-mouse-pointer"></i>
-    <i class="fa fa-object-group"></i>
-    <i class="fa fa-pencil"></i>
-    <i class="fa fa-plug"></i>
-    <i class="fa fa-power-off"></i>
-    <br>
-    <i class="fa fa-road"></i>
-    <i class="fa fa-sign-out"></i>
-    <i class="fa fa-sitemap"></i>
-    <i class="fa fa-sun-o"></i>
-    <i class="fa fa-tags"></i>
     <i class="fa fa-terminal"></i>
-    <i class="fa fa-thumb-tack"></i>
-    <i class="fa fa-tint"></i>
-    <i class="fa fa-tree"></i>
-    <i class="fa fa-umbrella"></i>
-    <i class="fa fa-unlock"></i>
-    <i class="fa fa-video-camera"></i>
-    <i class="fa fa-wheelchair"></i>
-    <i class="fa fa-tty"></i>
-    <i class="fa fa-universal-access"></i>
-    <i class="fa fa-transgender"></i>
-    <br>
-    <i class="fa fa-file-image-o"></i>
-    <i class="fa fa-align-center"></i>
+    <i class="fa fa-magic"></i>
+    <i class="fa fa-blind"></i>
     <i class="fa fa-cut"></i>
-    <i class="fa fa-paperclip"></i>
-    <i class="fa fa-paragraph"></i>
-    <i class="fa fa-text-height"></i>
-    <i class="fa fa-angle-double-right"></i>
-    <i class="fa fa-arrow-cirle-right"></i>
-    <i class="fa fa-arrows-alt"></i>
-    <i class="fa fa-chevron-circle-right"></i>
-    <i class="fa fa-firefox"></i>
-    <i class="fa fa-git"></i>
-    <i class="fa fa-gratipay"></i>
-    <i class="fa fa-linux"></i>
-    <i class="fa fa-bug"></i>
-    <i class="fa fa-flask"></i>
-    <br>
-    <i class="fa fa-quote-left"></i>
-    <i class="fa fa-transgender-alt"></i>
   </div>
-  web-friendly | digital-humanist | interface-designer | human-being
+  <div class="description">
+     web-friendly | digital-humanist | interface-designer | human-being 
   </div>
 </div>
 
@@ -129,7 +49,7 @@
       class="text nohighlight"
       ng-model="a.text">
     </markdown>
-    <div ng-class="{cover:a.img}" back-img="{{settings.mediapath}}/{{a.img}}"></div>
+    <div class="covthumb" ng-class="{cover:a.img}" back-img="{{settings.mediapath}}/{{a.img}}"></div>
   </div><!-- ———————————————— B CARDS (CHILDREN) --><div
     no-animate
     ng-repeat="b in a.children"
@@ -155,9 +75,9 @@
     <div
       ng-if="b.type=='img'"
       class="img">
-      <i class="button opener centered blacked fa fa-image"></i>
+      <i class="button opener centered blacked fa fa-cut"></i>
       <div
-        class="cover"
+        class="covimage cover"
         back-img="{{settings.mediapath}}/{{b.img}}">
       </div>
     </div>
@@ -169,7 +89,7 @@
     <!-- IFRAME -->
     <i
       ng-if="b.type=='iframe' && now.b!=$index"
-      class="button expander zoomonover centered fa fa-expand"></i>
+      class="button expander zoomonover centered fa fa-magic"></i>
     <iframe
       ng-if="b.type=='iframe' && now.b==$index"
       class="iframe"
@@ -196,7 +116,7 @@
     </iframe>
     <!-- REDIRECT -->
     <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
-      <i class="button externaler zoomonover centered fa fa-external-link-square"></i>
+      <i class="button externaler zoomonover centered fa fa-external-link"></i>
       <div class="info">{{b.redirect}}</div>
     </a>
   </div><div class="hidden" ng-repeat-end></div>

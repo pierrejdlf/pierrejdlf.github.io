@@ -94,7 +94,7 @@ module.exports = function(grunt) {
           'src/vendor/angular/angular.min.js',
           'src/vendor/angular-sanitize/angular-sanitize.min.js',
           'src/vendor/angular-route/angular-route.min.js',
-          'src/vendor/angular-animate/angular-animate.min.js',
+          //'src/vendor/angular-animate/angular-animate.min.js',
 
           'src/vendor/showdown/compressed/showdown.js',
           'src/vendor/angular-markdown/angular.markdown.js',
