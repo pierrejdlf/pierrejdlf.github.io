@@ -667,6 +667,15 @@ angular.module('jdlf.controllers', ['underscore','config'])
       a:null,
       b:null
     };
+    /////////////////////////////////// GET TYPE
+    $scope.elType = function(e) {
+      if(e.img) return "img";
+      else if(e.text) return "text";
+      else if(e.redirect) return "redirect";
+      else if(e.vimeo) return "vimeo";
+      else if(e.iframe) return "iframe";
+      else return "nc-type";
+    };
     $scope.clickA = function(a,index) {
       if($scope.now.a == -1) {
         $scope.element.a = a;
@@ -683,16 +692,18 @@ angular.module('jdlf.controllers', ['underscore','config'])
     };
     $scope.clickB = function(a,aindex,b,bindex) {
       //console.log("was",$scope.now);
+      var btype = $scope.elType(b);
+
       if($scope.now.b != bindex) {
         $scope.element.b = b;
         $scope.now.a = aindex;
         $scope.now.b = bindex;
 
         var st = "";
-        st += b.type=='img' ? b.img : "";
-        st += b.type=='iframe' ? b.iframe : "";
-        st += b.type=='vimeo' ? b.vimeo : "";
-        ga('send','event','Cell_B', 'Opened', aindex+"_"+bindex+"_"+b.type+"_"+st); // hello to ga
+        st += btype=='img' ? b.img : "";
+        st += btype=='iframe' ? b.iframe : "";
+        st += btype=='vimeo' ? b.vimeo : "";
+        ga('send','event','Cell_B', 'Opened', aindex+"_"+bindex+"_"+btype+"_"+st); // hello to ga
 
         //$location.hash('b_'+index);
         // $timeout(function() {
@@ -701,10 +712,10 @@ angular.module('jdlf.controllers', ['underscore','config'])
         // },500);
       } else {
         var st = "";
-        st += b.type=='img' ? b.img : "";
-        st += b.type=='iframe' ? b.iframe : "";
-        st += b.type=='vimeo' ? b.vimeo : "";
-        ga('send','event','Cell_B', 'Closed', aindex+"_"+bindex+"_"+b.type+"_"+st); // hello to ga
+        st += btype=='img' ? b.img : "";
+        st += btype=='iframe' ? b.iframe : "";
+        st += btype=='vimeo' ? b.vimeo : "";
+        ga('send','event','Cell_B', 'Closed', aindex+"_"+bindex+"_"+btype+"_"+st); // hello to ga
         $scope.element.b = null;
         $scope.now.b = -1;
       }
@@ -731,62 +742,7 @@ angular.module('jdlf.controllers', ['underscore','config'])
 
       }
     });
-
-
-
-    /*
-    var getPrepairedData = function(json) {
-      //////////////////////////////////////////////////////////////////////
-      var removeEmpties = function(list) {
-        return _.filter(list, function(d) {
-          return d.content;
-        });
-      };
-      var extractRegexp = function(d,key,r,split) {
-        var regexp = new RegExp(r);
-        if(regexp.test(d.content)) {
-            var mat = d.content.match(regexp);
-            if(mat.length>1) {
-              d[key] = mat[1];
-              d.type = key;
-            }
-            d.content = d.content.replace(regexp,"");
-        }
-        return d;
-      };
-      var recursiveYam = function(list) {
-        _.each(list, function(d,k) {
-          // do it for all children
-          if(d.children) {
-            d.children = removeEmpties(d.children);
-            recursiveYam(d.children);
-          }
-          // parse content
-          if(d.content) {
-            // warning: double escape needed as we will treat strings as regexp
-            extractRegexp(d,'title','^#([^\\n]*)\\n');
-            extractRegexp(d,'subtitle','^##([^\\n]*)\\n');
-            extractRegexp(d,'img','^!\\[\\w*]\\(([^\\n\\)]*)\\)\\n*');
-            extractRegexp(d,'vimeo','^(https*://vimeo.com.+)\\n*');
-            extractRegexp(d,'iframe','^(https*://pierrejdlf.github.io/('+IFRAMEGITHUBPROJECTS+')[^\\n]*)\\n*');
-            extractRegexp(d,'redirect','^(https*://[^\\n]+)\\n*');
-            extractRegexp(d,'text','^---\\n((.|\\n)+)');
-          }
-        });
-      };
-      //////////////////////////////////////////////////////////////////////
-
-      // remove empty ones
-      var root = json.slice(1)[0]; //omit first element (info)
-      recursiveYam([root]);
-      return root;
-    }
-    */
-  
-
-
-
-
+    
     
     //////////////////////////////////////////
     $http

@@ -2,10 +2,8 @@
   children: 
     -
       text: on n’entre pas dans un monde meilleur sans effraction
-      type: text
     - 
       title: utopies concrètes
-      type: img
       subtitle: manifeste(s) du monde qui vient
       img: utopies/utopies_thumb.jpg
       children: 
@@ -15,378 +13,280 @@
             
 
             mais ils sont partout dans les chaînes
-          type: text
         - 
           redirect: "http://utopies-concretes.org"
-          type: redirect
         - 
           text: on en a marre
-          type: text
         - 
           img: utopies/utopies_position.jpg
-          type: img
-
         - 
           text: on formule
-          type: text
         - 
           img: utopies/utopies_sections.jpg
-          type: img
         - 
           text: on recense
-          type: text
         - 
           img: utopies/utopies_network.jpg
-          type: img
         - 
           text: on agrège
-          type: text
         - 
           img: utopies/utopies_map.jpg
-          type: img
         - 
           img: utopies/utopies_convergence.jpg
-          type: img
     - 
       title: "dis-moi où tu me plaîs"
-      type: img
       subtitle: "amours du métro parisien"
       img: cdlm/cdlm_thumb.jpg
       children: 
         - 
           text: "Carte interactive des messages amoureux parisiens"
-          type: text
         - 
           redirect: "http://pierrejdlf.github.io/cdlm"
-          type: redirect
         - 
           text: "*Pour voir où on s'aime*"
-          type: text
         - 
           img: cdlm/charmant.jpg
-          type: img
         - 
           img: cdlm/old.jpg
-          type: img
     - 
       text: la cartographie des désirs définit la méthodologie de toute révolution
-      type: text
     - 
       children: 
         - 
           text: "Espace local d'échanges\net agenda culturel libre cartographié\n"
-          type: text
         - 
           redirect: "http://www.parismappartient.fr"
-          type: redirect
         - 
           img: parismap/words.jpg
-          type: img
         - 
           vimeo: "https://vimeo.com/69411582"
-          type: vimeo
         - 
           text: "*Un robot twitter répond à votre appel*"
-          type: text
         - 
           img: parismap/slides_1.jpg
-          type: img
         - 
           img: parismap/slides_2.jpg
-          type: img
         - 
           text: "rues ruches"
-          type: text
         - 
           img: parismap/ruche_1.jpg
-          type: img
         - 
           img: parismap/ruche_2.jpg
-          type: img
         - 
           img: parismap/class_graf1.jpg
-          type: img
         - 
           img: parismap/class_graf2.jpg
-          type: img
         - 
           text: "que reste t'il a explorer ?"
-          type: text
         - 
           img: parismap/zone_1.jpg
-          type: img
         - 
           img: parismap/zone_2.jpg
-          type: img
         - 
           img: parismap/zone_3.jpg
-          type: img
         - 
           img: parismap/zone_4.jpg
-          type: img
         - 
           text: "les plus riches de Paris"
-          type: text
         - 
           img: parismap/class_1.jpg
-          type: img
         - 
           img: parismap/class_2.jpg
-          type: img
         - 
           text: "un jeu à l'insu du plein gré"
-          type: text
         - 
           img: parismap/class_3.jpg
-          type: img
         - 
           text: "conversations sans médiation"
-          type: text
         - 
           img: parismap/tw_quoi.jpg
-          type: img
         - 
           img: parismap/tw_qui.jpg
-          type: img
         - 
           img: parismap/tweets.jpg
-          type: img
         - 
           text: "hors-la-loi"
-          type: text
         - 
           img: parismap/twitter_suspend.jpg
-          type: img
       title: "paris m'appartient"
-      type: img
       subtitle: "réseau ouvert de proximité"
       img: parismap/parismap_thumb.jpg
     - 
       children: 
         - 
           text: "Lire les histoires du quartier"
-          type: text
         - 
           redirect: "http://pierrejdlf.github.io/zoomap"
-          type: redirect
         - 
           img: belledemai/z_1.jpg
-          type: img
         - 
           img: belledemai/z_2.jpg
-          type: img
         - 
           img: belledemai/z_3.jpg
-          type: img
       title: " belle-de-mai"
-      type: img
       subtitle: " que dis-tu au creux des rues ?"
       img: belledemai/belledemai_thumb.jpg
     - 
       children: 
         - 
           text: "Qui regarde où par là ?\n*(appuyer sur la touche espace)*"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/streetmap/map_gridview.html"
-          type: iframe
         - 
           text: "Carte déroutée"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/streetmap/map_messed.html"
-          type: iframe
         - 
           text: "Mille-carte"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/streetmap/map_pancake.html"
-          type: iframe
       title: "look around"
-      type: img
       subtitle: " échantillon gratuit d'oiseaux"
       img: streetmap_thumb.jpg
     - 
       children: 
         - 
           text: "Histoire dont vous êtes le héros"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/tellme"
-          type: iframe
       title: "tell me"
-      type: img
       subtitle: "on avance et on change le cours des mots"
       img: tellme_thumb.jpg
     - 
       children: 
         - 
           text: "Lire en profondeur et creuser les usages"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/treeword/?p=0"
-          type: iframe
         - 
           img: treeword.jpg
-          type: img
         - 
           text: "Avec css et images"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/treeword/?p=11"
-          type: iframe
       title: "puits de mots"
-      type: img
       subtitle: " lecture en profondeur"
       img: treeword_thumb.jpg
     - 
       children: 
         - 
           text: "De portes en portes on laisse des traces"
-          type: text
         - 
           redirect: "http://pierrejdlf.github.io/bangalore"
-          type: redirect
       title: "bangalore"
-      type: img
       subtitle: " labyrinthe interactif cartographié"
       img: bangalore_thumb.jpg
     - 
       children: 
         - 
           text: "Les 2 bras d'un même livre"
-          type: text
         - 
           redirect: "http://pierrejdlf.github.io/carnet"
-          type: redirect
       title: "chile, carnet"
-      type: img
       subtitle: "stéréo visuelle"
       img: atasco_thumb.jpg
     - 
       text: la capacité d'un chercheur à penser l'impact concret des technologies sur la vie des gens est proportionnelle à la distance sociale et physique qui les sépare
-      type: text
+    - 
+      title: canards
+      subtitle: transition
+      img: palma/palma_thumb.jpg
+      children: 
+        - 
+          img: palma/police.jpg
+        - 
+          img: palma/imueble.jpg
+        - 
+          img: palma/terreau.jpg
+        - 
+          img: palma/alaplage.jpg
+        - 
+          img: palma/chevre.jpg
     - 
       children: 
         - 
           text: "Une lettre de rappel"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/montreal"
-          type: iframe
         - 
           text: "Avec quelques images de la réalité"
-          type: text
         - 
           vimeo: "http://vimeo.com/44886450"
-          type: vimeo
       title: "montreal"
-      type: img
       subtitle: "respirer"
       img: montreal_thumb.jpg
     - 
       children: 
         - 
           vimeo: "http://vimeo.com/50007062"
-          type: vimeo
         - 
           img: nyc/sky.jpg
-          type: img
         - 
           text: "En descendant dans le sud"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/gifcomics/?p=nyc1"
-          type: iframe
         - 
           vimeo: "http://vimeo.com/48608720"
-          type: vimeo
         - 
           text: "Des facades et le macadam"
-          type: text
         - 
           img: nyc/nyc-collage.jpg
-          type: img
         - 
           iframe: "http://pierrejdlf.github.io/gifcomics/?p=nyc2"
-          type: iframe
       title: " new york"
-      type: img
       subtitle: "marcher, filmer"
       img: nyc/nyc_thumb.jpg
     - 
       children: 
         - 
           text: "L'humidité des couleurs vives"
-          type: text
         - 
           vimeo: "http://vimeo.com/55290004"
-          type: vimeo
         - 
           iframe: "http://pierrejdlf.github.io/gifcomics/?p=colombia"
-          type: iframe
       title: "colombia"
-      type: img
       subtitle: "parler"
       img: colombia_thumb.jpg
     - 
       children: 
         - 
           text: "Village merveille de l'industrie touristique"
-          type: text
         - 
           vimeo: "http://vimeo.com/59641414"
-          type: vimeo
       title: "mollendo"
-      type: img
       subtitle: "sable"
       img: mollendo_thumb.jpg
     - 
       children: 
         - 
           text: "Les processus ont été conçus de toutes pièces"
-          type: text
         - 
           img: china/a.jpg
-          type: img
         - 
           img: china/b.jpg
-          type: img
         - 
           img: china/brosse.jpg
-          type: img
         - 
           img: china/c.jpg
-          type: img
         - 
           img: china/d.jpg
-          type: img
         - 
           img: china/e.jpg
-          type: img
         - 
           img: china/encore.jpg
-          type: img
         - 
           img: china/f.jpg
-          type: img
         - 
           img: china/g.jpg
-          type: img
         - 
           img: china/mal.gif
-          type: img
         - 
           img: china/on-tient.jpg
-          type: img
         - 
           img: china/papants.jpg
-          type: img
         - 
           img: china/sonnettes.jpg
-          type: img
       title: "china"
-      type: img
       subtitle: "réalisme"
       img: china_thumb.jpg
     - 
@@ -394,247 +294,175 @@
       children: 
         - 
           text: "Meka\nokangama"
-          type: text
         - 
           img: brazza/AAGoutRecadre.jpg
-          type: img
         - 
           img: brazza/bzv-650x1150.jpg
-          type: img
         - 
           img: brazza/bzv_baby.gif
-          type: img
         - 
           img: brazza/bzv_ccf.gif
-          type: img
         - 
           img: brazza/bzv_cig.gif
-          type: img
         - 
           img: brazza/bzv_pape.gif
-          type: img
         - 
           img: brazza/bzv_qua.gif
-          type: img
         - 
           img: brazza/bzv_teuf.gif
-          type: img
         - 
           img: brazza/bzv_view.gif
-          type: img
         - 
           img: brazza/ccfbrazza_collage-650x411.jpg
-          type: img
         - 
           img: brazza/ccfbrazza_map-650x459.jpg
-          type: img
         - 
           img: brazza/pellicule-650x436.jpg
-          type: img
         - 
           img: brazza/pousse.jpg
-          type: img
       title: "brazzaville"
-      type: img
       subtitle: "découpe du territoire avec le sable"
       img: brazza_thumb.jpg
     - 
       children: 
         - 
           text: "Aussitôt dit, il claque la porte derrière"
-          type: text
         - 
           text: "s'engouffre dans les marches d'une journée humide comme un pinceau"
-          type: text
         - 
           text: "regroupe dans une même boite tous les fils ramassés — comme des ordures — il est le seul à s'y salir les mains"
-          type: text
         - 
           text: "et là"
-          type: text
         - 
           text: "au fond du trottoir passager, il plonge la main dans un trou sombre pour compléter sa collection"
-          type: text
         - 
           text: "il n'y a que du vide, croit-il, lorsque soudain"
-          type: text
         - 
           text: "sa main se retourne contre lui — aussi sec. lui attrape le cou et à toutes forces se met à serrer la jugulaire"
-          type: text
         - 
           text: "tressaute, recule, mais rien à faire"
-          type: text
         - 
           text: "les doigts enragés coupent toute circulation, bientôt l'air manque, les muscles surpris sursautent encore une fois"
-          type: text
         - 
           text: "il tombe le long de son corps, comme si c'était lui"
-          type: text
         - 
           text: "qui était là"
-          type: text
         - 
           text: "mort au fond de toute la merde du monde"
-          type: text
         - 
           img: trame/floor.jpg
-          type: img
       title: "trâme"
-      type: img
       subtitle: "le squelette d'un récit"
       img: trame/trame_thumb.jpg
     - 
       children: 
         - 
           text: "Je te recherche"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/lettre"
-          type: iframe
         - 
           text: "pas de caprices"
-          type: text
       title: "lettre"
-      type: img
       subtitle: "je t'écris pour te dire"
       img: lettre_thumb.jpg
     - 
       children: 
         - 
           text: "Votre titre de transport"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/touche"
-          type: iframe
       title: "ne me touche"
-      type: img
       subtitle: "le transport public amoureux"
       img: touche_thumb.jpg
     - 
       children: 
         - 
           text: "À l'époque"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/abidjan"
-          type: iframe
       title: "abidjan"
-      type: img
       subtitle: " dialogue de sourd"
       img: abidjan_thumb.jpg
     - 
       children: 
         - 
           iframe: "http://pierrejdlf.github.io/static/saopaulo"
-          type: iframe
       title: "sao ~ paulo"
-      type: img
       subtitle: "j'aime la publicité"
       img: saopaulo_thumb.jpg
     - 
       children: 
         - 
           text: "Mon oncle d'amérique"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/hasard"
-          type: iframe
       title: "hasards répétés"
-      type: img
       subtitle: "des possibles cheveux blonds"
       img: hasard_thumb.jpg
     - 
       children: 
         - 
           text: "Cours des bourses"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/crise"
-          type: iframe
       title: "europe austérité"
-      type: img
       subtitle: "terrible crise à tranchants"
       img: crise_thumb.jpg
     - 
       children: 
         - 
           text: "Écart verbal"
-          type: text
         - 
           iframe: "http://pierrejdlf.github.io/static/conversation"
-          type: iframe
       title: "no conversation"
-      type: img
       subtitle: "on ne se parle plus"
       img: conversation_thumb.jpg
     - 
       text: l’invention du navire est aussi l’invention du naufrage
-      type: text
     - 
       children: 
         - 
           text: "Machine à"
-          type: text
         - 
           img: machine/739.gif
-          type: img
         - 
           img: machine/P1200720.JPG
-          type: img
         - 
           img: machine/744.gif
-          type: img
         - 
           text: "endormir les yeux"
-          type: text
         - 
           img: machine/747.gif
-          type: img
         - 
           img: machine/P1200715.JPG
-          type: img
         - 
           text: "et"
-          type: text
         - 
           img: machine/P1200718.JPG
-          type: img
         - 
           text: "les neurones"
-          type: text
         - 
           img: machine/P1200732.JPG
-          type: img
         - 
           img: machine/P1200750.JPG
-          type: img
       title: "inside machine"
-      type: img
       subtitle: "production musicale et lumineuse"
       img: machine/thumb.jpg
     - 
       children: 
         - 
           text: "voici que tout d'un coup, la grille se ferme sur mes doigts"
-          type: text
         - 
           img: sacage/P1200687.JPG
-          type: img
         - 
           img: sacage/P1200691.JPG
-          type: img
         - 
           img: sacage/P1200699.JPG
-          type: img
         - 
           img: sacage/P1200705.JPG
-          type: img
         - 
-          children: []
           img: sacage/P1200713.JPG
-          type: img
       title: "un sacage"
-      type: img
       subtitle: "courant continu"
       img: sacage/thumb.jpg
     - 
@@ -642,96 +470,67 @@
       children: 
         - 
           img: inutiles/DSC02522.jpg
-          type: img
         - 
           img: inutiles/DSC02028.jpg
-          type: img
         - 
           img: inutiles/DSC05293.jpg
-          type: img
         - 
           img: inutiles/bricole_a_06-650x487.jpg
-          type: img
         - 
           img: inutiles/P2080323.jpg
-          type: img
         - 
           img: inutiles/P2080296.jpg
-          type: img
         - 
           img: inutiles/P2080294.jpg
-          type: img
         - 
           img: inutiles/bricole_b_12-650x487.jpg
-          type: img
         - 
           img: inutiles/bricole_b_14-650x487.jpg
-          type: img
         - 
           img: inutiles/bricole_b_15-650x487.jpg
-          type: img
         - 
           img: inutiles/bricole_b_16-650x433.jpg
-          type: img
         - 
           img: inutiles/bricole_b_17-650x433.jpg
-          type: img
         - 
           img: inutiles/bricole_o_1-650x554.jpg
-          type: img
         - 
           img: inutiles/bricole_o_2-650x564.jpg
-          type: img
       title: "des objets inutiles"
-      type: img
       subtitle: " récupérés"
       img: inutiles/inutiles_thumb.jpg
     - 
       children: 
         - 
           text: "- dimensions 27” x 345” x 3”\n- audio + video + taste\n- 3min"
-          type: text
         - 
           text: "glass shelf, with a half frosted window glass to receive the fluids"
-          type: text
         - 
           img: penatizerA.jpg
-          type: img
         - 
           text: "surrounded with concrete red plastic made of human hair"
-          type: text
         - 
           text: "into a 19” flat screen monitor (available on demand)\nblack pen is made of crafted jewelry from mile-end’s desert’ sand"
-          type: text
         - 
           img: penatizerB.jpg
-          type: img
         - 
           text: "First image depicts the evidence of life’s mystery.\nThe other shows the burning issue of people living, but somehow-someday, dying alone."
-          type: text
       title: "made of"
-      type: img
       subtitle: "vu, reconnu, vendu"
       img: madeof.jpg
     - 
       children: 
         - 
           text: "Im pression"
-          type: text
         - 
           img: thermal_printer.gif
-          type: img
         - 
           text: "- fil de cuivre\n- arduino\n- 12V\n- discussions\n- TVA"
-          type: text
         - 
           img: thermal.jpg
-          type: img
         - 
           redirect: "https://github.com/pierrejdlf/thermalprinter"
-          type: redirect
       title: "tête thermique"
-      type: img
       subtitle: " imprimer ses propres factures"
       img: thermal_thumb.jpg
     - 
@@ -740,150 +539,107 @@
 
 
         it will grow like a flower out of the shit
-      type: text
     - 
       content: "---\n"
       children: 
         - 
           text: "Épaisseur variable au verso"
-          type: text
         - 
           img: glace/a.jpg
-          type: img
         - 
           img: glace/b.jpg
-          type: img
         - 
           img: glace/c.jpg
-          type: img
         - 
           img: glace/d.jpg
-          type: img
         - 
           img: glace/e.jpg
-          type: img
         - 
           img: glace/f.jpg
-          type: img
         - 
           img: glace/g.jpg
-          type: img
         - 
           img: glace/h.jpg
-          type: img
       title: "papier glaçé"
-      type: img
       subtitle: "20x30, papier brillant"
       img: glace/thumb.jpg
     - 
       children: 
         - 
           img: collages/IMG_8218.jpg
-          type: img
         - 
           img: collages/IMG_8231.jpg
-          type: img
         - 
           img: collages/IMG_8239.jpg
-          type: img
         - 
           text: "Tout a été mesuré, sécurisé dans des containers"
-          type: text
         - 
           img: collages/IMG_8243.jpg
-          type: img
         - 
           img: collages/IMG_8246.jpg
-          type: img
         - 
           img: collages/IMG_8248.jpg
-          type: img
         - 
           img: collages/IMG_8258.jpg
-          type: img
         - 
           img: collages/IMG_8265.jpg
-          type: img
         - 
           img: collages/IMG_8267.jpg
-          type: img
         - 
           img: collages/IMG_8269.jpg
-          type: img
         - 
           img: collages/lookingforward.jpg
-          type: img
       title: "de nos jours"
-      type: img
       subtitle: "on raconte n'importe quoi"
       img: collages_thumb.jpg
     - 
       children: 
         - 
           img: inutiles/DSC04040.jpg
-          type: img
         - 
           img: inutiles/P2080310.jpg
-          type: img
         - 
           img: inutiles/DSC04037.jpg
-          type: img
         - 
           img: inutiles/colle_c_03-650x539.jpg
-          type: img
         - 
           img: inutiles/DSC03214.jpg
-          type: img
         - 
           img: inutiles/colle_c_02-650x487.jpg
-          type: img
       title: "avant"
-      type: img
       subtitle: "on y allait au pif"
       img: inutiles/colle_c_03-650x539.jpg
     - 
       children: 
         - 
           img: napoli.jpg
-          type: img
       title: "napoli"
-      type: img
       subtitle: "j'y ai été avec toi"
       img: napoli_thumb.jpg
     - 
       children: 
         - 
           img: asia/orawan.jpg
-          type: img
         - 
           img: asia/asia.jpg
-          type: img
         - 
           img: asia/scale.jpg
-          type: img
       title: "asia"
-      type: img
       subtitle: "marcher, rouler"
       img: asia/asia_thumb.jpg
     - 
       children: 
         - 
           img: romania/train.jpg
-          type: img
         - 
           img: romania/bird.jpg
-          type: img
         - 
           img: romania/romania.jpg
-          type: img
         - 
           img: romania/mesh.jpg
-          type: img
         - 
           img: romania/snow.jpg
-          type: img
       title: "romania"
-      type: img
       subtitle: "rencontrer, coller"
       img: romania/romania_thumb.jpg
     - 
@@ -891,18 +647,13 @@
       children: 
         - 
           img: map/collistes_27.jpg
-          type: img
         - 
           img: map/dessein.jpg
-          type: img
         - 
           img: map/aquarelleW.jpg
-          type: img
         - 
           img: map/clignons.gif
-          type: img
       title: " cartographie visible"
-      type: img
       subtitle: "ne demande pas ton chemin"
       img: map/map_thumb.jpg
     - 
@@ -910,173 +661,123 @@
       children: 
         - 
           img: bd/symA.jpg
-          type: img
         - 
           img: bd/symB.jpg
-          type: img
         - 
           img: bd/initiatiqueX.jpg
-          type: img
         - 
           img: bd/initiatiqueA.jpg
-          type: img
         - 
           img: bd/initiatiqueB.jpg
-          type: img
         - 
           img: bd/georges.jpg
-          type: img
         - 
           img: bd/3bandescartovie.v2.jpg
-          type: img
       title: "symétrie narrative"
-      type: img
       subtitle: " de droite à gauche"
       img: bd/bd_thumb.jpg
     - 
+      title: "publipostage"
+      subtitle: " flux"
+      img: publi/publi_thumb.jpg
       children: 
         - 
           img: publi/publi_intro.jpg
-          type: img
         - 
           img: publi/publi_quad.gif
-          type: img
-      title: "publipostage"
-      type: img
-      subtitle: " flux"
-      img: publi/publi_thumb.jpg
     - 
+      title: "marker attack"
+      subtitle: "contre attaque ccc"
+      img: ccc_marker_thumb.jpg
       children: 
         - 
           text: "ccc\n[copie copain club](http://copie-copains-club.net/marker-attack)"
-          type: text
         - 
           img: markers.gif
-          type: img
         - 
           text: "Les Statues Meurent Aussi"
-          type: text
         - 
           text: "[Chris Marker](http://www.telegraph.co.uk/news/obituaries/culture-obituaries/film-obituaries/9439368/Chris-Marker.html)"
-          type: text
         - 
           text: "> Quand les hommes sont morts, ils entrent dans l’Histoire\nQuand les statues sont mortes, elles entrent dans l’Art\nCette botanique de la mort, c’est ce que nous appelons: la Culture."
-          type: text
         - 
           text: "was considered an attack on French foreign policy and was banned"
-          type: text
-      title: "marker attack"
-      type: img
-      subtitle: "contre attaque ccc"
-      img: ccc_marker_thumb.jpg
     - 
+      title: "on a dû le refaire"
+      subtitle: "rendez-vous endommagé"
+      img: ccc_refaire_thumb.jpg
       children: 
         - 
           text: "ccc\n[copie copain club](http://copie-copains-club.net)"
-          type: text
         - 
           text: "ccc [Google Earth Movies](http://copie-copains-club.net/projet2/), par [EBMM](http://www.eb-mm.net/)"
-          type: text
         - 
           text: "*22 janvier 2025*"
-          type: text
         - 
           text: "La GSF (Google Science Foundation) rend public l’affaire “Disk-Gate”.\nAlors qu’on pensait les ressources de stockage quasi infinies, on apprend qu’il ne reste plus que 42 To d’espace disque disponible sur la planète.\nSuite au G4 de juillet, chaque pays reconnu se voit attribué un part liée à son PIB."
-          type: text
         - 
           text: "Malgré la seconde crise européenne de 2022, la France parvient à obtenir 427,3 Mo d’espace libre dans le nuage."
-          type: text
         - 
           text: "*17 octobre 2025*"
-          type: text
         - 
           text: "Après 2 mois de discussions ouvertes à l’Assemblée Populaire, il est décidé d’archiver l’échantillon le plus représentatif du pays.\nLa capitale Paris sera mise à l’honneur, telle qu’elle a été filmée un matin d’août 1976 par Claude Lelouch."
-          type: text
         - 
           text: "Le réalisateur utilise alors les relicats de pellicule de son film “Si c’était à refaire” pour parcourir la ville à toute vitesse au volant d’une Mercedes.\nLes images originales (endommagées par le déluge de l’été 2015) ont été gracieusement restaurées et compressées par la GSF, afin de ne pas dépasser la barre des 425 Mo"
-          type: text
         - 
           vimeo: "http://vimeo.com/65909214"
-          type: vimeo
         - 
           text: "L’espace restant (2,3 Mo) fut alloué à la conservation d’un fil de commentaire en réaction à l’œuvre archivée."
-          type: text
         - 
           text: "*C’était un Rendez-Vous, par Claude Lelouch*"
-          type: text
-      title: "on a dû le refaire"
-      type: img
-      subtitle: "rendez-vous endommagé"
-      img: ccc_refaire_thumb.jpg
     - 
+      title: "un homme"
+      subtitle: " avec un tout petit chien"
+      img: petitchien_thumb.jpg
       children: 
         - 
           text: "cadavre exquis narratif"
-          type: text
         - 
           vimeo: "https://vimeo.com/65448253"
-          type: vimeo
-      title: "un homme"
-      type: img
-      subtitle: " avec un tout petit chien"
-      img: petitchien_thumb.jpg
     - 
+      title: "seven eleven"
+      subtitle: " nuit silencieuse"
+      img: cligne/cligne_thumb.jpg
       children: 
         - 
           text: "Ça tourne à peine"
-          type: text
         - 
           img: cligne/movimach.gif
-          type: img
         - 
           text: "— 2.3cm de glace, le matin terrible"
-          type: text
         - 
           img: cligne/glacematinterrible.gif
-          type: img
         - 
           text: "les couleurs que l’on aperçoit là sont factices"
-          type: text
         - 
           img: cligne/lavabo.gif
-          type: img
-      title: "seven eleven"
-      type: img
-      subtitle: " nuit silencieuse"
-      img: cligne/cligne_thumb.jpg
     - 
+      title: "œil minimal"
+      subtitle: " derrière la couleur, la lumière, au fond, la peau"
+      img: headache_thumb.jpg
       children: 
         - 
           text: "Que reste t'il derrière la rétine ?"
-          type: text
         - 
           img: brainfuck/brainfuck_maison.gif
-          type: img
         - 
           img: brainfuck/brainfuck_parapluie.gif
-          type: img
         - 
           img: brainfuck/brainfuck_tagcloud.gif
-          type: img
         - 
           img: brainfuck/brainfuck_coindufeu.gif
-          type: img
         - 
           img: brainfuck/brainfuck_biphenol.gif
-          type: img
         - 
           img: brainfuck/brainfuck_notredame.gif
-          type: img
         - 
           img: brainfuck/brainfuck_lines.gif
-          type: img
         - 
           img: brainfuck/brainfuck_abdos.gif
-          type: img
-      title: "œil minimal"
-      type: img
-      subtitle: " derrière la couleur, la lumière, au fond, la peau"
-      img: headache_thumb.jpg
     - 
       text: >
         ne dites pas que la lune existe
@@ -1085,109 +786,77 @@
 
         elle a toujours été là,
         parfaitement claire
-      type: text
     - 
+      title: "iannix"
+      subtitle: " séquenceur graphique multitemporel"
+      img: iannix/iannix_thumb.jpg
       children: 
         - 
           text: "[IanniX](http://iannix.org) est un séquenceur graphique open-source, inspiré des travaux de Iannis Xenakis, destiné à la création numérique."
-          type: text
         - 
           img: iannix/rosace1.jpg
-          type: img
         - 
           img: iannix/rosace2.jpg
-          type: img
         - 
           text: "IanniX synchronise via Open Sound Control (OSC) des événements et courbes vers votre environnement temps-réel."
-          type: text
         - 
           vimeo: "http://vimeo.com/25045003"
-          type: vimeo
         - 
           img: iannix/iannix_old.jpg
-          type: img
-      title: "iannix"
-      type: img
-      subtitle: " séquenceur graphique multitemporel"
-      img: iannix/iannix_thumb.jpg
-    - 
+    -
+      title: "the art collider (In/Out)"
+      subtitle: " réseau de création connective"
+      img: inout/inout_thumb.jpg
       children: 
         - 
           text: "[The Art Collider](http://theartcollider.org/) (In/Out) est un réseau p2p permettant à des artistes d'échanger des flux multimédia en temps réel."
-          type: text
         - 
           img: inout/inout_interface_00.jpg
-          type: img
         - 
           img: inout/inout_interface_01.jpg
-          type: img
         - 
           img: inout/inout_interface_02.jpg
-          type: img
         - 
           text: "Chaque participant utilise les productions (images, sons, textes) d'autres cellules du réseau. Le résultat de chaque intervention artistique est rendu disponible aux autres."
-          type: text
         - 
           img: inout/inout_interface_03.jpg
-          type: img
         - 
           img: inout/inout_interface_04.jpg
-          type: img
         - 
           img: inout/inout_interface_05.jpg
-          type: img
         - 
           text: "Exploration des flux"
-          type: text
         - 
           img: inout/inout_interface_06.jpg
-          type: img
         - 
           img: inout/monitoring.jpg
-          type: img
         - 
           img: inout/overview.jpg
-          type: img
         - 
           text: "Les projets artistiques sont visibles au public sur internet ou dans des lieux d'exposition."
-          type: text
         - 
           text: "Le projet est porté par le [CITU](http://www.citu.info/) (Création Interactive Transdisciplinaire Universitaire), fédération des laboratoires des universités Paris I ([LAM](http://creca.univ-paris1.fr/)) et Paris VIII ([Paragraphe](http://paragraphe.univ-paris8.fr/fr/), [CIREN](http://www.ciren.org/ciren/leciren/index.html))."
-          type: text
         - 
           img: inout/inout_BV_03.jpg
-          type: img
         - 
           img: inout/inout_BV_02.jpg
-          type: img
         - 
           text: "Lieux partenaires au cours de l'année 2008"
-          type: text
         - 
           text: "- [Maison Populaire](http://www.maisonpop.net/index.php), Montreuil\n- [Studio Petaherz](http://www.petahertz.eu/), Montreuil\n- [La Bellevilloise](http://www.labellevilloise.com/), Paris\n- [Ars Longa](http://www.arslonga.fr/), Paris\n- [La Cantine](http://lacantine.org/), Paris"
-          type: text
         - 
           text: "- [Dorkbot](http://dorkbot.org/dorkbotparis), Paris\n- [Le Cube](http://www.lesiteducube.com/site/index.php?section=agenda), Issy-les-Moulineaux\n- [École Nationale Supérieure d'Art](http://www.ensa-nancy.fr/), Nancy\n- [L'Autre Canal](http://www.lautrecanal.fr/), Nancy\n- [École Européenne Supérieure de l'Image](http://www.eesi.eu/site/spip.php?rubrique124), Poitier"
-          type: text
         - 
           text: "##crédits photos\n\n- Collectionnisme (M.Okura, D.Cunin)\n- f8 (V.Goudard)"
-          type: text
-      title: "the art collider (In/Out)"
-      type: img
-      subtitle: " réseau de création connective"
-      img: inout/inout_thumb.jpg
-    - 
+    -
+      title: "moringa"
+      subtitle: "l'arbre miracle qu'on boit avec de l'eau"
+      img: moringa_thumb.jpg
       children: 
         - 
           text: "infographic based on [this](http://www.irjponline.com/admin/php/uploads/1154_pdf.pdf) article"
-          type: text
         - 
           img: moringa.jpg
-          type: img
-      title: "moringa"
-      type: img
-      subtitle: "l'arbre miracle qu'on boit avec de l'eau"
-      img: moringa_thumb.jpg
 
 
 
