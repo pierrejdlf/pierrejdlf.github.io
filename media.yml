@@ -8,31 +8,55 @@
       img: utopies/utopies_thumb.jpg
       children: 
         -
+          img: utopies/slug_cest-quoi-ce-site.jpg
+        -
           text: >
             les Hommes naissent libres
             
 
             mais ils sont partout dans les chaînes
+        -
+          img: utopies/slug_cest-pas-si-grave.jpg
         - 
           redirect: "http://utopies-concretes.org"
+        -
+          img: utopies/slug_se-rendre-compte.jpg
         - 
           text: on en a marre
+        -
+          img: utopies/slug_la-paresse.jpg
+        -
+          img: utopies/slug_cest-un-petit-milieu-deja-convaincu.jpg
         - 
           img: utopies/utopies_position.jpg
+        -
+          img: utopies/slug_a-quoi-on-tient.jpg
         - 
           text: on formule
+        -
+          img: utopies/slug_autonomie-et-vie-commune.jpg
         - 
           img: utopies/utopies_sections.jpg
         - 
           text: on recense
+        -
+          img: utopies/slug_etat-mafia-mafia-des-medias.jpg
         - 
           img: utopies/utopies_network.jpg
+        -
+          img: utopies/slug_la-pub-instrument-dun-culte.jpg
         - 
           text: on agrège
+        -
+          img: utopies/slug_certains-commandent-dautres-obeissent.jpg
         - 
           img: utopies/utopies_map.jpg
+        -
+          img: utopies/slug_argent-roi.jpg
         - 
           img: utopies/utopies_convergence.jpg
+        -
+          img: utopies/slug_un-vide.jpg
     - 
       title: "dis-moi où tu me plaîs"
       subtitle: "amours du métro parisien"
@@ -195,9 +219,13 @@
         - 
           img: palma/police.jpg
         - 
+          img: palma/piscina.jpg
+        - 
           img: palma/imueble.jpg
         - 
           img: palma/terreau.jpg
+        - 
+          img: palma/teremoto.jpg
         - 
           img: palma/camino.jpg
         -
