@@ -8,51 +8,39 @@
       img: utopies/utopies_thumb.jpg
       children: 
         -
-          img: utopies/slug_cest-quoi-ce-site.jpg
+          img: utopies/160120_e.jpg
         -
           text: >
-            les Hommes naissent libres
+            les hommes naissent libres
             
 
-            mais ils sont partout dans les chaînes
+            mais ils sont partout dans des chaînes
         -
-          img: utopies/slug_cest-pas-si-grave.jpg
+          img: utopies/180402_d.jpg
         - 
           redirect: "http://utopies-concretes.org"
         -
           img: utopies/slug_se-rendre-compte.jpg
-        - 
-          text: on en a marre
         -
-          img: utopies/slug_la-paresse.jpg
+          img: utopies/180218_c.jpg
         -
-          img: utopies/slug_cest-un-petit-milieu-deja-convaincu.jpg
+          img: utopies/AnisGras_LaperoMathematiques.jpg
         - 
+          text: impossible rencensement exhaustif structuré
+        -
           img: utopies/utopies_position.jpg
-        -
-          img: utopies/slug_a-quoi-on-tient.jpg
-        - 
-          text: on formule
-        -
-          img: utopies/slug_autonomie-et-vie-commune.jpg
         - 
           img: utopies/utopies_sections.jpg
-        - 
-          text: on recense
         -
           img: utopies/slug_etat-mafia-mafia-des-medias.jpg
         - 
           img: utopies/utopies_network.jpg
         -
-          img: utopies/slug_la-pub-instrument-dun-culte.jpg
-        - 
-          text: on agrège
-        -
-          img: utopies/slug_certains-commandent-dautres-obeissent.jpg
+          img: utopies/180402_a.jpg
         - 
           img: utopies/utopies_map.jpg
         -
-          img: utopies/slug_argent-roi.jpg
+          img: utopies/180218_a.jpg
         - 
           img: utopies/utopies_convergence.jpg
         -
