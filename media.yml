@@ -67,7 +67,7 @@
         - 
           text: "Espace local d'échanges\net agenda culturel libre cartographié\n"
         - 
-          redirect: "http://www.parismappartient.fr"
+          redirect: "http://jdlf.info/parismap/"
         - 
           img: parismap/words.jpg
         - 
