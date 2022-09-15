@@ -54,26 +54,26 @@
     no-animate
     ng-repeat="b in a.children"
     ng-if="now.a == $parent.$index"
-    class="card b {{b.type}} a_{{$parent.$parent.$index}} b_{{$index}}"
+    class="card b {{elType(b)}} a_{{$parent.$parent.$index}} b_{{$index}}"
     ng-class="{
       last:$last,
       opened: now.b == $index,
       fadesoft:now.b!=$index && now.b!=-1,
       fadeaway:now.a!=$parent.$parent.$index,
       fadedead:now.a!=$parent.$parent.$index && now.b!=-1}"
-    ng-click="b.type!='redirect' && b.type!='text' && clickB(a,$parent.$parent.$index,b,$index);">
+    ng-click="!b.redirect && !b.text && clickB(a,$parent.$parent.$index,b,$index);">
     <!-- TEXT CONTENT -->
     <markdown
       texttailor
       tt-resizable="true"
       tt-center="true"
-      ng-if="b.type=='text'"
+      ng-if="b.text"
       class="text nohighlight"
       ng-model="b.text">
     </markdown>
     <!-- IMAGE -->
     <div
-      ng-if="b.type=='img'"
+      ng-if="b.img"
       class="img">
       <i class="button opener centered blacked fa fa-cut"></i>
       <div
@@ -83,15 +83,15 @@
     </div>
     <!-- IFRAME CLOSER -->
     <i
-      ng-if="(b.type=='iframe'||b.type=='vimeo') && now.b==$index"
+      ng-if="(b.iframe||b.vimeo) && now.b==$index"
       class="button iframecloser coin blackedcoin fa fa-times"
       ng-click="now.b=-1; $event.stopPropagation();"></i>
     <!-- IFRAME -->
     <i
-      ng-if="b.type=='iframe' && now.b!=$index"
+      ng-if="b.iframe && now.b!=$index"
       class="button expander zoomonover centered fa fa-magic"></i>
     <iframe
-      ng-if="b.type=='iframe' && now.b==$index"
+      ng-if="b.iframe && now.b==$index"
       class="iframe"
       ng-class="{nopointer:now.b!=$index, hidden:now.b!=$index}"
       src="{{b.iframe | allowurl}}" 
@@ -104,7 +104,7 @@
     </iframe>
     <!-- VIMEO -->
     <iframe
-      ng-if="b.type=='vimeo'" class="vimeo"
+      ng-if="b.vimeo" class="vimeo"
       ng-class="{nopointer:now.b!=$index}"
       src="{{b.vimeo | allowvimeo}}" 
       width="100%"
@@ -115,7 +115,7 @@
       allowfullscreen>
     </iframe>
     <!-- REDIRECT -->
-    <a ng-if="b.type=='redirect'" class="redirect" href="{{b.redirect}}" target="_new">
+    <a ng-if="b.redirect" class="redirect" href="{{b.redirect}}" target="_new">
       <i class="button externaler zoomonover centered fa fa-external-link"></i>
       <div class="info">{{b.redirect}}</div>
     </a>
