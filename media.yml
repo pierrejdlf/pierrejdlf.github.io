@@ -8,38 +8,46 @@
       type: img
       subtitle: manifeste(s) du monde qui vient
       img: utopies/utopies_thumb.jpg
-      children: 
+      children:
+        - 
+          img: utopies/utopies_splash.jpg
+          type: img
         -
           text: >
-            les Hommes naissent libres
+            naissons libres
             
 
-            mais ils sont partout dans les chaînes
+            mais sommes partout dans des chaînes
           type: text
+        - 
+          img: utopies/utopies_textes.jpg
+          type: img
         - 
           redirect: "http://utopies-concretes.org"
           type: redirect
         - 
-          text: on en a marre
+          text: j'en ai marre
           type: text
         - 
           img: utopies/utopies_position.jpg
           type: img
-
         - 
-          text: on formule
+          img: utopies/utopies_menu.jpg
+          type: img
+        - 
+          text: formuler le glissement
           type: text
         - 
           img: utopies/utopies_sections.jpg
           type: img
         - 
-          text: on recense
+          text: recenser l'existant, c'est passionnant
           type: text
         - 
           img: utopies/utopies_network.jpg
           type: img
         - 
-          text: on agrège
+          text: agrèger les cartes géographiques
           type: text
         - 
           img: utopies/utopies_map.jpg
@@ -57,16 +65,25 @@
           text: "Carte interactive des messages amoureux parisiens"
           type: text
         - 
+          img: cdlm/cdlm_carte_a.jpg
+          type: img
+        - 
           redirect: "http://pierrejdlf.github.io/cdlm"
           type: redirect
+        - 
+          img: cdlm/cdlm_carte_b.jpg
+          type: img
         - 
           text: "*Pour voir où on s'aime*"
           type: text
         - 
-          img: cdlm/charmant.jpg
+          img: cdlm/cdlm_popup.jpg
           type: img
         - 
-          img: cdlm/old.jpg
+          img: cdlm/cdlm_traces.jpg
+          type: img
+        -
+          img: cdlm/cdlm_graphe.jpg
           type: img
     - 
       text: la cartographie des désirs définit la méthodologie de toute révolution
