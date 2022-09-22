@@ -633,6 +633,7 @@ blockquote {
 }
 .card.fadeaway {
   opacity: 0.05;
+  display: none;
 }
 .card.fadedead {
   opacity: 0.05;

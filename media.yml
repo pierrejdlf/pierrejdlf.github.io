@@ -69,7 +69,7 @@
         - 
           img: cdlm/cdlm_carte_b.jpg
         - 
-          text: "*Pour voir où on s'aime*"
+          text: pour voir où on s'aime
         - 
           img: cdlm/cdlm_popup.jpg
         - 
@@ -147,8 +147,6 @@
       children: 
         - 
           text: "Lire les histoires du quartier"
-        - 
-          redirect: "http://pierrejdlf.github.io/zoomap"
         - 
           img: belledemai/z_1.jpg
         - 
